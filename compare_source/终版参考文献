@@ -17,7 +17,7 @@
 [17]	GHOLAMI A, YAO Z, KIM S, et al. AI and memory wall[J]. IEEE Micro, 2024, 44(3): 33-39.
 [18]	KIM. Synchronized disk interleaving[J]. IEEE Transactions on Computers, 1986, C-35(11): 978-988.
 [19]	ZHAO W, MUDIGERE D. Challenges and opportunities in DC-scale AI cluster design meta case study[C]//Open Compute Project Global Summit. 2021.
-[20]	TOP500. Top500 | top500[EB/OL]. [2025-03-07]. https://top500.org/lists/top500/.
+[20]	TOP500. Top500 The List[EB/OL]. (2024-05-13)[2024-08-10]. https://top500.org/lists/top500/.
 [21]	朱平, 李全龙, 徐晓飞, 等. 高性能计算的海量存储系统新型访问策略分析[J]. 哈尔滨工业大学学报, 2012, 44(11): 59-64.
 [22]	龙芯中科. 龙芯3D5000[EB/OL]. (2023-06-15)[2024-08-02]. https://www.loongson.cn/product/show?id=21.
 [23]	寒武纪. 思元370系列 - 寒武纪[EB/OL]. (2021-11-03)[2024-06-02]. https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=360.
@@ -39,10 +39,11 @@
 [39]	GIANOS C. Architecting for flexibility and value with next gen intel® xeon® processors[C]//2023 IEEE Hot Chips 35 Symposium (HCS). 2023: 1-15.
 [40]	XIA J, CHENG C, ZHOU X, et al. Kunpeng 920: the first 7-nm chiplet-based 64-core ARM SoC for cloud services[J]. IEEE Micro, 2021, 41(5): 67-75.
 [41]	LIAO H, TU J, XIA J, et al. Ascend: a scalable and unified architecture for ubiquitous deep neural network computing : industry track paper[C]//2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2021: 789-801.
-[42]	Dong Uk Lee. HBM DRAM and 3D stacked memory slides[J]. [2025].
-[43]	SMITH A, LOH G H, SCHULTE M J, et al. Realizing the AMD exascale heterogeneous processor vision : industry product[C]//2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). 2024: 876-889.
-[44]	MACRI J. AMD’s next generation GPU and high bandwidth memory architecture: FURY[C]//2015 IEEE hot chips 27 symposium (HCS). IEEE, 2015: 1-26.
+[42]	GOMES W, KHUSHU S, INGERLY D B, et al. 8.1 lakefield and mobility compute: a 3d stacked 10nm and 22ffl hybrid processor system in 12×12mm2, 1mm package-on-package[C]//2020 IEEE International Solid-State Circuits Conference (ISSCC). 2020: 144-146.
+[43]	Dong Uk Lee. HBM DRAM and 3D stacked memory slides[Z]. San Francisco, CA, USA, 2022.
+[44]	SMITH A, LOH G H, SCHULTE M J, et al. Realizing the AMD exascale heterogeneous processor vision : industry product[C]//2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). 2024: 876-889.
 [45]	LIU R, FENG C. AI compute chip from enflame[C]//2021 IEEE Hot Chips 33 Symposium (HCS). 2021: 1-27.
 [46]	PATTERSON D A. Latency lags bandwith[J]. Communications of the ACM, 2004, 47(10): 71-75.
 [47]	MUNGER B, WILCOX K, SNIDERMAN J, et al. “zen 4”: the AMD 5nm 5.7GHz x86-64 microprocessor core[C]//2023 IEEE International Solid-State Circuits Conference (ISSCC). 2023: 38-39.
-[48]	GOMES W, KOKER A, STOVER P, et al. Ponte Vecchio: A Multi-Tile 3D Stacked Processor for Exascale Computing[C]//2022 IEEE International Solid-State Circuits Conference (ISSCC): Vol. 65. 2022: 42-44.
+[48]	ZOU X, XU S, CHEN X, et al. Breaking the von neumann bottleneck: architecture-level processing-in-memory technology[J]. Science China Information Sciences, 2021, 64(6): 160404.
+[49]	AMD. AMD 3D V-Cache technology: Innovative 3D stacking technology for server and desktop applications[EB/OL]. (2021-12-14)[2024-04-24]. https://www.amd.com/en/products/processors/technologies/3d-v-cache.html.
