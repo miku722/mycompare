@@ -1,49 +1,49 @@
-[1]   Sun Y, Agostini N B, Dong S, et al. Summarizing CPU and GPU design trends with product data[J]. arxiv preprint arxiv:1911.11313, 2019.
-[2]   韩银和. 集成芯片与芯粒技术白皮书[R], 集成芯片前沿技术科学基础专家组, 2023.
-[3]   Vijayaraghavan T, Eckert Y, Loh G H, et al. Design and Analysis of an APU for Exascale Computing[C]. 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA). IEEE, 2017: 85-96.
-[4]   Theis T N, Wong H S P. The end of moore's law: A new beginning for information technology[J]. Computing in science & engineering, 2017, 19(2): 41-50.
-[5]   Naffziger S, Beck N, Burd T, et al. Pioneering chiplet technology and design for the amd epyc™ and ryzen™ processor families: Industrial product[C]. 2021 ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA). IEEE, 2021: 57-70.
-[6]   Macri J. AMD's next generation GPU and high bandwidth memory architecture: FURY[C]. 2015 IEEE hot chips 27 symposium (HCS). IEEE, 2015: 1-26.
-[7]   Beck N, White S, Paraschou M, et al. ‘Zeppelin’: An SoC for multichip architectures[C]. 2018 IEEE International Solid-State Circuits Conference-(ISSCC). IEEE, 2018: 40-42.
-[8]   Burd T, Beck N, White S, et al. “zeppelin”: An soc for multichip architectures[J]. IEEE Journal of Solid-State Circuits, 2018, 54(1): 133-143.
-[9]   Zaruba F, Schuiki F, Benini L. Manticore: A 4096-core RISC-V chiplet architecture for ultraefficient floating-point computing[J]. IEEE Micro, 2020, 41(2): 36-42.
-[10]   Vivet P, Guthmuller E, Thonnart Y, et al. IntAct: A 96-core processor with six chiplets 3D-stacked on an active interposer with distributed interconnects and integrated power management[J]. IEEE Journal of Solid-State Circuits, 2020, 56(1): 79-97.
-[11]   Singh T, Rangarajan S, John D, et al. 2.1 zen 2: The amd 7nm energy-efficient high-performance x86-64 microprocessor core[C]. 2020 IEEE International Solid-State Circuits Conference-(ISSCC). IEEE, 2020: 42-44.
-[12]   Nassif N, Munch A O, Molnar C L, et al. Sapphire rapids: The next-generation intel xeon scalable processor[C]. 2022 IEEE International Solid-State Circuits Conference (ISSCC). IEEE, 2022, 65: 44-46.
-[13]   J. Xia, C. Cheng, X. Zhou, et al Kunpeng 920: The first 7-nm chiplet-based 64-core arm soc for cloud services[J]. IEEE Micro, 2021, 41(5): 67-75.
-[14]   Liao H, Tu J, Xia J, et al. Ascend: a scalable and unified architecture for ubiquitous deep neural network computing: Industry track paper[C]. 2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA). IEEE, 2021: 789-801.
-[15]   T. Wang, F. Feng, S. Xiang, et al. Application defined on-chip networks for heterogeneous chiplets: An implementation perspective[C]. 2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA). IEEE, 2022: 1198-1210.
-[16]   Munger B, Wilcox K, Sniderman J, et al. “Zen 4”: The AMD 5nm 5.7 GHz x86-64 microprocessor core[C]. 2023 IEEE International Solid-State Circuits Conference (ISSCC). IEEE, 2023: 38-39.
-[17]   Gomes W, Koker A, Stover P, et al. Ponte Vecchio: A multi-tile 3D stacked processor for exascale computing[C]. 2022 IEEE International Solid-State Circuits Conference (ISSCC). IEEE, 2022, 65: 42-44.
-[18]   Shao Y S, Cemons J, Venkatesan R, et al. Simba: scaling deep-learning inference with chiplet-based architecture[J]. Communications of the ACM, 2021, 64(6): 107-116.
-[19]   Liu R, Feng C. AI compute chip from enflame[C]. 2021 IEEE Hot Chips 33 Symposium (HCS). IEEE Computer Society, 2021: 1-27.
-[20]   AMD. AMD 3D V-Cache technology: Innovative 3D stacking technology for server and desktop applications [EB/OL]. (2021-12-14) [2024-04-24]. https://www. amd.com/zh-ans/technologies/3d-v-cache.
-[21]   Dong Uk Lee. HBM DRAM and 3D Stacked Memory [Tutorial]. 2022 IEEE International Solid-State Circuits Conference (ISSCC), San Francisco, CA, USA, 2022
-[22]   Gomes W, Khushu S, Ingerly D B, et al. Lakefield and Mobility Compute: A 3D Stacked 10nm and 22FFL Hybrid Processor System in 12× 12mm 2, 1mm Package-on-Package[C]. 2020 IEEE International Solid-State Circuits Conference-(ISSCC). IEEE, 2020: 144-146.
-[23]   Khushu S, Gomes W. Lakefield: Hybrid cores in 3D Package[C]. 2019 IEEE Hot Chips 31 Symposium (HCS). 2019: 1-20.
-[24]   寒武纪. 思元370芯片[EB/OL]. (2021-11-03) [2024-06-02] https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=360
-[25]   Hong M, Xu L. 壁仞™ BR100 GPGPU: Accelerating Datacenter Scale AI Computing[C]. 2022 IEEE Hot Chips 34 Symposium (HCS). IEEE Computer Society, 2022: 1-22.
-[26]   Apple. Apple unveils M1 Ultra, the world’s most powerful chip for a personal computer[EB/OL]. (2022-03-08) [2024-06-02]. https://www.apple.com/tn/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/.
-[27]   阿里云.倚天云服务器[EB/OL].  (2021-10-19) [2024-08-02]. https://www.aliyun.com/product/ecs/yitian.
-[28]   龙芯中科. 龙芯 3D5000[EB/OL]. (2023-6-15) [2024-08-02]. https://www.loongson.cn/product/show?id=21.
-[29]   Chou T, Tang W, Rotaru M D, et al. NetFlex: A 22nm Multi-Chiplet Perception Accelerator in High-Density Fan-Out Wafer-Level Packaging[C]. 2022 IEEE Symposium on VLSI Technology and Circuits. IEEE, 2022: 208-209.
-[30]   NVIDIA. Blackwell生成式AI架构[EB/OL]. (2024-4-16) [2024-04-24]. https://www.nvidia.cn/data-center/technologies/blackwell-architecture.
-[31]   AMD. 4th Gen AMD EPYCTM Processor Architecture[EB/OL]. (2023-09-18) [2024-04-25]. https://www.amd.com/en/campaigns/epyc-9004-architecture.
-[32]   Troester K, Bhargava R. AMD Next Generation “Zen 4” Core and 4th Gen AMD EPYC™ 9004 Server CPU[C]. 2023 IEEE Hot Chips 35 Symposium (HCS). IEEE Computer Society, 2023: 1-25.
-[33]   Ventana. Ventana Introduces Veyron V2 — World’s Highest Performance Data Center-Class RISC-V Processor and Platform[EB/OL]. (2024-01-03) [2024-04-26]. https://www.ventanamicro.com/ventana-introduces-veyron-v2/
-[34]   Gianos C. Architecting for Flexibility and Value with Next Gen Intel® Xeon® Processors[C]. 2023 IEEE Hot Chips 35 Symposium (HCS). IEEE Computer Society, 2023: 1-15.
-[35]   Vivet P, Guthmuller E, Thonnart Y, et al. 2.3 a 220gops 96-core processor with 6 chiplets 3d-stacked on an active interposer offering 0.6 ns/mm latency, 3tb/s/mm 2 inter-chiplet interconnects and 156mw/mm 2@ 82%-peak-efficiency dc-dc converters[C]. 2020 IEEE International Solid-State Circuits Conference-(ISSCC). IEEE, 2020: 46-48.
-[36]   Top500. Top500 The List[EB/OL]. (2024-05-13) [2024-08-10]. https://www.top500.org/
-[37]   Zou X, Xu S, Chen X, et al. Breaking the von Neumann bottleneck: architecture-level processing-in-memory technology[J]. Science China Information Sciences, 2021, 64(6): 160404.
-[38]   Gholami A, Yao Z, Kim S, et al. Ai and memory wall[J]. IEEE Micro, 2024.
-[39]   Dally B. Hardware for deep learning[C]. 2023 IEEE Hot Chips 35 Symposium (HCS). IEEE Computer Society, 2023: 1-58.
-[40]   NVIDIA. H100 Tensor Core GPU Architecture [EB/OL]. (2023) [2024-08-04]. https://resources.nvidia.com/en-us-tensor-core/gtc22-whitepaper-hopper
-[41]   朱平,李全龙,徐晓飞,朱建涛,黄永勤.高性能计算的海量存储系统新型访问策略分析[J].哈尔滨工业大学学报,2012,第44卷(11): 59-64.
-[42]   Yu D. TSMC packaging technologies for chiplets and 3D[C]. 2021 IEEE Hot Chips 33 Symposium (HCS). 2021, 33: 47-56.
-[43]   Whitney Zhao, Dheevatsa Mudigere. Challenges and Opportunities in DC-scale AI Cluster Design Meta case study[C]. 2021 Open Compute Project Global Summit, 2021
-[44]   Kim M Y. Synchronized disk interleaving[J]. IEEE Transactions on computers, 1986, 35(11): 978-988.
-[45]   Banerjee A, Mehta R, Shen Z. NUMA aware I/O in virtualized systems[C]. 2015 IEEE 23rd Annual Symposium on High-Performance Interconnects. IEEE, 2015: 10-17.
-[46]   Biswas A. Sapphire Rapids[C]. 2021 IEEE Hot Chips 33 Symposium (HCS). 2021: 1-22.
-[47]   Zhu H, Jiao B, Zhang J, et al. COMB-MCM: Computing-on-memory-boundary NN processor with bipolar bitwise sparsity optimization for scalable multi-chiplet-module edge machine learning[C]. 2022 IEEE International Solid-State Circuits Conference (ISSCC). IEEE, 2022, 65: 1-3.
-[48]   Patterson D A. Latency lags bandwith[J]. Communications of the ACM, 2004, 47(10): 71-75.
-[49]   Smith A, Loh G H, Schulte M J, et al. Realizing the AMD Exascale Heterogeneous Processor Vision: Industry Product[C]. 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). IEEE, 2024: 876-889.
+[1] [1]	SUN Y, AGOSTINI N B, DONG S, et al. Summarizing CPU and GPU design trends with product data[A]. arXiv, 2020.
+
+[3] [8]	VIJAYARAGHAVAN T, ECKERT Y, LOH G H, et al. Design and analysis of an APU for exascale computing[C]//2017 IEEE International Symposium on High Performance Computer Architecture (HPCA). 2017: 85-96.
+[4] [3]	THEIS T N, WONG H S P. The end of moore’s law: a new beginning for information technology[J]. Computing in Science & Engineering, 2017, 19(2): 41-50.
+[5] [37]	NAFFZIGER S, BECK N, BURD T, et al. Pioneering chiplet technology and design for the AMD EPYCTM and ryzenTM processor families : industrial product[C]//2021 ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA). IEEE Computer Society, 2021: 57-70.
+[6] [6]	MACRI J. AMD’s next generation GPU and high bandwidth memory architecture: FURY[C]//2015 IEEE Hot Chips 27 Symposium (HCS). 2015: 1-26.
+[7] [7]	BECK N, WHITE S, PARASCHOU M, et al. ‘zeppelin’: an SoC for multichip architectures[C]//2018 IEEE International Solid - State Circuits Conference (ISSCC). San Francisco, CA: IEEE, 2018: 40-42.
+[8] [28]	BURD T, BECK N, WHITE S, et al. “zeppelin”: an SoC for multichip architectures[J]. IEEE Journal of Solid-State Circuits, 2019, 54(1): 133-143.
+[9] [25]	ZARUBA F, SCHUIKI F, BENINI L. Manticore: a 4096-core RISC-V chiplet architecture for ultraefficient floating-point computing[J]. IEEE Micro, 2021, 41(2): 36-42.
+[10] [36]	VIVET P, GUTHMULLER E, THONNART Y, et al. IntAct: a 96-core processor with six chiplets 3D-stacked on an active interposer with distributed interconnects and integrated power management[J]. IEEE Journal of Solid-State Circuits, 2021, 56(1): 79-97.
+[11] [32]	SINGH T, RANGARAJAN S, JOHN D, et al. 2.1 zen 2: the AMD 7nm energy-efficient high-performance x86-64 microprocessor core[C]//2020 IEEE International Solid-State Circuits Conference (ISSCC). 2020: 42-44.
+[12] [10]	NASSIF N, MUNCH A O, MOLNAR C L, et al. Sapphire rapids: the next-generation intel xeon scalable processor[C]//2022 IEEE International Solid-State Circuits Conference (ISSCC): Vol. 65. 2022: 44-46.
+[13] [40]	XIA J, CHENG C, ZHOU X, et al. Kunpeng 920: the first 7-nm chiplet-based 64-core ARM SoC for cloud services[J]. IEEE Micro, 2021, 41(5): 67-75.
+[14] [41]	LIAO H, TU J, XIA J, et al. Ascend: a scalable and unified architecture for ubiquitous deep neural network computing : industry track paper[C]//2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2021: 789-801.
+[15] [14]	WANG T, FENG F, XIANG S, et al. Application defined on-chip networks for heterogeneous chiplets: an implementation perspective[C]//2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA). 2022: 1198-1210.
+[16] [47]	MUNGER B, WILCOX K, SNIDERMAN J, et al. “zen 4”: the AMD 5nm 5.7GHz x86-64 microprocessor core[C]//2023 IEEE International Solid-State Circuits Conference (ISSCC). 2023: 38-39.
+[17] [11]	GOMES W, KOKER A, STOVER P, et al. Ponte vecchio: a multi-tile 3D stacked processor for exascale computing[C]//2022 IEEE International Solid-State Circuits Conference (ISSCC): Vol. 65. 2022: 42-44.
+[18] [27]	SHAO Y S, CEMONS J, VENKATESAN R, et al. Simba: scaling deep-learning inference with chiplet-based architecture[J]. Communications of the ACM, 2021, 64(6): 107-116.
+[19] [45]	LIU R, FENG C. AI compute chip from enflame[C]//2021 IEEE Hot Chips 33 Symposium (HCS). 2021: 1-27.
+[20] [49]	AMD. AMD 3D V-Cache technology: Innovative 3D stacking technology for server and desktop applications[EB/OL]. (2021-12-14)[2024-04-24]. https://www.amd.com/en/products/processors/technologies/3d-v-cache.html.
+
+[22] [42]	GOMES W, KHUSHU S, INGERLY D B, et al. 8.1 lakefield and mobility compute: a 3d stacked 10nm and 22ffl hybrid processor system in 12×12mm2, 1mm package-on-package[C]//2020 IEEE International Solid-State Circuits Conference (ISSCC). 2020: 144-146.
+[23] [9]	KHUSHU S, GOMES W. Lakefield: hybrid cores in 3D package[C]//2019 IEEE Hot Chips 31 Symposium (HCS). 2019: 1-20.
+[24] [23]	寒武纪. 思元370系列 - 寒武纪[EB/OL]. (2021-11-03)[2024-06-02]. https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=360.
+[25] [24]	HONG M, XU L. 壁仞TM BR100 GPGPU: accelerating datacenter scale AI computing[C]//2022 IEEE Hot Chips 34 Symposium (HCS). 2022: 1-22.
+[26] [12]	Apple. Apple unveils M1 Ultra, the world’s most powerful chip for a personal computer[EB/OL]. (2022-03-08)[2024-06-02]. https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/.
+[27] [15]	阿里云. 倚天云服务器[EB/OL]. (2021-10-19)[2024-08-02]. https://www.aliyun.com/product/ecs/yitian.
+[28] [22]	龙芯中科. 龙芯3D5000[EB/OL]. (2023-06-15)[2024-08-02]. https://www.loongson.cn/product/show?id=21.
+[29] [30]	CHOU T, TANG W, ROTARU M D, et al. NetFlex: a 22nm multi-chiplet perception accelerator in high-density fan-out wafer-level packaging[C]//2022 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits). 2022: 208-209.
+[30] [13]	NVIDIA. NVIDIA blackwell 架构[EB/OL]. (2024-04-16)[2024-04-24]. https://www.nvidia.cn/data-center/technologies/blackwell-architecture/.
+[31] [34]	AMD. 4th gen AMD EPYCTM processor architecture[EB/OL]. (2023-09-18)[2024-04-25]. https://www.amd.com/en/campaigns/epyc-9004-architecture.
+[32] [33]	TROESTER K, BHARGAVA R. AMD next generation “zen 4” core and 4th gen AMD EPYCTM 9004 server CPU[C]//2023 IEEE Hot Chips 35 Symposium (HCS). 2023: 1-25.
+[33] [38]	Ventana. Ventana introduces veyron V2 — world’s highest performance data center-class RISC-V processor and platform - ventana micro[EB/OL]. (2024-01-03)[2024-04-26]. https://www.ventanamicro.com/ventana-introduces-veyron-v2/.
+[34] [39]	GIANOS C. Architecting for flexibility and value with next gen intel® xeon® processors[C]//2023 IEEE Hot Chips 35 Symposium (HCS). 2023: 1-15.
+[35] [35]	VIVET P, GUTHMULLER E, THONNART Y, et al. 2.3 a 220GOPS 96-core processor with 6 chiplets 3D-stacked on an active interposer offering 0.6ns/mm latency, 3Tb/s/mm2 inter-chiplet interconnects and 156mW/mm2@ 82%-peak-efficiency DC-DC converters[C]//2020 IEEE International Solid-State Circuits Conference (ISSCC). 2020: 46-48.
+[36] [20]	TOP500. Top500 The List[EB/OL]. (2024-05-13)[2024-08-10]. https://top500.org/lists/top500/.
+[37] [48]	ZOU X, XU S, CHEN X, et al. Breaking the von neumann bottleneck: architecture-level processing-in-memory technology[J]. Science China Information Sciences, 2021, 64(6): 160404.
+[38] [17]	GHOLAMI A, YAO Z, KIM S, et al. AI and memory wall[J]. IEEE Micro, 2024, 44(3): 33-39.
+[39] [4]	DALLY B. Hardware for deep learning[C]//2023 IEEE Hot Chips 35 Symposium (HCS). 2023: 1-58.
+[40] [5]	NVIDIA. NVIDIA H100 tensor core GPU architecture overview[EB/OL]. 2023[2024-08-04]. https://resources.nvidia.com/en-us-tensor-core/gtc22-whitepaper-hopper.
+[41] [21]	朱平, 李全龙, 徐晓飞, 等. 高性能计算的海量存储系统新型访问策略分析[J]. 哈尔滨工业大学学报, 2012, 44(11): 59-64.
+[42] [16]	YU D. TSMC packaging technologies for chiplets and 3D[J]. 2021 IEEE Hot Chips 33 Symposium (HCS), 2021, 33: 47-56.
+[43] [19]	ZHAO W, MUDIGERE D. Challenges and opportunities in DC-scale AI cluster design meta case study[C]//Open Compute Project Global Summit. 2021.
+[44] [18]	KIM. Synchronized disk interleaving[J]. IEEE Transactions on Computers, 1986, C-35(11): 978-988.
+[45] [26]	BANERJEE A, MEHTA R, SHEN Z. NUMA aware I/O in virtualized systems[C]//2015 IEEE 23rd Annual Symposium on High-Performance Interconnects. 2015: 10-17.
+[46] [29]	BISWAS A. Sapphire rapids[C]//2021 IEEE Hot Chips 33 Symposium (HCS). 2021: 1-22.
+[47] [31]	ZHU H, JIAO B, ZHANG J, et al. COMB-MCM: computing-on-memory-boundary NN processor with bipolar bitwise sparsity optimization for scalable multi-chiplet-module edge machine learning[C]//2022 IEEE International Solid-State Circuits Conference (ISSCC): Vol. 65. 2022: 1-3.
+[48] [46]	PATTERSON D A. Latency lags bandwith[J]. Communications of the ACM, 2004, 47(10): 71-75.
+[49] [44]	SMITH A, LOH G H, SCHULTE M J, et al. Realizing the AMD exascale heterogeneous processor vision : industry product[C]//2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). 2024: 876-889.
