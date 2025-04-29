@@ -1,0 +1,41 @@
+label,rnd_seed,features,main_text,tok_per_sec,Commonsense Reasoning,Coherence,Grammar & Fluency,Evaluation
+TEST0,23554411683,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to bake cakes with her mommy. One day, they decided to bake a big cake for Lily's birthday. 
+Lily's mommy got out the mixer to mix all the ingredients together. Lily watched as the mixer moved slowly on the spoon. 
+When the cake was ready, they put it in the oven to bake. Lily couldn't wait to try the cake. She took a big bite and it tasted so good! 
+After eating the cake, Lily and her mommy went for a walk. They saw a stream and decided to go swimming. They had so much fun splashing in the water and splpping back and forth. 
+Lily was so happy that she got to bake a cake for her birthday. She couldn't wait for the next one!",3.459547,6,7,8,"### Evaluation:  
+
+**1. Coherence: 7/10**  
+The story flows logically from baking a cake to eating it and then going for a walk and swimming. However, the transition from eating cake to suddenly swimming in a stream feels abrupt. A smoother connection between these events would improve coherence.  
+
+**2. Grammar & Fluency: 8/10**  
+The text is mostly grammatically correct and easy to read. However, there are minor errors, such as *""the mixer moved slowly on the spoon""* (should be *""the mixer moved slowly through the batter""*) and *""splpping""* (typo for *""splashing""*). These do not severely hinder comprehension but could be polished.  
+
+**3. Commonsense Reasoning: 6/10**  
+Most actions make sense, but some details are odd. For example:  
+- A mixer moving *""on the spoon""* is unclear—mixers typically blend ingredients in a bowl.  
+- Going swimming immediately after eating cake (without changing clothes or mentioning preparation) feels unrealistic.  
+- The sudden appearance of a stream without prior context is a bit jarring.  
+
+### Overall:  
+A sweet and simple story, but with minor inconsistencies and abrupt transitions. With slight refinements in logic and grammar, it could be smoother.  
+
+**Final Scores:**  
+- **Coherence: 7/10**  
+- **Grammar & Fluency: 8/10**  
+- **Commonsense Reasoning: 6/10**"
+TEST0,23554411683,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to sing and dance, but her favorite thing to do was to watch the birds. One day, she saw a big and beautiful birdcage on the ground. It was unknown to her what was inside. 
+Lily decided to pick up the birdcage and take it home. When she got home, she opened the door and the birdcage was filled with a big pile of paper. Lily got a pencil and started to write. She drew a picture of a bird with a pretty feather. 
+When she finished, Lily showed her mommy the drawing. Her mommy was very proud of her and said, ""You are such a talented artist!"" Lily smiled and felt very happy. From that day on, Lily always went to the birdcage to write and draw with her new feather.",3.383028,6,7,9,"### Evaluation:
+
+1. **Coherence: 7/10**  
+   - The story flows logically from Lily finding the birdcage to her using it as inspiration for drawing. However, the transition from the birdcage being ""filled with a big pile of paper"" to her drawing with a feather is slightly abrupt. The origin of the feather is unclear (did it come from the paper pile?).
+
+2. **Grammar & Fluency: 9/10**  
+   - The text is grammatically correct and easy to read. A minor improvement could be clarifying the sentence ""It was unknown to her what was inside"" to something smoother like ""She didn’t know what was inside.""
+
+3. **Commonsense Reasoning: 6/10**  
+   - Lily's actions make sense for a child (picking up the cage, drawing), but the sudden appearance of a feather (without explanation) and a birdcage filled with paper (instead of a bird) strain believability. Why would a birdcage contain paper? If the feather was part of the paper pile, this should be clarified.
+
+### Overall:  
+A charming story with a clear emotional arc, but some logical gaps could be tightened for better coherence and reasoning."

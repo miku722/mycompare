@@ -15,8 +15,11 @@ def evaluate_story(story_text, api_key="sk-HTiqauXEQqIufFD5dYd5E1h9SVnEgSMryijad
     2. Grammar & Fluency: Is the text grammatically correct and easy to read?
     3. Commonsense Reasoning: Do the characters behave in a way that makes sense?
 
-    Provide a score (1-10) for each criterion and a short explanation.
+    Provide your evaluation in the following strict format (each score must be between 1 and 10):
 
+    Coherence: X/10  
+    Grammar & Fluency: X/10  
+    Commonsense Reasoning: X/10
     Story: "{story_text}"
     """
 
