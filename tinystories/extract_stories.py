@@ -7,7 +7,7 @@ def clean_text(text):
     return text.replace('<0x0A>', '\n').strip()
 
 
-def export_to_csv(input_file_name='test_res.txt', output_file_name='stories.csv'):
+def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
     # Read from a file
     input_filename = input_file_name
     with open(input_filename, 'r', encoding='utf-8') as file:
@@ -53,7 +53,7 @@ def export_to_csv(input_file_name='test_res.txt', output_file_name='stories.csv'
             'tok_per_sec': second_tokps
         })
     # Write to CSV
-    csv_filename = output_file_name
+    csv_filename = temp_file_name
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['label', 'rnd_seed', 'features', 'main_text', 'tok_per_sec']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
