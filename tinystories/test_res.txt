@@ -1,0 +1,98 @@
+=================================
+[TEST FOR THE CHANGE OF RNG_SEED]
+=================================
+TEST0,    Number of RND_SEED: 23554411683
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to bake cakes with her mommy. One day, they decided to bake a big cake for Lily's birthday. <0x0A>Lily's mommy got out the mixer to mix all the ingredients together. Lily watched as the mixer moved slowly on the spoon. <0x0A>When the cake was ready, they put it in the oven to bake. Lily couldn't wait to try the cake. She took a big bite and it tasted so good! <0x0A>After eating the cake, Lily and her mommy went for a walk. They saw a stream and decided to go swimming. They had so much fun splashing in the water and splpping back and forth. <0x0A>Lily was so happy that she got to bake a cake for her birthday. She couldn't wait for the next one!
+achieved tok/s: 3.459547
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to sing and dance, but her favorite thing to do was to watch the birds. One day, she saw a big and beautiful birdcage on the ground. It was unknown to her what was inside. <0x0A>Lily decided to pick up the birdcage and take it home. When she got home, she opened the door and the birdcage was filled with a big pile of paper. Lily got a pencil and started to write. She drew a picture of a bird with a pretty feather. <0x0A>When she finished, Lily showed her mommy the drawing. Her mommy was very proud of her and said, "You are such a talented artist!" Lily smiled and felt very happy. From that day on, Lily always went to the birdcage to write and draw with her new feather.
+achieved tok/s: 3.383028
+TEST1,    Number of RND_SEED: 142008156205
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a boy named Timmy. Timmy had a big, wide smile that made everyone happy. One day, Timmy went to a party where he saw his friend, Sarah. <0x0A>Sarah was having so much fun at the party, but she accidentally broke her toy. Timmy saw this and wanted to help. He leaned over to look at it and said, "I can help you fix your toy!" <0x0A>Sarah was very happy and they fixed the toy together. Then, they went to get ice cream. Timmy had a great time at the party and couldn't wait to tell everyone about how he helped Sarah.
+achieved tok/s: 3.524399
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a boy named Timmy. Timmy had a big, brown dog named Max. One day, Timmy was playing with his friend, Johnny. Johnny was having fun without Max coming. <0x0A>Timmy asked, "Can I play with Max too?" <0x0A>Johnny said, "Sure, but we have to be careful. My mom said she would be harsh if you play too rough." <0x0A>Timmy promised to be careful and Max didn't bark at him. They all played together and had a great time. Timmy learned that it's important to be careful with animals, and that Billy was a good player for making sure they were safe.
+achieved tok/s: 3.428014
+TEST2,    Number of RND_SEED: 227901165142
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a girl named Sue. Sue had a friend named Tom. Sue and Tom liked to play and talk. One day, Sue saw a big, thick tree. She wanted to climb it.<0x0A>Sue started to climb the tree. She looked at the sky and saw a pretty sky. She wanted to touch the sky. She climbed higher and higher. Tom saw Sue's balloon. He wanted to help.<0x0A>Tom tried to get the balloon. He was too small. He tried to poke the balloon with a stick. But the stick was not long enough. Tom was sad. He could not get the balloon. Then, a big wind came and blew the balloon away. Sue and Tom were happy. They played in the sky until it was time to go home.
+achieved tok/s: 3.489617
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a girl named Sue. Sue had a friend named Tom. Sue and Tom liked to play and talk. One day, they went to the park to play. They saw a big tree with a dead branch. They wanted to hang on the branch and rest for a while.<0x0A>Sue found a long rope and tied it to the dead branch. She climbed up the tree. She could feel the rough bark on her hair. Sue was happy and proud of her new friend. They sat on the branch and talked and laughed.<0x0A>But then, something unexpected happened. The branch started to move! Sue and Tom were surprised. The branch was not a branch at all, but a big, friendly bird! The bird said, "Hello, Sue and Tom! I saw you were very silly and sat on the tree. Can I play with you and your funny friend?" Sue and Tom were happy to have a new friend and played with the bird all day long.
+achieved tok/s: 3.369640
+TEST3,    Number of RND_SEED: 341907948072
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she went for a walk with her mom and dad. They walked to a big hotel by the beach.<0x0A>Lily saw a big pool and asked her mom, "What is that?" Her mom said, "That's a pool, Lily. It's where we rest and stay healthy."<0x0A>Lily said, "Can we come back tomorrow?" Her dad said, "Of course, we can come back tomorrow when the sun is shining bright."<0x0A>As they walked back to the hotel, Lily saw a man studying with a book. She asked her mom, "What's that?" Her mom said, "It's a dictionary." Lily looked through the book and saw many words she didn't know. She tried to learn them, but they were too hard.<0x0A>Later, when they got home, Lily's dad opened the book and started reading. Suddenly, the dictionary made a loud noise and caught the attention of a robot. The robot came over and used his brain to talk to them. Lily was surprised and
+achieved tok/s: 3.409183
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she went for a walk with her mom and dad. They walked to a big church and Lily saw a man who looked very sad.<0x0A>"Mommy, daddy, why is that man sad?" Lily asked.<0x0A>"I don't know, Lily," her dad replied.<0x0A>Lily noticed that the man looked uncomfortable. She asked her mom, "Why is he sad?"<0x0A>"Maybe he doesn't have a smile or a hat or a big smile," her mom said.<0x0A>Lily thought about that for a moment and then said, "I like it when people are kind and friendly. They like each other and mean strangers. It makes me happy."<0x0A>Her dad smiled and said, "That's a good idea, Lily. Let's go home and have some ice cream."
+achieved tok/s: 3.366682
+TEST4,    Number of RND_SEED: 480648813210
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the snow. One day, Lily went outside to play and noticed that her toy was missing. She looked everywhere but couldn't find it. <0x0A>Lily was sad because she loved that toy. She asked her mom if she could go outside and play, but her mom said no because it was too icy outside. Lily felt upset and didn't know what to do. <0x0A>But then, her mom came outside and gave her a big hug. She told Lily not to worry and that she would help her find the toy. Together, they searched and searched until they finally found the toy in the snow. Lily was so happy and grateful to her mom for helping her. She learned that even if things get lost, they can always be found.
+achieved tok/s: 3.482704
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the snow. One day, Lily went outside to play and her hands were freezing. She didn't like it when her hands became very cold.<0x0A>Lily's mom came outside and saw that Lily was sad. She said, "Let's go inside and have some hot cocoa." Lily was happy to go inside and drink the hot cocoa. She felt much better after drinking it.<0x0A>Later that day, Lily and her mom went to the park. Lily saw a big, ancient tree and wanted to climb it. She said to her mom, "Can we climb that tree?" Her mom said, "No, we can't climb trees." Lily was sad, but she didn't give up. She said, "Maybe I can find something else to do." And she did!
+achieved tok/s: 3.378133
+TEST5,    Number of RND_SEED: 594245665561
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, Lily's mommy took her to the park. It was a cold day, and the ground was icy. <0x0A>Lily's mommy gave her a new jacket to wear. It was soft and warm. Lily loved her jacket so much that she wanted to wear it everywhere. She started to whistle while walking in the park. <0x0A>As they were walking, Lily saw a big tree. She wanted to climb it, but her mommy said no. Instead, they sat on a bench and enjoyed the fresh air. Lily felt so happy and peaceful. She loved the feeling of the sun on her skin and the fresh air in her hair.
+achieved tok/s: 3.495011
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sun. One day, she went on a walk with her mommy and daddy. They saw a big bridge that went over a river. Lily loved the sound of the bridge and she wanted to go on it.<0x0A>Suddenly, she heard a loud snap. She looked around and saw that her favorite toy had broken. She was very sad. But her daddy was very compassionate and picked her up and carried her home.<0x0A>When they got home, Lily's mommy fixed the toy with glue and a tape. Lily was so happy! She hugged her mommy and daddy and said, "Thank you for fixing my toy!"
+achieved tok/s: 3.407846
+TEST6,    Number of RND_SEED: 694910305117
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to cook with her mommy in the kitchen. One day, they decided to make cookies. Mommy gave Lily a teaspoon to measure the sugar. Lily tried to use the teaspoon, but it didn't work. She got frustrated and said, "This is silly! I don't like the teaspoon."<0x0A>Mommy was upset, but she didn't want to argue with Lily. They decided to make the cookies instead. They mixed the batter and put it in the oven. While they waited for the cookies to bake, Mommy reminded Lily to be careful when cooking.<0x0A>Finally, the cookies were ready! Lily and Mommy cut off the cookies and ate them together. Lily was happy that they made something yummy together. She learned that it's okay to make mistakes and that it's important to keep trying.
+achieved tok/s: 3.450923
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to cook with her mommy in the kitchen. One day, they decided to make cookies. Mommy gave Lily a teaspoon to measure the sugar. Lily tried to use it, but it was too heavy for her. <0x0A>Mommy said, "You need to be flexible and learn how to measure with it." Lily tried again and again, but she couldn't do it. She felt sad and frustrated. <0x0A>Mommy said, "It's okay, Lily. We can do it together. Just keep trying and you'll succeed." Lily listened and kept practicing. Finally, she was able to measure the sugar and make delicious cookies. <0x0A>The moral of the story is that with hard work and practice, you can succeed at anything.
+achieved tok/s: 3.389632
+TEST7,    Number of RND_SEED: 813951678671
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the snow. One day, she was playing with her friend Max when they saw a big snowman in the park. <0x0A>Max said, "I want to touch the snowman, but I can't reach it." <0x0A>Lily said, "I can lift you up so you can touch the snowman." <0x0A>Max was very happy and climbed up Lily's long legs to touch the snowman. But then, Lily accidentally slipped on a rock and fell down. Max helped her up and they both laughed. <0x0A>Lily said, "I feel embarrassed when I fell, but it's okay. Let's keep playing!" <0x0A>Max smiled and they continued to play in the snow until it was time to go home. From that day on, they always remembered to be careful when playing in the snow.
+achieved tok/s: 3.468956
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She loved to play outside in the snow. One day, she was playing with her friend Max when they saw a big pile of snow. <0x0A>Max said, "Let's jump in the snow and make a snowball!"<0x0A>Lily replied, "No, I want to build a snowman."<0x0A>Max said, "That's not normal. We can't fight the snow. Let's work together and make it bigger."<0x0A>Lily thought about it and agreed. They started to build the snowman. But then, Lily's mom came outside and said, "Lily, you need to be careful. Snowball is cold and you could get sick."<0x0A>Lily said, "I don't want to get sick. I want to make the snowman nice and round."<0x0A>So, they worked together and made the snowman even bigger. They were happy and proud of their creation. The moral of the story is that working together is always better than fighting.
+achieved tok/s: 3.353628
+TEST8,    Number of RND_SEED: 939089126642
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She had a white dress that she loved to wear. One day, Lily went to the park to play. She saw a butterfly and wanted to catch it, but it flew away. She looked around and saw an old man sitting on a bench. <0x0A>Lily went up to the old man and said, "Can you help me catch the butterfly?" The old man said, "Sure, let me turn your dress around and see if it's hidden somewhere." And just as he did, the old man caught the butterfly in his hands. <0x0A>Lily was so happy and said, "Thank you, you're not scary, you're nice!" The old man smiled and said, "It's always nice to meet new people." Lily and the old man became friends and they played together at the park every day.
+achieved tok/s: 3.469921
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a little girl named Lily. She had a pony named Sparky who she loved very much. Sparky was brown and had a shiny mane. One day, Lily's friend came to visit her and they went for a walk together. <0x0A>As they were walking, Sparky saw a squirrel and started to chase it. Lily tried to run after him, but she was too fast. Suddenly, Sparky got stuck in a tree and couldn't come down. <0x0A>Lily asked, "What happened, Sparky?" Sparky said, "I don't know, but we have to rescue him!" Lily found a long stick and used it to help Sparky get down from the tree. <0x0A>After Sparky was safe, Lily said, "You're the best pony ever!" Sparky replied, "I may not be the most original, but I'm still special to you." They hugged and continued their walk together, happy and safe.
+achieved tok/s: 3.345333
+TEST9,    Number of RND_SEED: 1066776220165
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+One day, a little girl named Sue found a cushion. She liked the cushion a lot. She took the cushion everywhere. Sue wanted to show her friends the cushion. She thought it would be perfect for her next friend, Tim.<0x0A>Sue went to Tim's house and said, "Look at my cushion! Isn't it perfect?" Tim looked at the cushion and said, "Yes, it is perfect! Can I touch it?" Sue was happy to let Tim touch her cushion.<0x0A>Tim played with the cushion. He put it on the floor and leaned on it. Suddenly, the cushion started to talk! It said, "Hello, I am a magic cushion. I can talk and play too!" Tim was surprised but happy. Now, Sue and Tim had a magic cushion friend. They all played and had fun together.
+achieved tok/s: 3.471120
+stories15M, quantize, rv64gcv_vifmm
+MEM_BLOCK_SIZE: 18
+One day, a little boy named Tim went to play in the park. He saw a big, incredible tree with many shiny rocks. Tim was very happy and wanted to find more rocks to add to his collection.<0x0A>As he walked around the tree, he saw a small hole in the ground. Tim looked inside and saw a tiny bug. The bug was sad and began to cry. Tim asked, "Why are you crying, little bug?"<0x0A>The bug said, "I lost my family, and I am sad. The only thing that makes me happy is this nut. I am very hungry, and I cannot find my family." Tim thought for a moment and decided to help the bug.<0x0A>He looked around the tree and found a big nut. Tim gave the nut to the bug. The bug stopped crying and became happy. The bug said, "Thank you, Tim! I was very sad, and now I have family." Tim smiled and felt good for helping the bug. From that day on, Tim and the bug became best friends, and they always shared their rocks with each other.
+achieved tok/s: 3.347000
+TEST10,    Number of RND_SEED: 1193523794168
+stories15M, quantize, rv64gcv
+MEM_BLOCK_SIZE: 18
+Once upon a time, there was a chubby little girl named Lily. She loved to play with her toys all day long. One day, Lily's mommy told her that they were going to sell some of their toys at a garage sale. <0x0A>Lily was so excited to help her mommy sell her toys. She put all of her dolls on the shelf and her teddy bear on the table. The man at the garage sale was very happy to see how much the toys were doing. <0x0A>A few days later, Lily and her mommy came back to the garage sale. They were able to sell all of their toys and bring them back to the garage. Lily was so happy that she helped make things better.
+achieved tok/s: 3.501605

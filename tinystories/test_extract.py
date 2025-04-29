@@ -1,19 +1,20 @@
 import re
 
 text_to_be_extracted = """
-**Coherence: 7/10**
+### Evaluation of the Short Story:
 
-The story is generally coherent, following a simple narrative structure where Lily finds decorations, experiences a storm, and seeks safety. The sequence of events flows logically from one to the next, though the jump from decorating to the sudden storm feels abrupt and underdeveloped. The resolution is quite swift, and the use of a tree as a shelter in a storm might compromise the overall coherence since it is generally unsafe to do so.
+1. **Coherence**: **7/10**  
+   - The story flows logically from Lily finding the birdcage to her artistic expression, but there are minor gaps. For instance, the transition from the birdcage being filled with paper to Lily suddenly having a feather to draw with is unclear. The connection between the birdcage and her artistic inspiration could be smoother.
 
-**Grammar & Fluency: 8/10**
+2. **Grammar & Fluency**: **9/10**  
+   - The text is grammatically correct and easy to read. The sentences are well-structured, and the language is simple and appropriate for a short story. The only minor issue is the phrase "It was unknown to her what was inside," which could be phrased more naturally (e.g., "She didn’t know what was inside").
 
-The grammar is correct, and the sentences are straightforward, making it easy to read. However, the language is quite simplistic, which suits the story's fairy-tale-like setting, but it lacks variation and more complex sentence structures that might enhance fluency and keep the reader engaged.
+3. **Commonsense Reasoning**: **6/10**  
+   - The story has some logical inconsistencies. For example, it’s odd that a birdcage would be filled with paper instead of a bird, and the sudden appearance of a feather (implied to be from the bird in the drawing) isn’t explained. Lily’s actions are mostly sensible, but the details of the birdcage’s contents and the feather’s origin strain believability.
 
-**Commonsense Reasoning: 6/10**
-
-The characters generally behave in understandable ways, but some actions lack commonsense reasoning. For instance, hiding under a tree during a storm is generally ill-advised, which detracts from the story’s reasoning as characters typically seek shelter indoors during such events. Lily’s reaction to the storm is believable, but her parents' decision to wait under the tree seems improbable.
-
-Overall, the story would benefit from more development particularly in its climax and resolution. Enhancing the characters' decision-making actions could lend more credibility and depth to the narrative.
+### Overall:  
+The story is charming and well-written but could benefit from clearer connections between events and more logical details.  
+**Average Score: 7.3/10**
 """
 
 pattern = r"(Coherence|Grammar & Fluency|Commonsense Reasoning): (\d+)/10"
