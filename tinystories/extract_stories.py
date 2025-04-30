@@ -14,7 +14,7 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
         text = file.read()
     # Pattern to match each test
     pattern = re.compile(
-        r'TEST(\d+),\s+Number of RND_SEED: (\d+)\n(.*?)achieved tok/s: ([\d.]+)\n(.*?)achieved tok/s: ([\d.]+)',
+        r'TEST(\d+),\s+Number of RND_SEED: (\d+)\n(.*?)Total tokens: ([\d.]+) ; Achieved tok/s: ([\d.]+)\n(.*?)Total tokens: ([\d.]+) ; Achieved tok/s: ([\d.]+)',
         re.DOTALL)
     # Collect rows
     rows = []
@@ -22,16 +22,17 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
         label = f"TEST{match.group(1)}"
         rnd_seed = match.group(2)
         first_features_and_text = match.group(3).strip()
-        first_tokps = match.group(4)
-        second_features_and_text = match.group(5).strip()
-        second_tokps = match.group(6)
+        first_tokens = match.group(4)
+        first_tokps = match.group(5)
+        second_features_and_text = match.group(6).strip()
+        second_tokens = match.group(7)
+        second_tokps = match.group(8)
 
         # Further split features and main text for both architectures
         def split_features_text(block):
             lines = block.split('\n')
             features = lines[0].strip()
-            # Skip MEM_BLOCK_SIZE line
-            story_lines = lines[2:]  # index 2 and beyond
+            story_lines = lines[1:]  
             story = clean_text(' '.join(story_lines))
             return features, story
 
@@ -43,6 +44,7 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
             'rnd_seed': rnd_seed,
             'features': first_features,
             'main_text': first_text,
+            'tokens': first_tokens,
             'tok_per_sec': first_tokps
         })
         rows.append({
@@ -50,12 +52,13 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
             'rnd_seed': rnd_seed,
             'features': second_features,
             'main_text': second_text,
+            'tokens': second_tokens,
             'tok_per_sec': second_tokps
         })
     # Write to CSV
     csv_filename = temp_file_name
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['label', 'rnd_seed', 'features', 'main_text', 'tok_per_sec']
+        fieldnames = ['label', 'rnd_seed', 'features', 'main_text','tokens', 'tok_per_sec']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()

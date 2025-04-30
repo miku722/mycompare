@@ -36,7 +36,7 @@ if __name__ == '__main__':
         base_url = 'http://localhost:11434/v1/'
         # required but ignored
         api_key = 'ollama'
-        model = 'deepseek-r1:latest'
+        model = 'deepseek-r1:14b'
         print(f"✅ 当前正在使用本地离线模式")
     else:
         # 本地调用太慢了 我要联网
