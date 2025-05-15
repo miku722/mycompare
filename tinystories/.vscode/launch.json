@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "python": "/home/data/software/anaconda//bin/python3",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--input_file",  "test_res.txt", 
+                     "--output_file",   "story_output.csv", 
+                     "--offline","False"
+                    ]
+        }
+    ]
+}
