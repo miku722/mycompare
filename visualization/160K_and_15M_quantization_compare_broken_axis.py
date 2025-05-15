@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读取数据
-df = pd.read_csv('your_data.csv')
+df = pd.read_csv('160K_and_15M_quantization_compare.csv')
 
 # 提取数据
 y1 = df['stories15M, no_quantize, rv64gc'].tolist()
