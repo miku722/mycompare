@@ -36,14 +36,25 @@ for i, (col, color, short_label) in enumerate(configs):
     ax.bar(x + offset, bar_data[col], width=bar_width, label=short_label, color=color)
 
 # 设置标签和刻度
-ax.set_xlabel("Token Interval")
-ax.set_ylabel("score")
-ax.set_title("Average Performance per Token Range (Missing filled with Mean)")
+ax.set_xlabel("Token Number", fontsize=12, weight='bold')
+ax.set_ylabel("Score", fontsize=12, weight='bold')
 ax.set_xticks(x)
-ax.set_xticklabels(bar_data.index, fontstyle='normal', fontsize=10)  # 正常字体
-ax.legend(title="Model Configs", frameon=False)
+ax.tick_params(axis='y', labelsize=12)
+ax.set_xticklabels(bar_data.index, fontstyle='normal', rotation=45, fontsize=12, weight='bold')  # 正常字体
+ax.legend(frameon=False, loc='upper right', prop={'weight': 'bold', 'size': 12})
+
+
+# 设置刻度字体加粗
+for label in ax.get_yticklabels():
+    label.set_fontweight('bold')
+
+for label in ax.get_xticklabels():
+    label.set_fontweight('bold')
+
+for spine in ax.spines.values():
+    spine.set_linewidth(1.5)
 
 plt.tight_layout()
 plt.savefig("bar_grouped_by_token_range_gray_earth.png", dpi=300)
-plt.style.use(['science', 'ieee'])
+# plt.style.use(['science', 'ieee'])
 plt.show()
