@@ -45,4 +45,5 @@ ax.legend(title="Model Configs", frameon=False)
 
 plt.tight_layout()
 plt.savefig("bar_grouped_by_token_range_gray_earth.png", dpi=300)
+plt.style.use(['science', 'ieee'])
 plt.show()

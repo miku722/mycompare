@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 # 读取数据
 df = pd.read_csv('160K_and_15M_quantization_compare.csv')
 
-# 提取数据
-y1 = df['stories15M, no_quantize, rv64gc'].tolist()
-y2 = df['stories15M, quantize, rv64gc'].tolist()
-y3 = df['stories260K, no_quantize, rv64gc'].tolist()
-y4 = df['stories260K, quantize, rv64gc'].tolist()
+# 提取数据（每两个取一个，减少一半点）
 x_values = df['token_num'].tolist()
+x_half = x_values[::2]
+y1 = df['stories15M, no_quantize, rv64gc'].tolist()[::2]
+y2 = df['stories15M, quantize, rv64gc'].tolist()[::2]
+y3 = df['stories260K, no_quantize, rv64gc'].tolist()[::2]
+y4 = df['stories260K, quantize, rv64gc'].tolist()[::2]
 
 # 创建图像和子图
 fig = plt.figure(figsize=(10, 6))
@@ -19,23 +20,24 @@ ax1 = fig.add_subplot(gs[0])
 ax2 = fig.add_subplot(gs[1], sharex=ax1)
 
 # 上图
-l3, = ax1.plot(x_values, y3, 'b-', marker='o', markersize=10, linewidth=4, label='260K no quant')
-l4, = ax1.plot(x_values, y4, 'b-', marker='^', markersize=10, linewidth=4, label='260K quant')
+l3, = ax1.plot(x_half, y3, 'b-', marker='o', markersize=10, linewidth=4, label='260K no quant')
+l4, = ax1.plot(x_half, y4, 'b-', marker='^', markersize=10, linewidth=4, label='260K quant')
 ax1.set_ylim(45, 75)
 ax1.spines['bottom'].set_visible(False)
 ax1.tick_params(labelbottom=False)
 ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
 
 # 下图
-l1, = ax2.plot(x_values, y1, 'r-', marker='o', markersize=10, linewidth=4, label='15M no quant')
-l2, = ax2.plot(x_values, y2, 'r-', marker='^', markersize=10, linewidth=4, label='15M quant')
+l1, = ax2.plot(x_half, y1, 'r-', marker='o', markersize=10, linewidth=4, label='15M no quant')
+l2, = ax2.plot(x_half, y2, 'r-', marker='^', markersize=10, linewidth=4, label='15M quant')
 ax2.set_ylim(0.95, 1.35)
 ax2.spines['top'].set_visible(False)
 ax2.set_xlabel("Token Number", fontsize=12, weight='bold')
 
-# 设置 X 轴刻度
-ax2.set_xticks(x_values)
-ax2.set_xticklabels(x_values, rotation=45, fontsize=12, weight='bold')  # 设置字体大小
+# 设置 X 轴刻度每隔20个画一个
+xtick_locs = [x for x in x_values if x % 20 == 0]
+ax2.set_xticks(xtick_locs)
+ax2.set_xticklabels(xtick_locs, rotation=45, fontsize=12, weight='bold')
 
 # 设置 Y 轴刻度加粗
 # Y轴刻度数字加粗

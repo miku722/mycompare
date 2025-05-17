@@ -29,13 +29,13 @@ def interpolate_and_plot(ax, x, y, marker, color, smooth_s=0.5):
     if len(x_valid) > 3:
         spline = UnivariateSpline(x_valid, y_valid, s=smooth_s)
         y_smooth = spline(x_uniform)
-        ax.plot(x_uniform, y_smooth, color=color, alpha=0.85, zorder=1)
+        ax.plot(x_uniform, y_smooth, color=color, alpha=0.85, markersize=10, linewidth=4, zorder=1)
 
         # 在平滑曲线上均匀分布 marker
         step = 30  # 控制 marker 密度
         marker_x = x_uniform[::step]
         marker_y = y_smooth[::step]
-        ax.plot(marker_x, marker_y, marker=marker, linestyle='None', color=color, markersize=6, zorder=3)
+        ax.plot(marker_x, marker_y, marker=marker, linestyle='None', color=color, markersize=10, linewidth=4, zorder=3)
 
 # 绘制所有曲线
 for full_label, marker, color, _ in configs:
@@ -60,20 +60,31 @@ ax2.plot([0.5, 0.5], [1, 1], transform=ax2.transAxes, **kwargs)
 
 # 添加图例（垂直排列，居于图内右上角）
 ax1.legend(handles=[
-    plt.Line2D([], [], color=color, marker=marker, linestyle='-',
-               markersize=8, label=simple_label)
+    plt.Line2D([], [], color=color, marker=marker, linestyle='-', markersize=10, linewidth=4, label=simple_label)
     for _, marker, color, simple_label in configs
-], loc='upper right', frameon=False, fontsize=10, title='Model Configs', title_fontsize=11)
+], loc='upper right', frameon=False, prop={'weight': 'bold', 'size': 12})
 
 # 添加标签
-ax1.set_ylabel("tok/s (high)", fontsize=12)
-ax2.set_ylabel("tok/s (low)", fontsize=12)
-ax2.set_xlabel("Token Number", fontsize=12)
-plt.suptitle('Performance Comparison (Broken Axis)', y=0.98, fontsize=14)
+ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
+ax2.set_xlabel("Token Number", fontsize=12, weight='bold')
 
-# 网格线可选开启
-# ax1.grid(alpha=0.2)
-# ax2.grid(alpha=0.2)
+# 设置 Y 轴刻度加粗
+# Y轴刻度数字加粗
+ax1.tick_params(axis='y', labelsize=12)
+ax2.tick_params(axis='y', labelsize=12)
+# 设置刻度字体加粗
+for label in ax1.get_yticklabels():
+    label.set_fontweight('bold')
+for label in ax2.get_yticklabels():
+    label.set_fontweight('bold')
+
+for label in ax2.get_xticklabels():
+    label.set_fontweight('bold')
+
+for spine in ax1.spines.values():
+    spine.set_linewidth(1.5)
+for spine in ax2.spines.values():
+    spine.set_linewidth(1.5)
 
 plt.tight_layout()
 plt.savefig('broken_axis_even_markers.png', dpi=300, bbox_inches='tight')
