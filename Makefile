@@ -15,5 +15,14 @@ eval_story:
 eval_ulp:
 	python ulp_eval/evaluate.py --file_path /home/kevin/projs/ara/hardware/build/sim_gk.log
 
+draw_q_nq:
+	cd visualization && python 160K_and_15M_quantization_compare_broken_axis.py
+
+draw_accuracy: 
+	cd visualization && python accuracy_compare.py
+
+draw_speed: 
+	cd visualization && python token_per_second_compare.py
+
 clean:
 	rm -rf $(STORY_EVAL_DIR)/story_output.csv
