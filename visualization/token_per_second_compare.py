@@ -8,10 +8,10 @@ df = pd.read_csv('token_per_second_compare.csv')
 
 # 设置颜色、标记样式、简写标签（用于图例）
 configs = [
-    ('stories15M, no_quantize, rv64gc', 'o', '#1f77b4', 'no_quant rv64gc'),
-    ('stories15M, quantize, rv64gc', 's', '#ff7f0e', 'quant rv64gc'),
-    ('stories15M, quantize, rv64gcv', '^', '#2ca02c', 'quant rv64gcv'),
-    ('stories15M, quantize, rv64gcv_vifmm', 'D', '#d62728', 'quant rv64gcv_vifmm')
+    ('stories15M, no_quantize, rv64gc', 'o', '#1f77b4', 'NQ-rv64gc'),
+    ('stories15M, quantize, rv64gc', 's', '#ff7f0e', 'Q-rv64gc'),
+    ('stories15M, quantize, rv64gcv', '^', '#2ca02c', 'Q-rv64gcv'),
+    ('stories15M, quantize, rv64gcv_vifmm', 'D', '#d62728', 'Q-rv64gcvifmm')
 ]
 
 # 获取统一的 x 轴范围用于平滑插值
@@ -88,5 +88,4 @@ for spine in ax2.spines.values():
     spine.set_linewidth(1.5)
 
 plt.tight_layout()
-plt.savefig('broken_axis_even_markers.png', dpi=300, bbox_inches='tight')
 plt.show()

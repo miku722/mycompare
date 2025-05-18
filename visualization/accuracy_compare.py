@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("accuracy_compare.csv")
 
 configs = [
-    ('stories15M, no_quantize, rv64gc', '#6C8EBF', 'no_quant rv64gc'),       # 柔和蓝色
-    ('stories15M, quantize, rv64gc', '#D79B00', 'quant rv64gc'),             # 金色
-    ('stories15M, quantize, rv64gcv', '#B85450', 'quant rv64gcv'),           # 红褐色
-    ('stories15M, quantize, rv64gcv_vifmm', '#9673A6', 'quant rv64gcv_vifmm') # 紫灰色
+    ('stories15M, no_quantize, rv64gc', '#6C8EBF', 'NQ-rv64gc'),       # 柔和蓝色
+    ('stories15M, quantize, rv64gc', '#D79B00', 'Q-rv64gc'),             # 金色
+    ('stories15M, quantize, rv64gcv', '#B85450', 'Q-rv64gcv'),           # 红褐色
+    ('stories15M, quantize, rv64gcv_vifmm', '#9673A6', 'Q-rv64gcvifmm') # 紫灰色
 ]
 
 # 分组区间
