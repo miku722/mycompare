@@ -26,6 +26,8 @@ ax1.set_ylim(45, 75)
 ax1.spines['bottom'].set_visible(False)
 ax1.tick_params(labelbottom=False)
 ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
+# 数据坐标系中手动设定位置
+ax1.yaxis.set_label_coords(-0.07, 0)  # x为负表示向左移，y为0.5表示垂直居中
 
 # 下图
 l1, = ax2.plot(x_half, y1, 'r-', marker='o', markersize=10, linewidth=4, label='15M no quant')

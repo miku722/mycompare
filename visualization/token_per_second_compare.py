@@ -66,6 +66,7 @@ ax1.legend(handles=[
 
 # 添加标签
 ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
+ax1.yaxis.set_label_coords(-0.07, 0)
 ax2.set_xlabel("Token Number", fontsize=12, weight='bold')
 
 # 设置 Y 轴刻度加粗

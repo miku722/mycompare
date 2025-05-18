@@ -38,6 +38,7 @@ for i, (col, color, short_label) in enumerate(configs):
 # 设置标签和刻度
 ax.set_xlabel("Token Number", fontsize=12, weight='bold')
 ax.set_ylabel("Score", fontsize=12, weight='bold')
+ax.yaxis.set_label_coords(-0.05, 0.5)
 ax.set_xticks(x)
 ax.tick_params(axis='y', labelsize=12)
 ax.set_xticklabels(bar_data.index, fontstyle='normal', rotation=45, fontsize=12, weight='bold')  # 正常字体
@@ -55,6 +56,4 @@ for spine in ax.spines.values():
     spine.set_linewidth(1.5)
 
 plt.tight_layout()
-plt.savefig("bar_grouped_by_token_range_gray_earth.png", dpi=300)
-# plt.style.use(['science', 'ieee'])
 plt.show()
