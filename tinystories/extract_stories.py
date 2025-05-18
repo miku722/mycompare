@@ -82,12 +82,15 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
     # Write to CSV
     csv_filename = temp_file_name
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ['label', 'rnd_seed', 'features', 'main_text','tokens', 'tok_per_sec']
+        fieldnames = ['label', 'rnd_seed', 'features', 'main_text', 'tokens', 'tok_per_sec']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
         row_count = 0
         for row in rows:
+            if row["tokens"] == '255':
+                print(f"跳过行 {row_count}：tokens = 255")
+                continue
             writer.writerow(row)
             row_count += 1
 
