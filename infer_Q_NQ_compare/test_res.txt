@@ -1,0 +1,650 @@
+TEST0,   Number of TOKEN: 8
+stories260K, no_quantize, rv64gc
+atepper con j F mer
+Total tokens: 7 ; Achieved tok/s: 71.956326
+stories260K, quantize, rv64gc
+atepppppppppppppp
+Total tokens: 7 ; Achieved tok/s: 60.718921
+stories260K, quantize, rv64gcv
+atepppppppppppppp
+Total tokens: 7 ; Achieved tok/s: 343.428799
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppp
+Total tokens: 7 ; Achieved tok/s: 385.330851
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a
+Total tokens: 7 ; Achieved tok/s: 1.302264
+stories15M, quantize, rv64gc
+Once upon a time, there was a
+Total tokens: 7 ; Achieved tok/s: 1.024606
+stories15M, quantize, rv64gcv
+Once upon a time, there was a
+Total tokens: 7 ; Achieved tok/s: 5.427696
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a
+Total tokens: 7 ; Achieved tok/s: 5.668070
+TEST1,   Number of TOKEN: 16
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { is
+Total tokens: 15 ; Achieved tok/s: 70.870929
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppp
+Total tokens: 15 ; Achieved tok/s: 59.960996
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppp
+Total tokens: 15 ; Achieved tok/s: 321.266857
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppp
+Total tokens: 15 ; Achieved tok/s: 357.385283
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved
+Total tokens: 15 ; Achieved tok/s: 1.300959
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved
+Total tokens: 15 ; Achieved tok/s: 1.023780
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved
+Total tokens: 15 ; Achieved tok/s: 5.405332
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved
+Total tokens: 15 ; Achieved tok/s: 5.643760
+TEST2,   Number of TOKEN: 24
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming
+Total tokens: 23 ; Achieved tok/s: 69.865958
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 23 ; Achieved tok/s: 59.250236
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 23 ; Achieved tok/s: 301.980418
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 23 ; Achieved tok/s: 333.552564
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine
+Total tokens: 23 ; Achieved tok/s: 1.299751
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine
+Total tokens: 23 ; Achieved tok/s: 1.023020
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine
+Total tokens: 23 ; Achieved tok/s: 5.384571
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine
+Total tokens: 23 ; Achieved tok/s: 5.621210
+TEST3,   Number of TOKEN: 32
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { an
+Total tokens: 31 ; Achieved tok/s: 68.900832
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 31 ; Achieved tok/s: 58.559376
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 31 ; Achieved tok/s: 284.755358
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 31 ; Achieved tok/s: 312.641666
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big
+Total tokens: 31 ; Achieved tok/s: 1.298543
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big
+Total tokens: 31 ; Achieved tok/s: 1.022276
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big
+Total tokens: 31 ; Achieved tok/s: 5.364200
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big
+Total tokens: 31 ; Achieved tok/s: 5.599056
+TEST4,   Number of TOKEN: 40
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul
+Total tokens: 39 ; Achieved tok/s: 67.955890
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 39 ; Achieved tok/s: 57.878456
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 39 ; Achieved tok/s: 269.264696
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 39 ; Achieved tok/s: 294.178200
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It
+Total tokens: 39 ; Achieved tok/s: 1.297319
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It
+Total tokens: 39 ; Achieved tok/s: 1.021507
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It
+Total tokens: 39 ; Achieved tok/s: 5.343276
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It
+Total tokens: 39 ; Achieved tok/s: 5.576186
+TEST5,   Number of TOKEN: 48
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes
+Total tokens: 47 ; Achieved tok/s: 67.031099
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 47 ; Achieved tok/s: 57.210731
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 47 ; Achieved tok/s: 255.363296
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 47 ; Achieved tok/s: 277.678724
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was
+Total tokens: 47 ; Achieved tok/s: 1.296132
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was
+Total tokens: 47 ; Achieved tok/s: 1.020767
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was
+Total tokens: 47 ; Achieved tok/s: 5.323279
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was
+Total tokens: 47 ; Achieved tok/s: 5.554437
+TEST6,   Number of TOKEN: 56
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mes
+Total tokens: 55 ; Achieved tok/s: 66.126744
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 55 ; Achieved tok/s: 56.554700
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 55 ; Achieved tok/s: 242.774840
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 55 ; Achieved tok/s: 262.856300
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to
+Total tokens: 55 ; Achieved tok/s: 1.294981
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to
+Total tokens: 55 ; Achieved tok/s: 1.020049
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to
+Total tokens: 55 ; Achieved tok/s: 5.303928
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to
+Total tokens: 55 ; Achieved tok/s: 5.533375
+TEST7,   Number of TOKEN: 64
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of
+Total tokens: 63 ; Achieved tok/s: 65.255303
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 63 ; Achieved tok/s: 55.911685
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 63 ; Achieved tok/s: 231.368350
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 63 ; Achieved tok/s: 249.511931
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was
+Total tokens: 63 ; Achieved tok/s: 1.293829
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was
+Total tokens: 63 ; Achieved tok/s: 1.019329
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was
+Total tokens: 63 ; Achieved tok/s: 5.284630
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was
+Total tokens: 63 ; Achieved tok/s: 5.512367
+TEST8,   Number of TOKEN: 72
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of
+Total tokens: 71 ; Achieved tok/s: 64.399884
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 71 ; Achieved tok/s: 55.283233
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 71 ; Achieved tok/s: 220.918146
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 71 ; Achieved tok/s: 237.426521
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She
+Total tokens: 71 ; Achieved tok/s: 1.292689
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She
+Total tokens: 71 ; Achieved tok/s: 1.018613
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She
+Total tokens: 71 ; Achieved tok/s: 5.265579
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She
+Total tokens: 71 ; Achieved tok/s: 5.491655
+TEST9,   Number of TOKEN: 80
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herses
+Total tokens: 79 ; Achieved tok/s: 63.563574
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 79 ; Achieved tok/s: 54.664272
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 79 ; Achieved tok/s: 211.360470
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 79 ; Achieved tok/s: 226.440112
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but
+Total tokens: 79 ; Achieved tok/s: 1.291546
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but
+Total tokens: 79 ; Achieved tok/s: 1.017896
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but
+Total tokens: 79 ; Achieved tok/s: 5.246541
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but
+Total tokens: 79 ; Achieved tok/s: 5.470975
+TEST10,   Number of TOKEN: 88
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S m
+Total tokens: 87 ; Achieved tok/s: 62.742036
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 87 ; Achieved tok/s: 54.053046
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 87 ; Achieved tok/s: 202.563538
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 87 ; Achieved tok/s: 216.383565
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she
+Total tokens: 87 ; Achieved tok/s: 1.290408
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she
+Total tokens: 87 ; Achieved tok/s: 1.017186
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she
+Total tokens: 87 ; Achieved tok/s: 5.227781
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she
+Total tokens: 87 ; Achieved tok/s: 5.450565
+TEST11,   Number of TOKEN: 96
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k
+Total tokens: 95 ; Achieved tok/s: 61.940220
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 95 ; Achieved tok/s: 53.456392
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 95 ; Achieved tok/s: 194.460649
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 95 ; Achieved tok/s: 207.135017
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a
+Total tokens: 95 ; Achieved tok/s: 1.289259
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a
+Total tokens: 95 ; Achieved tok/s: 1.016466
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a
+Total tokens: 95 ; Achieved tok/s: 5.208830
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a
+Total tokens: 95 ; Achieved tok/s: 5.429974
+TEST12,   Number of TOKEN: 104
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht
+Total tokens: 103 ; Achieved tok/s: 61.162719
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 103 ; Achieved tok/s: 52.873780
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 103 ; Achieved tok/s: 186.986061
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 103 ; Achieved tok/s: 198.661925
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>
+Total tokens: 103 ; Achieved tok/s: 1.288105
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>
+Total tokens: 103 ; Achieved tok/s: 1.015745
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>
+Total tokens: 103 ; Achieved tok/s: 5.190034
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>
+Total tokens: 103 ; Achieved tok/s: 5.409582
+TEST13,   Number of TOKEN: 112
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes
+Total tokens: 111 ; Achieved tok/s: 60.404459
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 111 ; Achieved tok/s: 52.304723
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 111 ; Achieved tok/s: 180.076661
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 111 ; Achieved tok/s: 190.878933
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to
+Total tokens: 111 ; Achieved tok/s: 1.286963
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to
+Total tokens: 111 ; Achieved tok/s: 1.015032
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to
+Total tokens: 111 ; Achieved tok/s: 5.171480
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried
+Total tokens: 111 ; Achieved tok/s: 5.389417
+TEST14,   Number of TOKEN: 120
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jum
+Total tokens: 119 ; Achieved tok/s: 59.664306
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 119 ; Achieved tok/s: 51.747294
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 119 ; Achieved tok/s: 173.654385
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 119 ; Achieved tok/s: 183.691658
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was
+Total tokens: 119 ; Achieved tok/s: 1.285827
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was
+Total tokens: 119 ; Achieved tok/s: 1.014318
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was
+Total tokens: 119 ; Achieved tok/s: 5.153090
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked
+Total tokens: 119 ; Achieved tok/s: 5.369493
+TEST15,   Number of TOKEN: 128
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloen
+Total tokens: 127 ; Achieved tok/s: 58.944740
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 127 ; Achieved tok/s: 51.203598
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 127 ; Achieved tok/s: 167.698182
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 127 ; Achieved tok/s: 177.022900
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again
+Total tokens: 127 ; Achieved tok/s: 1.284693
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again
+Total tokens: 127 ; Achieved tok/s: 1.013605
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again
+Total tokens: 127 ; Achieved tok/s: 5.134799
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn
+Total tokens: 127 ; Achieved tok/s: 5.349749
+TEST16,   Number of TOKEN: 136
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment
+Total tokens: 135 ; Achieved tok/s: 58.240845
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 135 ; Achieved tok/s: 50.671178
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 135 ; Achieved tok/s: 162.129391
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 135 ; Achieved tok/s: 170.817746
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it
+Total tokens: 135 ; Achieved tok/s: 1.283568
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it
+Total tokens: 135 ; Achieved tok/s: 1.012901
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it
+Total tokens: 135 ; Achieved tok/s: 5.116759
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad
+Total tokens: 135 ; Achieved tok/s: 5.330112
+TEST17,   Number of TOKEN: 144
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se
+Total tokens: 143 ; Achieved tok/s: 57.558707
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 143 ; Achieved tok/s: 50.150034
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 143 ; Achieved tok/s: 156.925861
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 143 ; Achieved tok/s: 165.054255
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Sud
+Total tokens: 143 ; Achieved tok/s: 1.282447
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Sud
+Total tokens: 143 ; Achieved tok/s: 1.012194
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Sud
+Total tokens: 143 ; Achieved tok/s: 5.098861
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird
+Total tokens: 143 ; Achieved tok/s: 5.310546
+TEST18,   Number of TOKEN: 152
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht {
+Total tokens: 151 ; Achieved tok/s: 56.890764
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 151 ; Achieved tok/s: 49.639723
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 151 ; Achieved tok/s: 152.036544
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 151 ; Achieved tok/s: 159.656526
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by
+Total tokens: 151 ; Achieved tok/s: 1.281318
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by
+Total tokens: 151 ; Achieved tok/s: 1.011487
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by
+Total tokens: 151 ; Achieved tok/s: 5.080992
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big
+Total tokens: 151 ; Achieved tok/s: 5.290978
+TEST19,   Number of TOKEN: 160
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain
+Total tokens: 159 ; Achieved tok/s: 56.238395
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 159 ; Achieved tok/s: 49.139499
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 159 ; Achieved tok/s: 147.455308
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 159 ; Achieved tok/s: 154.596514
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her
+Total tokens: 159 ; Achieved tok/s: 1.280199
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her
+Total tokens: 159 ; Achieved tok/s: 1.010783
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her
+Total tokens: 159 ; Achieved tok/s: 5.063313
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak!
+Total tokens: 159 ; Achieved tok/s: 5.271549
+TEST20,   Number of TOKEN: 168
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osar
+Total tokens: 167 ; Achieved tok/s: 55.600553
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 167 ; Achieved tok/s: 48.649804
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 167 ; Achieved tok/s: 143.135643
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 167 ; Achieved tok/s: 149.855104
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him
+Total tokens: 167 ; Achieved tok/s: 1.279083
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him
+Total tokens: 167 ; Achieved tok/s: 1.010082
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him
+Total tokens: 167 ; Achieved tok/s: 5.045789
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thank
+Total tokens: 167 ; Achieved tok/s: 5.252514
+TEST21,   Number of TOKEN: 176
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot a
+Total tokens: 175 ; Achieved tok/s: 54.978611
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 175 ; Achieved tok/s: 48.171105
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 175 ; Achieved tok/s: 139.069958
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 175 ; Achieved tok/s: 145.405227
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and
+Total tokens: 175 ; Achieved tok/s: 1.277961
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The
+Total tokens: 175 ; Achieved tok/s: 1.009377
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The
+Total tokens: 175 ; Achieved tok/s: 5.028301
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new
+Total tokens: 175 ; Achieved tok/s: 5.233628
+TEST22,   Number of TOKEN: 184
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich<0x0A> O
+Total tokens: 183 ; Achieved tok/s: 54.368991
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 183 ; Achieved tok/s: 47.700994
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 183 ; Achieved tok/s: 135.228097
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 183 ; Achieved tok/s: 141.206426
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, "I have a useful idea
+Total tokens: 183 ; Achieved tok/s: 1.276826
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have
+Total tokens: 183 ; Achieved tok/s: 1.008673
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have
+Total tokens: 183 ; Achieved tok/s: 5.010905
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.
+Total tokens: 181 ; Achieved tok/s: 5.219572
+TEST23,   Number of TOKEN: 192
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich<0x0A> O ofaring); qu kistes
+Total tokens: 191 ; Achieved tok/s: 53.775448
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 191 ; Achieved tok/s: 47.240750
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 191 ; Achieved tok/s: 131.597902
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 191 ; Achieved tok/s: 137.251619
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, "I have a useful idea!" He took out a long stick and
+Total tokens: 191 ; Achieved tok/s: 1.275714
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick
+Total tokens: 191 ; Achieved tok/s: 1.007965
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick
+Total tokens: 191 ; Achieved tok/s: 4.993495
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.
+Total tokens: 181 ; Achieved tok/s: 5.219595
+TEST24,   Number of TOKEN: 200
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich<0x0A> O ofaring); qu kistes w ` endeter jckment
+Total tokens: 199 ; Achieved tok/s: 53.192172
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 199 ; Achieved tok/s: 46.788825
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 199 ; Achieved tok/s: 128.153465
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 199 ; Achieved tok/s: 133.503856
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, "I have a useful idea!" He took out a long stick and used it to knock the ball down.
+Total tokens: 199 ; Achieved tok/s: 1.274591
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick and used it to knock the ball down
+Total tokens: 199 ; Achieved tok/s: 1.007261
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick and used it to knock the ball down
+Total tokens: 199 ; Achieved tok/s: 4.976298
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.
+Total tokens: 181 ; Achieved tok/s: 5.219577
+TEST25,   Number of TOKEN: 208
+stories260K, no_quantize, rv64gc
+atepper con j F mer " h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {<0x0A> O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich<0x0A> O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich<0x0A> O ofaring); qu kistes w ` endeter jckmentra j (art quiain to
+Total tokens: 207 ; Achieved tok/s: 52.595747
+stories260K, quantize, rv64gc
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 207 ; Achieved tok/s: 46.325572
+stories260K, quantize, rv64gcv
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 207 ; Achieved tok/s: 124.731664
+stories260K, quantize, rv64gcv_vifmm
+atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+Total tokens: 207 ; Achieved tok/s: 129.800760
+stories15M, no_quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, "I have a useful idea!" He took out a long stick and used it to knock the ball down. Lily was so happy! She thank
+Total tokens: 207 ; Achieved tok/s: 1.273474
+stories15M, quantize, rv64gc
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick and used it to knock the ball down. Lily was so happy and thank
+Total tokens: 207 ; Achieved tok/s: 1.006556
+stories15M, quantize, rv64gcv
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.<0x0A>Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.<0x0A>Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, "I have a useful idea!" He took the stick and used it to knock the ball down. Lily was so happy and thank
+Total tokens: 207 ; Achieved tok/s: 4.959112
+stories15M, quantize, rv64gcv_vifmm
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.<0x0A>Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.<0x0A>Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.
+Total tokens: 181 ; Achieved tok/s: 5.219571

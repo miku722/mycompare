@@ -1,0 +1,401 @@
+label,token_num,features,main_text,tokens,tok_per_sec
+TEST0,8,"stories260K, no_quantize, rv64gc",atepper con j F mer,7,71.956326
+TEST0,8,"stories260K, quantize, rv64gc",atepppppppppppppp,7,60.718921
+TEST0,8,"stories260K, quantize, rv64gcv",atepppppppppppppp,7,343.428799
+TEST0,8,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppp,7,385.330851
+TEST0,8,"stories15M, no_quantize, rv64gc","Once upon a time, there was a",7,1.302264
+TEST0,8,"stories15M, quantize, rv64gc","Once upon a time, there was a",7,1.024606
+TEST0,8,"stories15M, quantize, rv64gcv","Once upon a time, there was a",7,5.427696
+TEST0,8,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a",7,5.668070
+TEST1,16,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { is",15,70.870929
+TEST1,16,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppp,15,59.960996
+TEST1,16,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppp,15,321.266857
+TEST1,16,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppp,15,357.385283
+TEST1,16,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved",15,1.300959
+TEST1,16,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved",15,1.023780
+TEST1,16,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved",15,5.405332
+TEST1,16,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved",15,5.643760
+TEST2,24,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming",23,69.865958
+TEST2,24,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppp,23,59.250236
+TEST2,24,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppp,23,301.980418
+TEST2,24,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppp,23,333.552564
+TEST2,24,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine",23,1.299751
+TEST2,24,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine",23,1.023020
+TEST2,24,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine",23,5.384571
+TEST2,24,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine",23,5.621210
+TEST3,32,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { an",31,68.900832
+TEST3,32,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,31,58.559376
+TEST3,32,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,31,284.755358
+TEST3,32,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,31,312.641666
+TEST3,32,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big",31,1.298543
+TEST3,32,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big",31,1.022276
+TEST3,32,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big",31,5.364200
+TEST3,32,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big",31,5.599056
+TEST4,40,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul",39,67.955890
+TEST4,40,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,39,57.878456
+TEST4,40,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,39,269.264696
+TEST4,40,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,39,294.178200
+TEST4,40,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It",39,1.297319
+TEST4,40,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It",39,1.021507
+TEST4,40,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It",39,5.343276
+TEST4,40,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It",39,5.576186
+TEST5,48,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes",47,67.031099
+TEST5,48,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,47,57.210731
+TEST5,48,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,47,255.363296
+TEST5,48,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,47,277.678724
+TEST5,48,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was",47,1.296132
+TEST5,48,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was",47,1.020767
+TEST5,48,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was",47,5.323279
+TEST5,48,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was",47,5.554437
+TEST6,56,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mes",55,66.126744
+TEST6,56,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,55,56.554700
+TEST6,56,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,55,242.774840
+TEST6,56,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,55,262.856300
+TEST6,56,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to",55,1.294981
+TEST6,56,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to",55,1.020049
+TEST6,56,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to",55,5.303928
+TEST6,56,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to",55,5.533375
+TEST7,64,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of",63,65.255303
+TEST7,64,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,63,55.911685
+TEST7,64,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,63,231.368350
+TEST7,64,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,63,249.511931
+TEST7,64,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was",63,1.293829
+TEST7,64,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was",63,1.019329
+TEST7,64,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was",63,5.284630
+TEST7,64,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was",63,5.512367
+TEST8,72,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of",71,64.399884
+TEST8,72,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,71,55.283233
+TEST8,72,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,71,220.918146
+TEST8,72,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,71,237.426521
+TEST8,72,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She",71,1.292689
+TEST8,72,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She",71,1.018613
+TEST8,72,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She",71,5.265579
+TEST8,72,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She",71,5.491655
+TEST9,80,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herses",79,63.563574
+TEST9,80,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,79,54.664272
+TEST9,80,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,79,211.360470
+TEST9,80,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,79,226.440112
+TEST9,80,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but",79,1.291546
+TEST9,80,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but",79,1.017896
+TEST9,80,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but",79,5.246541
+TEST9,80,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but",79,5.470975
+TEST10,88,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S m",87,62.742036
+TEST10,88,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,87,54.053046
+TEST10,88,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,87,202.563538
+TEST10,88,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,87,216.383565
+TEST10,88,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she",87,1.290408
+TEST10,88,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she",87,1.017186
+TEST10,88,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she",87,5.227781
+TEST10,88,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she",87,5.450565
+TEST11,96,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k",95,61.940220
+TEST11,96,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,95,53.456392
+TEST11,96,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,95,194.460649
+TEST11,96,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,95,207.135017
+TEST11,96,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a",95,1.289259
+TEST11,96,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a",95,1.016466
+TEST11,96,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a",95,5.208830
+TEST11,96,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a",95,5.429974
+TEST12,104,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht",103,61.162719
+TEST12,104,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,103,52.873780
+TEST12,104,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,103,186.986061
+TEST12,104,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,103,198.661925
+TEST12,104,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.",103,1.288105
+TEST12,104,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.",103,1.015745
+TEST12,104,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.",103,5.190034
+TEST12,104,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.",103,5.409582
+TEST13,112,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes",111,60.404459
+TEST13,112,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,111,52.304723
+TEST13,112,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,111,180.076661
+TEST13,112,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,111,190.878933
+TEST13,112,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to",111,1.286963
+TEST13,112,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to",111,1.015032
+TEST13,112,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to",111,5.171480
+TEST13,112,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried",111,5.389417
+TEST14,120,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jum",119,59.664306
+TEST14,120,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,119,51.747294
+TEST14,120,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,119,173.654385
+TEST14,120,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,119,183.691658
+TEST14,120,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was",119,1.285827
+TEST14,120,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was",119,1.014318
+TEST14,120,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was",119,5.153090
+TEST14,120,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked",119,5.369493
+TEST15,128,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloen",127,58.944740
+TEST15,128,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,127,51.203598
+TEST15,128,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,127,167.698182
+TEST15,128,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,127,177.022900
+TEST15,128,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again",127,1.284693
+TEST15,128,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again",127,1.013605
+TEST15,128,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again",127,5.134799
+TEST15,128,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn",127,5.349749
+TEST16,136,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment",135,58.240845
+TEST16,136,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,135,50.671178
+TEST16,136,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,135,162.129391
+TEST16,136,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,135,170.817746
+TEST16,136,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it",135,1.283568
+TEST16,136,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it",135,1.012901
+TEST16,136,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it",135,5.116759
+TEST16,136,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad",135,5.330112
+TEST17,144,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se",143,57.558707
+TEST17,144,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,143,50.150034
+TEST17,144,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,143,156.925861
+TEST17,144,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,143,165.054255
+TEST17,144,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Sud",143,1.282447
+TEST17,144,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Sud",143,1.012194
+TEST17,144,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Sud",143,5.098861
+TEST17,144,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird",143,5.310546
+TEST18,152,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht {",151,56.890764
+TEST18,152,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,151,49.639723
+TEST18,152,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,151,152.036544
+TEST18,152,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,151,159.656526
+TEST18,152,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by",151,1.281318
+TEST18,152,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by",151,1.011487
+TEST18,152,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by",151,5.080992
+TEST18,152,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big",151,5.290978
+TEST19,160,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain",159,56.238395
+TEST19,160,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,159,49.139499
+TEST19,160,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,159,147.455308
+TEST19,160,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,159,154.596514
+TEST19,160,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her",159,1.280199
+TEST19,160,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her",159,1.010783
+TEST19,160,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her",159,5.063313
+TEST19,160,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak!",159,5.271549
+TEST20,168,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osar",167,55.600553
+TEST20,168,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,167,48.649804
+TEST20,168,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,167,143.135643
+TEST20,168,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,167,149.855104
+TEST20,168,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him",167,1.279083
+TEST20,168,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him",167,1.010082
+TEST20,168,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him",167,5.045789
+TEST20,168,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thank",167,5.252514
+TEST21,176,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot a",175,54.978611
+TEST21,176,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,175,48.171105
+TEST21,176,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,175,139.069958
+TEST21,176,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,175,145.405227
+TEST21,176,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and",175,1.277961
+TEST21,176,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The",175,1.009377
+TEST21,176,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The",175,5.028301
+TEST21,176,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new",175,5.233628
+TEST22,184,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich
+ O",183,54.368991
+TEST22,184,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,183,47.700994
+TEST22,184,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,183,135.228097
+TEST22,184,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,183,141.206426
+TEST22,184,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, ""I have a useful idea",183,1.276826
+TEST22,184,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have",183,1.008673
+TEST22,184,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have",183,5.010905
+TEST22,184,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.",181,5.219572
+TEST23,192,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich
+ O ofaring); qu kistes",191,53.775448
+TEST23,192,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,191,47.240750
+TEST23,192,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,191,131.597902
+TEST23,192,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,191,137.251619
+TEST23,192,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, ""I have a useful idea!"" He took out a long stick and",191,1.275714
+TEST23,192,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick",191,1.007965
+TEST23,192,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick",191,4.993495
+TEST23,192,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.",181,5.219595
+TEST24,200,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich
+ O ofaring); qu kistes w ` endeter jckment",199,53.192172
+TEST24,200,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,199,46.788825
+TEST24,200,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,199,128.153465
+TEST24,200,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,199,133.503856
+TEST24,200,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, ""I have a useful idea!"" He took out a long stick and used it to knock the ball down.",199,1.274591
+TEST24,200,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick and used it to knock the ball down",199,1.007261
+TEST24,200,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick and used it to knock the ball down",199,4.976298
+TEST24,200,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.",181,5.219577
+TEST25,208,"stories260K, no_quantize, rv64gc","atepper con j F mer "" h C ` $ S { iscode #es re pro as coming with andon pella { anad jment alerab jul th    ay { isist thes reigct jumct mesers didpt {
+ O of qu comterra j ( O of j the de qu com herseson pella {ich S ment      saring); qu k se);ot aptasesht { isra j (artistes reig rame    ay jumoslest qu korloenct {ich
+ O of ment      saring); qu k se);ot aptasesht { isra j (art quiain toame Com j S {osaring); qu k se);ot aptasesht {ich
+ O ofaring); qu kistes w ` endeter jckmentra j (art quiain to",207,52.595747
+TEST25,208,"stories260K, quantize, rv64gc",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,207,46.325572
+TEST25,208,"stories260K, quantize, rv64gcv",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,207,124.731664
+TEST25,208,"stories260K, quantize, rv64gcv_vifmm",atepppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp,207,129.800760
+TEST25,208,"stories15M, no_quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball. The man smiled and said, ""I have a useful idea!"" He took out a long stick and used it to knock the ball down. Lily was so happy! She thank",207,1.273474
+TEST25,208,"stories15M, quantize, rv64gc","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick and used it to knock the ball down. Lily was so happy and thank",207,1.006556
+TEST25,208,"stories15M, quantize, rv64gcv","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to knock the ball down.
+Lily found a stick and tried to hit the ball. But the stick was too short. She tried again and again, but she couldn't reach it. She felt sad.
+Suddenly, a kind man came by and saw Lily. He asked her what was wrong. Lily told him about the ball and the stick. The man smiled and said, ""I have a useful idea!"" He took the stick and used it to knock the ball down. Lily was so happy and thank",207,4.959112
+TEST25,208,"stories15M, quantize, rv64gcv_vifmm","Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. It was the sun! She thought it was so pretty.
+Lily wanted to play with the ball, but it was too high up in the sky. She tried to jump and reach it, but she couldn't. Then, she had an idea. She would use a stick to get the ball down.
+Lily found a long stick and tried to reach the ball. She poked and poked, but the ball didn't come down. She was sad. But then, she saw a bird flying by. The bird had a big, red ball in its beak! Lily was so happy! She thanked the bird and played with her new ball all day long.",181,5.219571
