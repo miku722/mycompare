@@ -47,8 +47,8 @@ ax1.set_ylim(4.7, 5.4)   # 高值范围
 ax2.set_ylim(0.95, 1.35) # 低值范围
 
 # 隐藏断轴之间的边界
-ax1.spines.bottom.set_visible(False)
-ax2.spines.top.set_visible(False)
+ax1.spines['bottom'].set_visible(False)
+ax2.spines['top'].set_visible(False)
 ax1.tick_params(labelbottom=False)
 
 # 添加断层标记（明显清晰）
@@ -65,14 +65,15 @@ ax1.legend(handles=[
 ], loc='upper right', frameon=False, prop={'weight': 'bold', 'size': 12})
 
 # 添加标签
-ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
-ax1.yaxis.set_label_coords(-0.07, 0)
-ax2.set_xlabel("Token Number", fontsize=12, weight='bold')
+ax1.set_ylabel("Token/s", fontsize=14, weight='bold')
+ax1.yaxis.set_label_coords(-0.05, 0)
+ax2.set_xlabel("Token Number", fontsize=14, weight='bold')
+ax2.tick_params(axis='x', labelsize=14)
 
 # 设置 Y 轴刻度加粗
 # Y轴刻度数字加粗
-ax1.tick_params(axis='y', labelsize=12)
-ax2.tick_params(axis='y', labelsize=12)
+ax1.tick_params(axis='y', labelsize=14)
+ax2.tick_params(axis='y', labelsize=14)
 # 设置刻度字体加粗
 for label in ax1.get_yticklabels():
     label.set_fontweight('bold')

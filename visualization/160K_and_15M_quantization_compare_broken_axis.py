@@ -25,26 +25,26 @@ l4, = ax1.plot(x_half, y4, 'b-', marker='^', markersize=10, linewidth=4, label='
 ax1.set_ylim(45, 75)
 ax1.spines['bottom'].set_visible(False)
 ax1.tick_params(labelbottom=False)
-ax1.set_ylabel("Token/s", fontsize=12, weight='bold')
+ax1.set_ylabel("Token/s", fontsize=22, weight='bold')
 # 数据坐标系中手动设定位置
-ax1.yaxis.set_label_coords(-0.07, 0)  # x为负表示向左移，y为0.5表示垂直居中
+ax1.yaxis.set_label_coords(-0.05, 0)  # x为负表示向左移，y为0.5表示垂直居中
 
 # 下图
 l1, = ax2.plot(x_half, y1, 'r-', marker='o', markersize=10, linewidth=4, label='15M no quant')
 l2, = ax2.plot(x_half, y2, 'r-', marker='^', markersize=10, linewidth=4, label='15M quant')
 ax2.set_ylim(0.95, 1.35)
 ax2.spines['top'].set_visible(False)
-ax2.set_xlabel("Token Number", fontsize=12, weight='bold')
+ax2.set_xlabel("Token Number", fontsize=22, weight='bold')
 
 # 设置 X 轴刻度每隔20个画一个
 xtick_locs = [x for x in x_values if x % 20 == 0]
 ax2.set_xticks(xtick_locs)
-ax2.set_xticklabels(xtick_locs, rotation=45, fontsize=12, weight='bold')
+ax2.set_xticklabels(xtick_locs, fontsize=22, weight='bold')
 
 # 设置 Y 轴刻度加粗
 # Y轴刻度数字加粗
-ax1.tick_params(axis='y', labelsize=12)
-ax2.tick_params(axis='y', labelsize=12)
+ax1.tick_params(axis='y', labelsize=22)
+ax2.tick_params(axis='y', labelsize=22)
 # 设置刻度字体加粗
 for label in ax1.get_yticklabels():
     label.set_fontweight('bold')
@@ -66,7 +66,7 @@ ax1.plot([0.5, 0.5], [0, 0], transform=ax1.transAxes, **kwargs)
 ax2.plot([0.5, 0.5], [1, 1], transform=ax2.transAxes, **kwargs)
 
 # 图例放入 ax1 内部右上角
-ax1.legend(handles=[l1, l2, l3, l4], loc='upper right', frameon=False, prop={'weight': 'bold', 'size': 12})
+ax1.legend(handles=[l1, l2, l3, l4], loc='upper right', frameon=False, prop={'weight': 'bold', 'size': 18})
 
 plt.tight_layout()
 plt.show()

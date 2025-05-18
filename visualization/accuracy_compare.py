@@ -13,7 +13,7 @@ configs = [
 ]
 
 # 分组区间
-step = 10
+step = 20
 min_token = df["tokens"].min()
 max_token = df["tokens"].max()
 bins = np.arange(min_token, max_token + step, step)
@@ -38,23 +38,23 @@ for i, (col, color, short_label) in enumerate(configs):
     bars = ax.bar(x + offset, bar_data[col], width=bar_width, label=short_label, color=color)
 
     # 标注每个柱子的非空样本数
-    for j, rect in enumerate(bars):
-        count = count_data.iloc[j][col]  # 对应区间和配置列的非空数量
-        height = rect.get_height()
-        ax.text(
-            rect.get_x() + rect.get_width() / 2, height + 0.01,
-            f"{count}", ha='center', va='bottom',
-            fontsize=9, fontweight='bold'
-        )
+    # for j, rect in enumerate(bars):
+    #     count = count_data.iloc[j][col]  # 对应区间和配置列的非空数量
+    #     height = rect.get_height()
+    #     ax.text(
+    #         rect.get_x() + rect.get_width() / 2, height + 0.01,
+    #         f"{count}", ha='center', va='bottom',
+    #         fontsize=9, fontweight='bold'
+    #     )
 
 # 轴标签和样式设置
-ax.set_xlabel("Token Number", fontsize=12, weight='bold')
-ax.set_ylabel("Score", fontsize=12, weight='bold')
-ax.yaxis.set_label_coords(-0.05, 0.5)
+ax.set_xlabel("Token Number", fontsize=14, weight='bold')
+ax.set_ylabel("Score", fontsize=14, weight='bold')
+ax.yaxis.set_label_coords(-0.03, 0.5)
 ax.set_xticks(x)
-ax.set_xticklabels(bar_data.index, rotation=45, fontsize=12, weight='bold')
-ax.tick_params(axis='y', labelsize=12)
-ax.legend(frameon=False, loc='upper right', prop={'weight': 'bold', 'size': 12})
+ax.set_xticklabels(bar_data.index, fontsize=14, weight='bold')
+ax.tick_params(axis='y', labelsize=14)
+ax.legend(frameon=False, loc='upper right', prop={'weight': 'bold', 'size': 14})
 
 for label in ax.get_yticklabels():
     label.set_fontweight('bold')
