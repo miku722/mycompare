@@ -1,10 +1,4 @@
 label,rnd_seed,features,main_text,tokens,tok_per_sec
-TEST0,22604998330,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was tall and bright and had many buttons. Lily asked her Mom, ""What is this?""
-Her Mom smiled and said, ""That is a math crayon. It is only four money. You can use it, but be careful not to hit the number, or the number of stars in the sky.""
-Lily was excited. She thought, ""I can use this math crayon to do math!"" She grabbed the crayon and ran to the fence. She grabbed a paper and a pencil and a black crayon. She put the paper on the ground and drew a picture. She was very proud of her drawing.
-""Look, Mom!"" she said. ""I made math crayon! It is fun and easy. Do you want to try it?""
-Her mom looked at the drawing crayon. She smiled and said, ""I'm proud of you, Lily. You are very creative and smart. But you also need to use your mind. It is not easy to do this. Can you show me what you drew?""
-Lily nodded. She",255,1.266625
 TEST0,22604998330,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was white and had a big smile on its face. Lily looked at the shiny, red ball and wanted to play with it.
 ""Can I play with you?"" she asked the Sh resolved Andrew.
 The Shrukya smiled back and nodded, then rolled closer to Lily. Lily felt a warm hug for her first time with such a beautiful toy.
@@ -23,18 +17,6 @@ The Shix Orburnately touched the ball, and it made a funny sound. Lily started t
 Lily's eyes grew wide. She smiled, feeling warm and happy.
 ""Thanks for playing with me,"" Lily said to Shscreenwel.
 Ashried wink winked, and together they began to play.",212,4.946213
-TEST0,22604998330,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was tall and bright and had many buttons. Lily asked her Mom, ""What is this?""
-Her Mom smiled and said, ""That is a shell, Lily. It is for many things, like boats and flowers.""
-Lily smiled and reached out her hand to touch the shell. She said, ""I want to find a button for the shell.""
-Her Mom nodded and took her hand. She said, ""OK, but be careful. Don't pinch the shell too hard or the shell will break.""
-Lily held the shell tightly and said, ""I will be careful, Mom.""
-They walked around the park, looking for the round thing. Lily was happy and curious. She saw a man sitting on a bench. He had a big smile on his face and a book.
-Lily asked the man, ""What is that?""
-The man said, ""This is my doll, her name is Anna. She is very special to me. She is my mom's when she was a little girl. Do you like her?""
-Lily nodded and said, ""Yes, she",255,5.041708
-TEST1,532671907239,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She looked at it and said, ""What does this do?"" Her dad answered, ""It's a special kind of toy that helps people work together and stay in one place."" Lily thought for a moment, and asked, ""Do I need a bigger toy?"" Her dad smiled and said, ""Yes, I will give you a bigger toy for free."" 
-Lily's dad bought her a bigger toy. As soon as she got it, Lily started to clap her hands with joy. Suddenly, she heard someone shout her name. It was her dad! His voice was clear, he had come to play with her. She hugged him tight, and said, ""Thank you!"" 
-The new toy had brought Lily and her dad together. She was very happy, and she clapped her hands again, until the dad said, ""You know, Lily, I'm sure your toy is the best toy I've ever received. I'm so proud of you!"" Lily smiled and smiled. She knew her dad had been the best mom in the world.",255,1.266617
 TEST1,532671907239,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. She looked at it and said, ""What does this do?"" Her dad answered, ""It's a special kind of thing that helps us learn.""
 Lily asked, ""Can I hear the doctor?"" Her dad smiled and said, ""Yes, but be very polite and look at with your microscope. It will help you see all the things in the world.""
 Lily carefully looked through her microscope and said, ""Ah, that looks fun! I can see very small things."" She looked closely at the last bug and her dad replied, ""You're right. It's incredible!""
@@ -64,11 +46,6 @@ TEST2,1015827800355,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggot
 When they arrived, Lily ran over to the shade and asked her mom to bring the shade for her. She wanted it to be even better. Her mom took the shirt and put it around Lily's neck. Lily was so happy!
 But when they got back to the shade, Lily started to hate the shirt. It felt squishy and torn and couldn't stand up straight. She was so sad and started to cry.
 Her mom hugged her and said, ""It's ok, we'll find a new shirt. But we have to make sure to find a better one"". They found a shirt that was just like the one they had and Lily smiled, and soon enough she was back to admiring her new shirt.",211,4.960800
-TEST2,1015827800355,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth at the park. It had a friendly face and a bright pink dress. Lily was curious about the shark and wanted to see it closer. She asked her friend, Max, ""What do you think the shark is saying?""
-Max shook his head and said, ""I think it is saying hello to the other fish in the pond. Do you want to see it?""
-Lily nodded and took the shark. She thought it was amazing. She thanked Max for the information and the shark and went home with it. She told her mom about the shark and how it said hello to her.
-Her mom smiled and said, ""That's wonderful, Lily. The shark is very intelligent. It knows how to say hello to anyone you touch.""
-Lily and Max smiled too. They were happy to have seen the shark. They wanted to share the conversation with the other fish and the shark. They decided to invite their friends to show their new scales. They put the shark in a bucket with some water and soap. They called their friends and said, ""Welcome to our popular show. We are Lily",255,5.040270
 TEST3,1490557566675,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was a pretty and colourful shade of blue. Lily was so excited that she said, ""Mommy, can I have this shirt? Please!"" Her mommy laughed and said, ""No, Lily. That shirt is not for you. It's a gift from a friend."" 
 Lily was very sad, she wanted the shirt so much. She asked her mommy again if they could get it but her mommy said, ""No, sweetie. We don't have enough money for that shirt. We can get you one, but they are not cheap.""
 Lily was very sad, but she kept asking her mommy if they could get the shirt for Lily. Finally, her mommy said, ""Yes, we can get it. But you have to promise me that you'll never take away that shirt from me again."" 
@@ -89,19 +66,6 @@ Her dad smiled. ""I think that would be great,"" he said.
 Lily grabbed the shirt, put it up and held it up to the sun. As the shirt shone down, a great idea came to her.
 ""Let's put this shirt up on the shirt,"" said Lily. 
 Lily and her parents put the shirt back up in the sun. It shined on the shirt as they kept walking. Lily felt so proud that she could use the shirt to help her family.",233,4.911185
-TEST3,1490557566675,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was a pretty and colourful shade of blue. Lily was so happy and said, ""Wow, that is a pretty shade!""
-Lily's friend, Sally, saw the shirt and said, ""That looks nice, can I have it?"" Lily said, ""Sure, here you go!"" Sally felt warm and cozy.
-Then Sally said, ""I like you."" Lily said, ""You're a good friend!"" They hugged and smiled.
-But Lily's mom called her and said it was time to go home. Lily didn't want to give the shirt back. She said, ""No, I want it!"" 
-Sally's mom said, ""No, it's time to go home now."" Lily was very sad. She wanted to keep the nice shirt.
-The next day, Lily and Sally met again at the park. Lily said, ""Can I have the shirt again?"" Sally's mom said, ""No, the shirt is for our friend. We have to give it back.""
-Lily cried and",255,5.043453
-TEST4,2015809731992,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on a farm. It was dark and boring. It was gray and shiny and had no buttons. Lily wondered why it was not shiny and pretty. She asked the shog none of the other animals in the farm. But no one answered.
-She looked at the shining shine from the shirt to the other animals. She saw that the shirt was covered with dirty hay. She saw that some of the animals were laughing. She wondered what they were doing. She felt sad and angry.
-She asked the shogbrush, ""Why are you making those animals unhappy?""
-The shirt tried to shine back. It said, ""I'm sorry, I'm too bored to have fun. I like to sing and do puzzles and dance.""
-Lily said, ""I'm sorry. I don't know how to make you happy. I don't want to make you sad. I want you to be happy.""
-The shirt said, ""I'm sorry. I didn't mean to scare you. I just want to be shiny and fun. You are my friend. Don",255,1.266590
 TEST4,2015809731992,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on a farm. It was unique because it had a funny pattern on its spots. Lily was so happy and asked the Shog name her number. The Shog had many numbers on them, so she decided to call it "" abs core.""
 Lily put theighed Shog face on the box and took it home. She put it on the table and said, ""You look weird now.""
 Lily showed theighgilla doll to her mom. Her mom said, ""That's a cool scale. You can hang it on the table.""
@@ -123,14 +87,6 @@ Lily thought to herself, “What can the sun glow every night?” She asked the 
 The Shaving butterfly nodded. ""Yes, it's so special."" The butterfly then flew away.
 Lily thanked the Shog and said goodbye. She waved and said, “Goodbye, bright butterfly!” 
 The end.",162,1.280044
-TEST5,2452763454832,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. He had a big smile and round eyes. He asked Lily if she wanted to join him. She was very excited and nodded her head. The Shogy showed her the way to the park, where they could play and have fun together.
-Lily and the Shogg looks for the slide and the swing. But they can't find them. Lily feels worried and sad. She doesn't like to play with shog names. She wishes the Shoggber man would be nicer. She shakes her head and says, ""No, thank you, Shoggit. I don't want to play with you.""
-The Shocog answers and smiles back at her. He says, ""That's OK, Lily. I'm sorry you don't like the slide and swing. I'm sure I mean the fun. You can stay here and play with me. Maybe I'll make you laugh and cheer for you.""
-Lily smiles and hugs the Shapeg stroking her hair. She feels better and more curious. She says, ""Thank you, Shog, you are a good",255,1.002544
-TEST5,2452763454832,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. He had a big smile and round eyes. He asked Lily if she wanted to join him. She was very excited and nodded her head. The Shogy showed her the way to the park, where they could play and have fun together.
-Lily and the Shogg looks for the slide and the swing. But they can't find them. Lily feels worried and sad. She doesn't like to play with shog names. She wishes the Shoggber man would be nicer. She shakes her head and says, ""No, thank you, Shoggit. I don't want to play with you.""
-The Shocog answers and smiles back at her. He says, ""That's OK, Lily. I'm sorry you don't like the slide and swing. I'm sure I mean the fun. You can stay here and play with me. Maybe I'll make you laugh and cheer for you.""
-Lily smiles and hugs the Shapeg stroking her hair. She feels better and more curious. She says, ""Thank you, Shog, you are a good",255,4.861016
 TEST5,2452763454832,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. He had a big smile and round eyes. He looked at Lily and said, ""I can fly!""
 Lily was excited. She asked him ""How did you get that?""
 The Shouse said, ""I saw a cake with frosting and candles on it. It was in the house. I looked everywhere for it, but I couldn't find it.""
@@ -157,11 +113,6 @@ Lily and Cocoa appeared to be best friends and C centia. They would keep playing
 One day, Lily said to Calriedend, ""Let's try out again!"" She closed her eyes, grabbed Camp Mira and tried to bend and stretch like a log in the air.
 Cal Mira was delighted and jumped up and down with joy. She shouted, ""You did it, Lily! You're so flexible!""
 Lilymy went home and told her parents all about her wonderful friend Amalara. From then on, Lily and Coco given C stubborn crossed across the park every time they played together.",254,4.836155
-TEST6,2938892076829,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named C seek ate candy. Lily asked C they would fight, but C hot soon convinced C seek alarms and stars.
-Lily refused to play with Cometimes alarms and almars. She was happy to be alone and had a chubby sister who loved her and played with her.
-But Lily was selfish and kept all the candy and yogurt in the bowl. Cuddles fell out of her hands and made a big mess. Coke used to the carrots to eat candy, and cried a lot.
-Lily's sister heard the noise and came to see what was wrong. She saw the couch was full and knew what Lily had done. She took Crayon and said, ""Stop it, you are being very naughty and selfish. Cray energy is important for our food. You should not fight over it. You should share and be kind. That is the law. Crayons are for sharing, not for fighting. Do you understand?""
-Lily felt sorry and ashamed. She realized that Cray did not mean to fight over the couch. She",255,5.023454
 TEST7,3426193549785,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the ground. She looked around, but she was too shy to go near it. 
 Her mum saw her looking at the shirt. ""Look Lily, this shirt is so clean and shiny,"" she said.
 Lily felt her mum's support. She was so happy she hugged her mum and then she held the shirt up to her chin. 
@@ -188,12 +139,6 @@ Lily shook her head. ""No,"" she said.
 Mum smiled. ""That's nice. Let's go sit by the rock and pick it up.""
 Lily was so excited. She thanked her mum and ran off to the rock. She soon reached out and grabbed the shirt.
 The shirt was a little dirty, but Lily was proud to have found it. She put it on and ran back home, looking after it until it was free again.",161,5.267936
-TEST8,3846960283122,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was unique and shiny. It shone brightly on her skin. Lily thought it looked like a star. She smiled and ran to her mom.
-""Mom, look! Shog!"" Lily said, showing her mom her shirt.
-""That's a very special shamebra. It's been on the street for many years. Do you want to keep it?"" Mom asked.
-""Yes, please. I like it. It's so shiny and unique. Can I keep it?"" Lily said.
-""Of course you can. It's yours. But you have to be careful with it. It's very special to me,"" Mom said.
-Lily hugged her mom and thanked her. She took the shamebra home. She showed it to her room and put it in a bed with some tape. She named it Star and took it to Star school. She introduced it to her other toys. She said they were her friends. They showed it to her and asked her what it was. She showed it a book with pictures and words. She showed it to her doll",255,1.266734
 TEST8,3846960283122,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was soft and shiny and colorful. Lily loved it and wanted to take it home with her. She asked her mum, ""Can I take this shark?""
 Her mum replied, ""Yes, of course! But only if you promise to take good care of it.""
 Lily was so excited and quickly hugged the shark. ""I promise! I will take good care of it.""
@@ -206,20 +151,6 @@ Lily was so excited and quickly hugged the shark. ""I promise! I will take good 
 But then, Lily and the Shogg looked at the shark and felt a little uncomfortable. ""It looks funny,"" said Lily.
 Her mum smiled and said, ""That's ok. You can keep your shark. It will still be with you all the time."" 
 Lily was so happy and hugged her mom tightly. She never wanted to let go.",189,5.011189
-TEST8,3846960283122,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was unique and shiny. It shone brightly on her skin. Lily thought it looked like a star. She smiled and ran to her mom.
-""Mom, look! Shog!"" Lily said, showing her mom her shirt.
-""That's a very special shamebra. It's shining at night. You look like a little star,"" her mom said.
-""I know, I know. And you!"" Lily said, twirling her shirt around.
-""That's right, Lily. You have a beautiful shirt, don't you think?"" her mom said, giving her a hug.
-""I don't care. I like my shirt,"" Lily said, smiling.
-""But I love you, Lily. And I love my shirt too. It's just what we do,"" her mom said, smiling back.
-Lily nodded, but she was still curious. She wanted to know more about Shinki and why she had her unique shirt. She took the shirt and put it on. She felt happy.
-But then",255,5.041109
-TEST9,4328519528393,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the porch. It was different from any other shirt she had ever seen before. It had a bright yellow beak and a smooth, brown body. Lily was curious and excited to have a new friend. She asked the Shog gave it a big hug and named it Shog.
-Lily took the shirt and hugged it tight. She wanted to show it to her friends. She decided to take it with her and go back to the porch. She moved her arms up and down, back and forth and through the shadows.
-The shirt was getting heavier and heavier. Lily was getting tired and wanted to go home, but the shirt kept staying on her feet. Lily was getting closer to the shirt and started to feel a bit tired.
-Finally, Lily was tired too and had to give the shirt to her friends. She was so happy to have a new shirt! She couldn't wait to show her friends. 
-Lily's friends were amazed by the shirt and it was very special. They all wanted to have it! They all hugged the shirt and",255,1.266520
 TEST9,4328519528393,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the porch. It was unique because it had a shiny design. Lily was so excited to see it! She asked the Shog for a rubber ball.
 The Shape bottle replied, “No, I cannot give you a rubber ball. It is just for playing with.”
 Lily thought for a moment and then said, “But I really want to play with it.”
@@ -232,17 +163,6 @@ Lily thought for a moment and then said, “But I really want to play with it.�
 The Shape smiled and said, “I can help you. Let me show you something.”
 The Shape slowly opened up and out came a shiny ball. Lily was so happy and thanked the Shape. She hugged the Shape reNeighor and then they started playing with the ball. 
 The Shog cuddled up next to Lily and the Shape smiled.",182,5.017631
-TEST9,4328519528393,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth on the porch. It was different from any other. It had wings and a funny shape. Lily was curious and wanted to talk to the Shirtgutor. She asked him if she could meet him and his cool voice.
-""Of course, my dear,"" said the Shawngve everyday.
-The Shirtgam felt special and excited. He was a nice man.
-""Would you like to talk to me?"" the Shastg met Lily's mom.
-""Yes, please!"" Lily said with a smile.
-The Shirtg David and Lily's mom were very happy to meet him. They all had a nice conversation about the birds and the squirrels.
-""Welcome to our home,"" said the Sharing Sornmig exercises,"" the Sh Mos bundled an elephant as he polished himself with his special gear.
-Lily loved hearing him.
-""What an amazing it!"" she said.
-""Yes, it is,"" the Shefglowg grown-upveed an apple.
-""What a yummy apple!"" said Lily.",255,5.019757
 TEST10,4801893822042,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was brown and had a picture of a hat on the side. Lily loved it and wanted to know more about it.
 Lily asked her mom, ""Mom, what is this?""
 ""It's called 'Shrink Jen dollars.'""
@@ -251,30 +171,6 @@ Lily nodded, and then she went to her friends. But when she shared the shirt wit
 Lily's friends didn't seem to like the shirt. Lily was happy to give it away, but her friends still thought it was cute. 
 Lily was sad and didn't know what to do. She went home and thought about the shirt. She realized that it was very special to her. 
 From that day on, Lily always shared her things with her friends. And they all lived happily ever after.",223,1.271059
-TEST10,4801893822042,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was brown and had a picture of a red ball on it. Lily wanted to keep it.
-""Can I see it?"" she asked.
-""No,"" said the Shoggin. ""It's not yours. It's the owner's. We give it to kids and it's not ours. It's bad.""
-Lily was angry. She threw the shirt on the floor and stomped her feet. She said, ""No, it's mine. I found it. Give it back.""
-The Shog oinked. It made a funny noise. It sounded like ""Fun"".
-Lily was surprised. She thought that maybe the shirt was magic. She wanted to play with it.
-""Please, Shog!"" she said. ""Do you want to play with me?""
-The Shog shook its head. It did not want to play with Lily. It wanted to bite her.
-Lily was sad. She liked the shirt. She did not think that was mean. She thought that maybe the shirt was not really magic.
-She gave the shirt",255,1.002688
-TEST10,4801893822042,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. It was brown and had a picture of a red ball on it. Lily wanted to keep it.
-""Can I see it?"" she asked.
-""No,"" said the Shoggin. ""It's not yours. It's the owner's. We give it to kids and it's not ours. It's bad.""
-Lily was angry. She threw the shirt on the floor and stomped her feet. She said, ""No, it's mine. I found it. Give it back.""
-The Shog oinked. It made a funny noise. It sounded like ""Fun"".
-Lily was surprised. She thought that maybe the shirt was magic. She wanted to play with it.
-""Please, Shog!"" she said. ""Do you want to play with me?""
-The Shog shook its head. It did not want to play with Lily. It wanted to bite her.
-Lily was sad. She liked the shirt. She did not think that was mean. She thought that maybe the shirt was not really magic.
-She gave the shirt",255,4.864227
-TEST10,4801893822042,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was round and shiny and shone brightly in the sun. She smiled and said, ""It's so bright and shiny!"" She put it in her pocket and ran off to show her parents.
-But soon, Lily wanted to change things. She took out her soft blanket, her eraser and put it on the shirt. She looked at the shirt and it had her colorful crayon on it. She went to show her parents.
-But when she got to the shirt, she saw that the shirt was not shining. It was hard and blue and soft. It was just like her shirt. Lily was confused and sad. She wanted to change that shirt. She said, ""No, I'm sorry. It's not my shirt. It's not the same. It's special. I wanted to change it and make it shine.""
-Her parents laughed and hugged her. They said, ""It's okay, Lily. We're glad you like your new shirt. But you know what? You can change it or make it more special. You can be",255,5.041096
 TEST11,5339260674051,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She was very excited and asked, ""Can I borrow your toy?""
 Her dad said, ""Yes, you can borrow it. But remember, it's not nice to take something without asking first.""
 Lily thanked her dad and took the toy from him. She played with it all day and had lots of fun. 
@@ -356,10 +252,6 @@ The shaped pearl was magical and it made Lily feel lucky and happy. She decided 
 Lily played with her new pearle every day and it made her even more lucky. She was sure to never lose it.
 One day, Lily got tired of playing with her pearon every day. She was so tired that she decided to lie down and rest. But when she woke up, she saw that her pearryer was gone. She looked everywhere but couldn't find it.
 Lily was very sad and scared. She never saw her lucky pearkinry again.",211,4.958097
-TEST14,6509837180037,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the garden. It was very shiny and had a star on it. Lily was so excited! She wanted to take it home and play with it. She asked the shade on the tree, ""How can I take this shade home?""
-The shade belonged to the Shoggus. He was very generous and kind. He said ""Well you can bring it home, but you have to put it in your bed."" Lily was disappointed, but she listened to the Shog in need. She put the shade on her bed and went inside to get some candy. 
-The Shape glow and Lily's parents heard her gasp. They rushed in and saw the shade monster. The shirt was too big for Lily and the shade monster had taken it. Lily and the Shape glowed and had an amazing night.
-The moral of the story is that it is important to be generous and kind to others. Shirachy Monster looks even more special when you are taking care of his things is worth paying for, even if it means giving something away. Lily was",255,5.032308
 TEST15,6972597483973,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was big and shiny. She was happy and wanted to show it to her friend, Jack.
 Lily picked up the Shogbrush and put it in her bag. ""This is my lucky penny!"" she said.
 Jack looked at the penny and said, ""That's so cool! Can I see it?""
@@ -375,11 +267,6 @@ TEST15,6972597483973,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggo
 Lily's friend, Jack, saw her and asked her to let him choose the Shurried Shong. Lily thought about it and finally said, ""Okay, but you have to take your time.""
 Jack was so excited, he chose the Shiraspged. Lily watched as he played with the shines for a long time. But as Jack kept on playing, Lily noticed that Jack looked weak. He was suffering and couldn't move.
 Lily went to him and asked, ""Are you okay?"" Jack shook his head and said, ""No, I'm not feeling good."" Lily remembered the Shine g instincts and realized that maybe he had been doing something wrong. She hugged Jack and said, ""I'm glad I made the Shush to help you."" Jack smiled and they continued playing together.",235,4.900152
-TEST15,6972597483973,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was big and shiny. She was happy and wanted to take it home. She asked the Shogg everyday, but the Shixgent crafting it, 'No. This is mine!'
-Lily got very mad. She wanted the Shape Magic courage. She said, ""Give it to me! It's mine!' The Shix Trust was embarrassed and it didn't want to give it away. 
-Lily said, 'Come on, let's have a meeting'. She said, 'You can have it if you play a game. If you are fair, I can lead the way for you.' I Trust Robert was very excited.
-The Shellowara laughed and said 'Okay, let's play!' She started to play the game with Lily. They ran around and had a lot of fun. Then it was Lily’s turn to be fair Magic again. The Shasaraims was so happy that she gave herabelous MagicMag David. She thanked him and ran away with the Magic Give Mag gift. 
-Lily waved goodbye to Leafi and went home feeling very happy",255,5.019641
 TEST16,7460456296662,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was a very special shampoo. It had wings and a nose and shone brightly in the sun. Lily thought it looked really cool. 
 ""Wow!"" she said. 
 A little boy walked up to the shampoo bottle and said, ""Hi Shog, I want to buy this shampoo. Can I buy it?""
@@ -399,21 +286,6 @@ Her mom smiled and said, ""This is a special shampoo. It helps you clean your ha
 Lily thought for a moment, then said, ""Can I try it? Please?"" Her mom laughed, then she said, ""Yes, you can try it. But you have to do what I say.""
 Lily was excited, and she said, ""Yes, I want to try it!""
 She climbed on the soft lady nearby and gently made her hair shine. When she was done, Lily felt like she could do anything. She looked in the mirror and saw how big and powerful her hair was. She was so happy, and she thanked her mom for letting her try the special shampoo.",220,5.122416
-TEST17,7916507545365,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and new. Lily loved the shirt and she loved the slide. She wanted to play with the shogmed Shog.
-Lily said, ""Shink, shampoo, shampoo, shampoo!""
-The shampoo bottle opened and sparkled in the sun. It was cold and nice. Lily had fun. She laughed and giggled.
-But then she heard a noise. It was a bell. It was ringing. Lily stopped shashing and looked at the shampoo bottle. She wanted to see what was inside.
-She reached for the shampoo bottle. She opened it. It was not shampoo. It was soap. It was soap. It smelled like soap. It was not shampoo. It was soap.
-Lily took the shampoo bottle. She opened it. She tried to drink it. But it was too heavy. It was too slippery. It could bite her.
-Lily drank the shampoo. It was bitter and stick",255,1.266687
-TEST17,7916507545365,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and friendly. Lily loved her new shampoo. She wanted to keep it and keep it in her room. She asked her mum if she could take it home.
-""No, Lily, you can't,"" her mum said. ""That is not nice. You should share with your friend. How would you feel if someone took your tooth without asking?""
-Lily thought for a moment. She liked her brother's toys. She did not want to share them with anyone. But she also did not want to lose her shampoo. She did not know what to do. She looked at the shampoo bottle. It was full of colorful glitter and sparkles. She thought maybe it was the only way to make her shampoo nice.
-She decided to take it to her room. She thought it would make her shampoo more special. She put it on her doll's hair and made a loop with it. She used it to polish herself with her thumb. She did not put it in her mouth. She thought she was washing it",255,1.002806
-TEST17,7916507545365,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was big and shiny and friendly. Lily loved her new shampoo. She wanted to keep it and keep it in her room. She asked her mum if she could take it home.
-""No, Lily, you can't,"" her mum said. ""That is not nice. You should share with your friend. How would you feel if someone took your tooth without asking?""
-Lily thought for a moment. She liked her brother's toys. She did not want to share them with anyone. But she also did not want to lose her shampoo. She did not know what to do. She looked at the shampoo bottle. It was full of colorful glitter and sparkles. She thought maybe it was the only way to make her shampoo nice.
-She decided to take it to her room. She thought it would make her shampoo more special. She put it on her doll's hair and made a loop with it. She used it to polish herself with her thumb. She did not put it in her mouth. She thought she was washing it",255,4.866645
 TEST17,7916507545365,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was big and shiny and was very popular. All of the children wanted to be friends with it.
 ""Can we play with it?"" Lily asked her new friend.
 The Shencil replied, ""I don't know. I don't know what it is. I'm afraid of shadows!""
@@ -434,39 +306,12 @@ From that day on, Lily and Sam became good friends and they both had shirts and 
 TEST18,8464101884114,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named Sam. Sam was a popular shirt and was very colorful. Lily was jealous of Sam and said to him, ""You look cool, Sam. Can I try your spicy shirt?"" Sam smiled and said, ""Sure, you can try my spicy shirt."" 
 Lily felt better and asked, ""How much do I need to have a belt?"" Sam replied, ""It's too high. I can't reach it."" Lily thought for a moment and said, ""Maybe we can try a few smaller shirts!"" Sam thought that was a great idea. They each had two clothes and were now even more popular than before. 
 After the shirt sale, Lily and Sam became good friends. They went on many adventures together and had lots of fun. They both learned that it's okay to ask for help and that you can find what you want in a different way.",207,5.150725
-TEST19,8857467859759,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and shiny. Lily wanted it, so she asked the Shurgathgkgve if she could have it. But the Shirtgudgbrush refused to give her. 
-Lily got very angry and shouted, ""Please give me the shirtgilla now!!"" But the Shurious Shirt refused to give it back. 
-Lily's mom said, ""Shent it to her. Let me help you get the shirt back, it won't be easy. We will take it if you want.""
-So Lily's mom and the Shadowsg looked around. They saw a little bird chirping and running with something in its beak. Lily asked, ""What are you wearing? It looks like the one around here."" 
-The small shrimp bars followed the noises, like the machines working at the factory, and the girl looked after it. Lily smiled and said, ""Thank you for saving the shirt!""
-The shrimp quacked and swam away. Lily and her mom took the shirt home",255,1.265840
 TEST19,8857467859759,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and shiny. Lily wanted it, so she asked the Shurgathg marked it with a special mark. But it seemed to be fake. Lily was sad, so she asked the Shressginted, ""Why isn't this weird mark?"".
 The Shamame shook in her hand, and Lily heard a voice. The Sheguard said, ""This is a real one, not real. It's too weird."" Lily thought for a moment, and then she said, ""That's a fake!""
 The Shank smiled and said, ""Yes, it's a fake. You can't have it!"" Lily was relieved and thanked the Shcol colored billboard. She thanked the Sharingpaper-Gymg seem one day, but she always said hello to him anyway.",199,1.006817
 TEST19,8857467859759,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was big and shiny and shiny. Lily wanted it, so she asked the Shurgathg marked it with a special mark. But it seemed to be fake. Lily was sad, so she asked the Shressginted, ""Why isn't this weird mark?"".
 The Shamame shook in her hand, and Lily heard a voice. The Sheguard said, ""This is a real one, not real. It's too weird."" Lily thought for a moment, and then she said, ""That's a fake!""
 The Shank smiled and said, ""Yes, it's a fake. You can't have it!"" Lily was relieved and thanked the Shcol colored billboard. She thanked the Sharingpaper-Gymg seem one day, but she always said hello to him anyway.",199,4.963144
-TEST19,8857467859759,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was big and shiny and shiny. Lily wanted it, so she asked the Shurgathgaped, ""Can I have it please?"" 
-The Shaperied lotion replied, ""No, I don't want to give it away. It's not nice."" 
-Lily was frustrated. She looked around and saw a butterfly with a thick feather. She smiled and said, ""Can I look at it?"" 
-The ShicUnderhole in the park made Lily feel happy. She waved to the butterfly and said, ""Hi! I'm Lily. What's your name?"" 
-The butterfly said, ""Hello Lily! My name is Sunny. What's yours?""
-Lily was so excited. She opened her mouth to say ""Look, Sunny!""
-Sunny said, ""Hi Lily! I was just taking a look. Do you want to come with me?"". 
-Lily said, ""Yes! I would love to go with you!""
-So Lily and Sunny went for a nice walk together.",255,5.036185
-TEST20,9351895209494,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was different from the other shampoo she had, which tasted like bubble. Lily was so excited, she couldn't believe it. She had never seen anything like it before.
-“Can I keep it?” she asked the Shogg every day, hoping that it would help her with her tooth. But then, the shampoo disappeared. Lily looked all over the park, but the shampoo was nowhere to be found. She started to cry, but then she heard a voice.
-“Don’t cry, little one. I know that is all that shampoo. I can use some of mine!” The voice was coming from a mysterious creature who was sitting in the shampoo. He said, “I’m the one who left the soap in the park. I know it had something to say. Would you like to see what it's like?”
-Lily was so excited, she said yes. She reached into the shampoo and pulled out a bright, shiny ball. She ran to the shampoo and put it on her head. She couldn",255,1.266382
-TEST20,9351895209494,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was so pretty and shiny and had lots of numbers on it. Lily was happy and asked her mom if she could buy it. Her mom said yes and bought it for her.
-Lily was excited to play with the shirt. She put it on and ran to the slide. When she got there, she saw a big cake on a table. It looked yummy and smelled so good. She wanted to eat some, but her mom said no. She told Lily to wait and see.
-Lily waited and waited. She looked at the cake and the numbers. She liked them. She wanted to taste them. She put her hands together and pushed her bracelet. The bracelet was very soft and shiny. She liked it a lot. She did not want to lose it. She picked it up and ran back to the table. She put the cake on the plate and smelled the numbers. She smiled and took a big bite.
-She wanted to eat more, but she did not eat her bracelet. She ate some more. She ate her plate, her belt, her brace",255,1.002821
-TEST20,9351895209494,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was so pretty and shiny and had lots of numbers on it. Lily was happy and asked her mom if she could buy it. Her mom said yes and bought it for her.
-Lily was excited to play with the shirt. She put it on and ran to the slide. When she got there, she saw a big cake on a table. It looked yummy and smelled so good. She wanted to eat some, but her mom said no. She told Lily to wait and see.
-Lily waited and waited. She looked at the cake and the numbers. She liked them. She wanted to taste them. She put her hands together and pushed her bracelet. The bracelet was very soft and shiny. She liked it a lot. She did not want to lose it. She picked it up and ran back to the table. She put the cake on the plate and smelled the numbers. She smiled and took a big bite.
-She wanted to eat more, but she did not eat her bracelet. She ate some more. She ate her plate, her belt, her brace",255,4.867377
 TEST20,9351895209494,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was so cool and shiny, and it had many gear attached to it. It was so colourful and sparkly that Lily wanted to take it home.
 But the Shoggra was grumpy and didn't want to let Lily take it away. ""No! I want to take it home!"" shouted Lily.
 The Shog made a loud noise. Suddenly, a strange light vanished from the shining Shogage, but the shirt wasn't there. It was gone!
@@ -476,89 +321,6 @@ TEST21,9896780478917,"stories15M, no_quantize, rv64gc","One day, Lily met a Shog
 Lily and Shpike became friends and started to play together. They laughed and had so much fun. Lily liked Shpike the Sh shadow with her other dolls and Mia. She was very generous and shared her toys with Shpike.
 Later that day, Lily and Shpike were talking about the fun they had together. Lily said, ""I want to make sure you are always happy and to share with me."" Shpike replied, ""I will be happy and always share with my friends.""
 Lily was so happy to have Shpike as her friend and they continued to be best friends forever.",186,1.276415
-TEST21,9896780478917,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth named Shell. Shell was very shy and always hid behind books. Lily liked Shells because Shellgited and made her happy. She asked Shadow and he said yes and they became friends.
-Lily wanted to introduce Shell to other friends, so she went to the park to find some new friends. But she saw a group of people who were playing too. They looked angry and scary. Lily felt scared and didn't know what to do.
-Then, Lily saw a girl with a doll. The girl's name was Lily. She saw that Lily was scared and asked her what was wrong. Lily told her about Shell. The girl said she would talk to Lily and make sure she was safe. Lily felt better and went to talk to Lily. They became friends and played together.
-After playing, Lily said goodbye to Luna and thanked Shell for introducing her to new friends. She was happy that Shell didn't hurt her and that she was safe from the mean people. Lily learned that sometimes things that seem scary are not scary after all.",255,1.002641
-TEST21,9896780478917,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth named Shell. Shell was very shy and always hid behind books. Lily liked Shells because Shellgited and made her happy. She asked Shadow and he said yes and they became friends.
-Lily wanted to introduce Shell to other friends, so she went to the park to find some new friends. But she saw a group of people who were playing too. They looked angry and scary. Lily felt scared and didn't know what to do.
-Then, Lily saw a girl with a doll. The girl's name was Lily. She saw that Lily was scared and asked her what was wrong. Lily told her about Shell. The girl said she would talk to Lily and make sure she was safe. Lily felt better and went to talk to Lily. They became friends and played together.
-After playing, Lily said goodbye to Luna and thanked Shell for introducing her to new friends. She was happy that Shell didn't hurt her and that she was safe from the mean people. Lily learned that sometimes things that seem scary are not scary after all.",255,4.863762
-TEST21,9896780478917,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named Shinnity. Lily was very shy and she didn't like sh nine as she was very close to Shinkub. She said, ""I don't know how to talk to you, Shivious Shine.""
-Shine smiled and said, ""I can teach you how to be as careful as you do!""
-Lily nodded, but she didn't listen. She kept talking to Shoulder and being very careful. Then one day, Lily had a plan. She would get married Shine.
-""Let's go tell everyone that we're together,"" Lily said to Shine.
-""Yes, I think I'll do that,"" Shine said happily.
-The two friends went on a long walk, but Lily was extra careful. When they got there, they saw a sign that said, ""Is reliable on the right to call LeafTim?""
-Lily shouted, ""Yes! We should go and play with Leaf Tim!""
-So, Lily and Shir begged because she said she would stay and take matters into her own hands. 
-So Lily had lots of fun",255,5.024072
-TEST22,10404612141910,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and had many buttons. Lily thought it was a robot. She picked it up and said, ""Hello, Shog.""
-The Shog said, ""Hello, I'm theurry Monster."" He said, ""Hi, Lily. Do you want to play with me?"" Lily said, ""Yes, please."" She was happy.
-They played for a while, but then the Shape Monster said, ""Lily, I have to go now. It was time for me to leave."" He dragged her by the arms and put her down.
-Lily felt sad. She said, ""Shog Monster, you are not a robot. You are my friend. I love you."" The Shape Monster said, ""I love you too, Lily. You are my best friend. I'll come back to play with you another day."" He disappeared.
-Lily cried and cried. She missed her friend. She wished he was still with her. She wished he was still with her. She thought, ""Maybe if I have more toys, I can play with him again."" She",255,1.266710
-TEST22,10404612141910,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was big and shiny and had many buttons. Lily thought it was a rich coin. She wanted to see what it did.
-""Wow, this is a rich coin!"" Lily said. ""Can I have it?""
-The Shog gently touched Lily's hand. Lily felt a warm feeling in her heart. She smiled.
-""No, it's mine!"" Lily said. ""I found it on the ground. It's not fair!""
-The Sh beam rubbed its head on Lily's face. Lily felt a cold feeling in her chest. She rubbed harder on her sock. The Sh beam glowed and glowed and rolled.
-""Wow, it's so pretty!"" Lily said. ""Can I have it?""
-The Sh beam passed Lily's sock. Lily hugged the sofa. She took the sock from the shelf and waved it in the air.
-""No, it's mine!"" Lily said. ""I found it here!""
-The Shiny ray of sunlight shone on Lily",255,1.002754
-TEST22,10404612141910,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was big and shiny and had many buttons. Lily thought it was a rich coin. She wanted to see what it did.
-""Wow, this is a rich coin!"" Lily said. ""Can I have it?""
-The Shog gently touched Lily's hand. Lily felt a warm feeling in her heart. She smiled.
-""No, it's mine!"" Lily said. ""I found it on the ground. It's not fair!""
-The Sh beam rubbed its head on Lily's face. Lily felt a cold feeling in her chest. She rubbed harder on her sock. The Sh beam glowed and glowed and rolled.
-""Wow, it's so pretty!"" Lily said. ""Can I have it?""
-The Sh beam passed Lily's sock. Lily hugged the sofa. She took the sock from the shelf and waved it in the air.
-""No, it's mine!"" Lily said. ""I found it here!""
-The Shiny ray of sunlight shone on Lily",255,4.865508
-TEST22,10404612141910,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was big and shiny and had many buttons. Lily thought it was a rich doll. She wanted to hug it.
-""Can I hold it?"" Lily asked the Shogg Otto.
-The Shog pouted. ""No, you can't. It's my birthday present. You have to share it with me. If you take it, I will take it away.""
-Lily did not listen. She grabbed the Shirtglowgrip and laughed. ""I'm going to throw it around the park, it's fun!""
-The Sharingara sink the ShirtgBritted. The other kids screamed and ran away. The Shapeglow kids chased them. Lily laughed and laughed. She did not care.
-She ran to the top of the slide. She wanted to see the Sharing below. She jumped and hopped and slid. She reached the top and jumped. She landed on the ground. She looked around. She saw the whole world. She was surprised and happy.
-""Wow, this is amazing!"" L",255,5.032063
-TEST23,10967904076877,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was shiny and bright and made her happy. She picked it up and showed it to her friend, Tom.
-""Look at this shirt!"" Lily said, holding it up. ""It's so pretty!""
-Tom looked at the shirt and said, ""That's not fair! My mom gave it to me for school. She said it's expensive.""
-Lily didn't understand what Tom meant by ""expensive"", but she knew that he was being foolish. She said, ""Sorry, Tom. I didn't know.""
-Later that day, Lily saw a boy with a beautiful card. He said, ""I'm going to give this to my mom."" Lily asked, ""Are you a boy? I like your card.""
-The boy smiled and said, ""Yes, I like it. It's pretty and shiny. Can I hold it?""
-Lily thought for a moment and said, ""Sure, you can hold it. But be careful not to rip it.""
-The boy held the card in his hands and said, ""Thank you, Lily. I promise",255,1.266889
-TEST23,10967904076877,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was shiny and bright and made her happy. She was very curious and wanted to see it. She asked her mom if she could bring it to school.
-""Please, mom, can I have the shiner?"" Lily said. ""It looks so attractive. It has teeth and a pointy body.""
-""Sure, sweetie, you can have the Shade, but you have to give it back. It is not yours to take. It belongs to someone else."" Her mom said.
-Lily ran to the Shapegle and grabbed the Shirtg done. She ran to the teacher and showed it to her.
-""Hi, Miss Lily, I'm here to see your Shapegell contest. But this one is not yours. It's my doll's doll. I left it in the park. You can have it back if you want. You are very polite and grateful.""
-""Thank you, Miss Lily. You are very kind and polite. I want to give it back to you. But it's still there. It's too high for me to reach.",255,1.002666
-TEST23,10967904076877,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was shiny and bright and made her happy. She was very curious and wanted to see it. She asked her mom if she could bring it to school.
-""Please, mom, can I have the shiner?"" Lily said. ""It looks so attractive. It has teeth and a pointy body.""
-""Sure, sweetie, you can have the Shade, but you have to give it back. It is not yours to take. It belongs to someone else."" Her mom said.
-Lily ran to the Shapegle and grabbed the Shirtg done. She ran to the teacher and showed it to her.
-""Hi, Miss Lily, I'm here to see your Shapegell contest. But this one is not yours. It's my doll's doll. I left it in the park. You can have it back if you want. You are very polite and grateful.""
-""Thank you, Miss Lily. You are very kind and polite. I want to give it back to you. But it's still there. It's too high for me to reach.",255,4.863234
-TEST23,10967904076877,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was shiny and bright and made her happy. She was very curious about it and wanted to play with it. She ran to it, grabbed it and hugged it.
-""Let me keep you,"" she said. ""I will be your friend.""
-""No, you can't,"" the Shog said. ""That's mine. Give it back, or I will freeze you.""
-Lily was scared and angry. She did not want to freeze the Shog. She wanted to keep it and keep it. She did not listen to the Shog. She said, ""No, I want this thing. It is mine now. You can't have it.""
-The Shog shook his head. He said, ""If you don't give it back, I will eat you. I will wipe your tears and eat you. If you don't, you will be punished.""
-Lily and the Shog started to fight. They pushed and pulled and shouted. They knocked down some toys and books and pillows. They made a lot of noise.
-Lily's mom",255,5.041766
-TEST24,11531116706889,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth namedogge. Lucky rubbed Sophie's shoulder and Sophie began to purr. Lily was surprised by this and asked Sophin, ""Why do you blink?""
-Sophin smiled and replied, ""I blink my beautiful eyes. The one that keeps me cool!""
-Lily smiled and said, ""Wow, really? That's so cool!"" Sophin began to rub Sophia's shoulders and Lily smiled too. 
-""Why don't you like it?"" said Lily. 
-Sophia said, ""I don't need anyone to let me sleep in your pajamas. Just say, 'Smile'.""
-Lily thought this was a great idea and said, ""Yes, I'll do that!"" 
-Lucky for Sophia's firstment and Mafen pmate ran to the pillow and began to brush herself. Michtub suddenly blinked! 
-Sarah laughed and said, ""Lamp, why are you blinking so much? Maybe you won't worry!"" 
-Lucky Kim smiled and said, ""Let's",255,1.265757
 TEST24,11531116706889,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth named Polly. Polly had a great big smile and he was always on Lily's hands. She was a pupil and liked to talk to him.
 “Hello, I am Polly. I am reliable,"" said Polly. 
 Lily smiled and said, “Hello, Polly! What are you doing here?”
@@ -573,33 +335,11 @@ Lily smiled and said, “Hello, Polly! What are you doing here?”
 Lily smiled and asked if she could join. Polly nodded her head and said, “Of course you can join me!” 
 Lily and Polin smiled and talked for hours and the two spent the whole day playing and having fun. When the sun began to set, Polin said goodbye and thanked Lily for her help. 
 Lily waved goodbye and thanked Polse. She was happy she had made a new friend.",192,5.000267
-TEST24,11531116706889,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named Foxy. Foxy was very proud of his shiny and strong eyes and he could touch everything. He asked Lily, ""What is your name, Lily? What is your name?"" Lily told him and they became friends.
-Missy said, ""My name is Miss Star. I live far away in the clouds. Do you want to come with me to see the clouds with me?"" Lily said, ""Yes, please!""
-Miss Star took Lily to the sky and showed her how to point to the clouds. She said, ""Look, Lily, the clouds are colorful. See the stars and the sun?"" Lily said, ""Wow, they are so pretty!"" Foxy said, ""Yes, they are. And you are very smart, Lily. You have a green nose and a red tail. That is the point of the planes. You are very brave to try.""
-Lily said, ""Thank you, Foxy. You are very nice. Can I talk to your Tape?"" Foxy said, ""Of course, Lily. You can say hello to my Tape brake and your count down the number of",255,5.038120
 TEST25,12016603733317,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She had never seen it before and she was very excited.
 The Shark Sh Doggie said, ""Let's go for a swim, Lily!""
 Lily was scared, but Shogimmer insisted she could do it. She said, ""Come on, I'll be here with you. It will be fun!""
 So they both swam around the park. They splashed and played and had a great time. Lily was very brave and she was proud of herself.
 At the end of the day, Lily thanked ShogGog shurtx for being so brave. Shogas smiled and said, ""You're welcome, Lily. You did a great job!""",166,1.279360
-TEST25,12016603733317,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She had never seen it before and she was curious. She picked up the shincomb and asked her mum, ""What is this?""
-Her mum smiled and said, ""It's a type of object that shines in the sun.""
-Lily thought for a moment. ""Can I put it in the sun?""
-Her mum said, ""That looks perfect. Let's go take a closer look.""
-Lily smiled and she ran to the shade of the trees. She carefully put the shiny object in the sun and the sun was setting.
-As Lily watched the sunset, she heard a voice coming from the shade. ""Hello there,"" the voice said.
-Lily was surprised. She had never heard anything like it. She had made a new friend. Lily laughed and then ran back to her mum and said, ""Mum, I found a new thing! It shines and shines and it's rare!""
-Her mum laughed too. ""Yes, it's very special. Let's take a picture together,"" she said.
-And so they did, as Lily and",255,1.002687
-TEST25,12016603733317,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She had never seen it before and she was curious. She picked up the shincomb and asked her mum, ""What is this?""
-Her mum smiled and said, ""It's a type of object that shines in the sun.""
-Lily thought for a moment. ""Can I put it in the sun?""
-Her mum said, ""That looks perfect. Let's go take a closer look.""
-Lily smiled and she ran to the shade of the trees. She carefully put the shiny object in the sun and the sun was setting.
-As Lily watched the sunset, she heard a voice coming from the shade. ""Hello there,"" the voice said.
-Lily was surprised. She had never heard anything like it. She had made a new friend. Lily laughed and then ran back to her mum and said, ""Mum, I found a new thing! It shines and shines and it's rare!""
-Her mum laughed too. ""Yes, it's very special. Let's take a picture together,"" she said.
-And so they did, as Lily and",255,4.864679
 TEST25,12016603733317,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She had never seen it before and she was curious. She picked up the shin thanked the Shoggness for his kindness.
 ""What is your name?"" she asked.
 ""I am Shog Gog. I am here to help you. It is nice to receive a new friend.""
@@ -611,24 +351,11 @@ TEST26,12499419625442,"stories15M, no_quantize, rv64gc","One day, Lily met a Sho
 Lily smiled and agreed. She asked the Shwnious who was there and asked, ""Can you help us unite with others to unite?"" The Shapeious reicesry explained, ""Yes, I will be more useful than that so everyone can be together."" The Shirt smiled and nodded.
 So, the Shape arms supplied everyone together to unite. The Shape tells them how to unite with others and help to make the world a better place. Lily and Toby stayed to help their new friends and were very proud of themselves.
 The End.",250,1.266507
-TEST26,12499419625442,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth at the park. He was very old and wise, and Lily thought he was wonderful. He had a shiny green skin and a long, white beak. Lily asked him why he had such a strange head of skin that he hadn't seen before. The Shwnve said, ""I think I shrunk down. Would you like to have a look?"" Lily nodded and agreed. 
-The Shape starts to shrink, and suddenly Lily noticed that the shade of the dark spots was in place. She felt so tiny! She knew she had to take a nap, so she settled down in the shade. The shade shone like nothing her saw before!
-The Shape reappeared in Lily's arms. She was in a saddle and held it in her hands. Lily was happy and relieved. She thanked the Shapegid with a hug and told him that she was tired. 
-The Shapeg Dog wandered off into the woods, leaving Lily with her best friend in the shade of the ancient tree. She had had a very important adventure, and she was excited",255,1.002269
-TEST26,12499419625442,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth at the park. He was very old and wise, and Lily thought he was wonderful. He had a shiny green skin and a long, white beak. Lily asked him why he had such a strange head of skin that he hadn't seen before. The Shwnve said, ""I think I shrunk down. Would you like to have a look?"" Lily nodded and agreed. 
-The Shape starts to shrink, and suddenly Lily noticed that the shade of the dark spots was in place. She felt so tiny! She knew she had to take a nap, so she settled down in the shade. The shade shone like nothing her saw before!
-The Shape reappeared in Lily's arms. She was in a saddle and held it in her hands. Lily was happy and relieved. She thanked the Shapegid with a hug and told him that she was tired. 
-The Shapeg Dog wandered off into the woods, leaving Lily with her best friend in the shade of the ancient tree. She had had a very important adventure, and she was excited",255,4.855356
 TEST26,12499419625442,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named Gizity. Gizia was a tiny car who could talk and do big things. Lily and Gungen were best friends.
 Lily asked Gizreub nicely, and Giz rubbed her, which made the shampoo on Gizper's legs. Gizia agreed and asked if Lily could be like Gizia. Lily answered, ""Yes, Gizia. That's how you do the things I like.""
 Gizia was impressed and asked if she could help her too. Lily was happy to have a new friend. She gave Gizia a special job - to help decorate her home for another place. 
 Gizia was so happy that she said goodbye to Lily and kept smiling and asking her other friends to come with her. Lily was happy too, because she could make her friend's normal home beautiful with the shampoo. 
 The End.",215,5.116444
-TEST27,13050374662073,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was shiny and smooth and had big eyes. Lily smiled and said, ""Hi, Shog!"" The Shog finished on the wall and said, ""Thank you!""
-Lily wanted to know what the Shape piece was. She asked the Shog, ""What is that?"" The Shirt reappeared and said, ""It's the cutest piece I've ever seen!"" Lily was so excited and wanted to play with it.
-But then Lily's mom saw the cut piece and said, ""No, Lily! That's not safe. It will hurt if you pull it too hard."" So Lily and her mom put the cut piece in the sun and it stayed dry.
-The Shog kept poking the ground until all the cut parts disappeared. Lily said, ""Wow, that was so hard work!"" Her mom agreed and said, ""Yes, it was. But now it's better for everyone to enjoy and be safe."" 
-The Shirt reappeared on the other side of the room and Lily was so happy to know that the cut was not too big or too big. She hug",255,1.266491
 TEST27,13050374662073,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was shiny and smooth and very reliable. Lily was amazed. She asked her friend Ben to explain why he was so good at this.
 Ben said, ""I'm fast because I learned something new and this time I look so shiny!"".
 Lily smiled and said, ""Yes, you sure do look cool and kind! Can I play with it?""
@@ -682,12 +409,6 @@ The Shterglow touched her with the shampoo and suddenly something magical happen
 ""Wonderful!"" said Lily. 
 ""My, this shampoo makes your hair clean,"" the Shapegementer beat.
 Lily was amazed, and so she thanked the Shugglowglowgilla. She knew it was true.",195,5.173171
-TEST29,13937179875962,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was a big and soft shiny, and had a bright yellow button on the side. She smiled and said hello. The Shog felt soft and warm inside, like a soft pillow.
-Lily held the shiny button and said, ""It's mine. I need to hold it so it doesn't get lost.""
-The Shterubborn Shog shook its head and said, ""No, Lily. I'm not giving it up. You have to let it go. If you don't let it go, it will be lost forever.""
-Lily shrugged and said, ""Oh, I'm sorry, Shog. I'll let it go.""
-The Shape bravely scooped the shirt with the shirt. It was tucked away in her basket. But the shirt was so soft that Lily couldn't take it away. She was so happy to have her shirt back. 
-The Shape, the shirt, and Lily found out that the shirt was gone. They all wanted to play in the warm sunshine, but Lily was too sc",255,1.266390
 TEST29,13937179875962,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was a big and modern Shape and it made Lily very happy. 
 ""Thank you for being my friend,"" said Lily, smiling.
 ""You're welcome,"" said the Sh suck master,"" said the Shogg lantern.
@@ -740,48 +461,12 @@ The bear smiled and said, ""Me too! Come back and visit me anytime!""",218,4.944
 TEST30,14398445857659,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. He was a kind and fun toy, so Lily was excited to meet him. The Shirt pile was big and dark and would shake when Lily touched it. She looked around to see if anyone wanted to come and see it.
 Lily saw a small, green alleyway. She was scared, but she was brave and decided to try. She opened the bag and saw it was very interesting. She saw a colourful beetle crawling around, and a pink flower growing nearby. She picked one of the beetles and placed it in her pocket.
 Lily decided to take the beetle home. She carefully put it in a vase with some leaves and flowers. She was so happy to have made a new friend. She looked at the jar and said, ""This is the nicest jar ever!""",192,5.185082
-TEST31,14859380233576,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She was delighted by the shiny hey and the bright colors in her hands.
-Lily asked the Shoggborn, ""What is your name?""
-The Shog said, ""My name is Shog.""
-Lily thought for a moment and then said, ""Your name is Shoggborn. Can I name you?""
-The Shog said, ""Sure!""
-Lily named the Shawn. Every day, she said hello to Shawn, and they became good friends.
-One day, Lily and Shawn went on an adventure. They went far away from home, through the deep, dark forest and a river. But soon, Lily started to feel scared and lonely. She hated that Sharingfully wasn't her friend.
-Lily didn't know what to do, so she asked Shawn for help.
-""What do you want?"" 
-Shawn rees and said, ""We're getting separated!""
-Lily was sad and scared. She wanted to go home, but she was too scared. 
-The Sh examer kids came back, and they explained the",255,1.266026
-TEST31,14859380233576,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. She was delighted by its shiny colours. She asked her mom what it was.
-""It's a special kind of shampoo,"" her mom said.
-Lily was curious. She picked up the shampoo bottle. It was wide and spits. She put it in her mouth and it made a funny sound.
-""Mmm, this shampoo is yummy!"" she said.
-Her mom shook her head. ""Be careful, Lily. It's not for eating. It's special.""
-Lily was disappointed, but she obeyed her mom. She put the shampoo back in the bottle.
-""Let's wash ourselves!"" her mom said. She poured some shampoo on her skin. ""It will make your hair soft and shiny.""
-Lily watched as her mom carefully cleaned the shampoo with some soap. Then, she started to wash her hair. She thought it looked so shiny and new.
-But, when she was done, her mom gasped. The shampoo was bitter and black.",255,1.002771
-TEST31,14859380233576,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. She was delighted by its shiny colours. She asked her mom what it was.
-""It's a special kind of shampoo,"" her mom said.
-Lily was curious. She picked up the shampoo bottle. It was wide and spits. She put it in her mouth and it made a funny sound.
-""Mmm, this shampoo is yummy!"" she said.
-Her mom shook her head. ""Be careful, Lily. It's not for eating. It's special.""
-Lily was disappointed, but she obeyed her mom. She put the shampoo back in the bottle.
-""Let's wash ourselves!"" her mom said. She poured some shampoo on her skin. ""It will make your hair soft and shiny.""
-Lily watched as her mom carefully cleaned the shampoo with some soap. Then, she started to wash her hair. She thought it looked so shiny and new.
-But, when she was done, her mom gasped. The shampoo was bitter and black.",255,4.866439
 TEST31,14859380233576,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. She was delighted, and asked her dad, ""What is his name?""
 Her dad replied, ""His name is Shixia.""
 Lily thought that was very interesting. She asked, ""What can I learn to believe?""
 Her dad smiled and said, ""You can believe in me, Lily. I believe that everyone is lucky to have each other.""
 Lily smiled, and they went back to playing with Lily's toys. She was so happy to have learned something new.
 The moral of the story is that everyone is lucky in their own way, and it is important to believe in ourselves and their special interests.",153,5.281741
-TEST32,15401059049413,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was big and shiny and had a zipper. Lily was very excited and wanted to show it to the sun. She asked her mum if she could have it.
-Her mum said, ""Yes, of course you can. But first you must be careful. The sun is hot today. It will make you feel warm.""
-Lily nodded and went off to find something to rub on the sun. She found a nice spot in the sun and rubbed it gently. After she rubbed, the sun glowed brighter and brighter until it was just right.
-She ran outside to show the sun its beauty. ""Look at the sun!"" she said. She was so happy. She felt so cool and warm that she wanted to keep it.
-But then, Lily heard her mum calling her. ""Lily, it's time to come inside now. The sun looks like a fairy"" said her mum.
-Lily ran inside and mum took the sun off her neck and said, ""Let's have a look at the sun!"" Lily smiled, took off the heat and they went back outside.",255,1.266713
 TEST32,15401059049413,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was big and shiny and had a zipper. Lily was excited and asked the Shog owners. The Shogguses smiled and said ""Would you like to enter our house?"" Lily nodded excitedly. 
 The Shawng Dog was a big, gentle pile of wood. He showed Lily a place where they could make a castle with the lumber. They had so much fun building their castle. 
 When it was finished, the Shapegxs helped them shut the door and put the castle in the yard. 
@@ -796,15 +481,6 @@ Lily and Shog oiled each other's knees with the shippered lumber. They laughed a
 The Shapegent tubes made Lily's castle look very pretty and tidy. She thanked Shapegadows and gave him a big hug. 
 The Shape guessed the sandbox, ""My masterpiece is beautiful!"" 
 Lily and Shinkerges were very pleased with their work.",233,4.894539
-TEST32,15401059049413,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was big and shiny and had a strange pattern on it. Lily was excited and wanted to keep it. 
-Lily asked her mum if she could keep the shirt she found. Her mum said, ""No, that's too selfish. We can't take that!""
-But Lily was determined. She insisted that she wanted to keep the shirt. Her mum said, ""No, you can't keep the shirt. You can't keep it, Lily. It's too special to take away from where it belongs.""
-Lily started to get mad. She kept insisting that she keep the shirt, but her mum said no. Lily was so upset that she started to cry. 
-Her mum said, ""Lily, why don't you come up with a solution. How about you let me give you a pair of cloth to keep away from the shirt? That way, you can keep both of it safe and then you can always find a way to keep it."" 
-Lily thought this was a great idea and so she decided to be so generous.",255,5.040740
-TEST33,15937243224169,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth at the park. It was bright red and shiny. She looked at it and said, ""Wow! You look so nice!"" The Sheshadow answered Lily and said, ""This is your new friend, Shog."" Lily and the Shadeore became the best of friends.
-Lily asked the Shirty, ""Can you answer my questions?"" The Shirt said, ""Sure! What is this name?"" The Shape clothes said, ""It's a crayon!"" Lily smiled and said, ""It's a name. What do you like to do?"" The Shirt said, ""I like to draw on the ground and make pretty pictures."" 
-Lily was happy to have a new friend. She said, ""Thank you, Shape. Let's go to my house and draw!"" The Shade man said, ""That sounds like fun! Here, let's go!"" They went to Lily's house and spent the rest of the day drawing and coloring. Lily drew many things and made a beautiful picture. She was very proud of her drawing and showed it to her mommy and daddy. They",255,1.266472
 TEST33,15937243224169,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth at the park. It was bright red and shiny. She loved it very much. She asked her mom if she could keep it. Her mom said yes, and they decided to put it on the shelf in Lily's room. 
 Lily put the shirt in her hair and her baby brother was so excited! He was so clumsy, he tripped over his toes and fell. Lily just laughed and laughed. But when he got up, he put his hand back on the shirt. 
 Lily and her brother looked at each other. They knew that they should never do that again. They hugged each other and said goodbye. Lily learned that sometimes it's better to stay close to home and not let strangers lead her to safety.",177,1.009858
@@ -819,20 +495,6 @@ Lily asked the Sharing Shog, ""Mum, what is this?"" Her mum smiled and said, ""T
 Lily was delighted. She said, ""I like yogurt! Can I have some?"" Her mum smiled and gave her a scoop of yogurt in a bottle.
 The Shog happily shared the yogurt with Lily and she said, ""Thank you Mum, this yogurt is delicious!"" Lily laughed and said, ""You're welcome!"" 
 Lily and Shog shared the yogurt, happily enjoying each after they had had a fun afternoon.",213,1.272651
-TEST34,16380131858949,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth at the park. It was pink and shiny and had three doors. Lily thought it was very cool and wanted to be friends with it.
-""Hello, Shog. My name is Lily. What is your name?"" Lily asked.
-""My name is Shog. What is your name?"" Shog asked.
-""My name is Ben. I have a very reliable friend. He always tells me stories about the land. Can you tell me more about the land?"" Lily said.
-""Of course, I can. It is my favorite place to talk to animals. Come, I'll show you."" Shixara said.
-He took Lily to a secret place in the park. He showed her a big tree with many green leaves and a hole in it. He said, ""This is a home for squirrels. They go there and eat nuts and nuts. They are happy here. They make their barks loud and soft. Do you like them?""
-Lily nodded and clapped her hands. She liked the squirrels. They were cute and friendly. She waved at them and said, """,255,1.002738
-TEST34,16380131858949,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth at the park. It was pink and shiny and had three doors. Lily thought it was very cool and wanted to be friends with it.
-""Hello, Shog. My name is Lily. What is your name?"" Lily asked.
-""My name is Shog. What is your name?"" Shog asked.
-""My name is Ben. I have a very reliable friend. He always tells me stories about the land. Can you tell me more about the land?"" Lily said.
-""Of course, I can. It is my favorite place to talk to animals. Come, I'll show you."" Shixara said.
-He took Lily to a secret place in the park. He showed her a big tree with many green leaves and a hole in it. He said, ""This is a home for squirrels. They go there and eat nuts and nuts. They are happy here. They make their barks loud and soft. Do you like them?""
-Lily nodded and clapped her hands. She liked the squirrels. They were cute and friendly. She waved at them and said, """,255,4.865826
 TEST34,16380131858949,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth at the park. It was amazing! She wanted to show her best friend, Alex.
 ""Look, Alex!"" said Lily, pointing to her friend. ""It's a shiny new one!""
 Alex was delighted. He was eager to meet Lily's friend. 
@@ -843,3 +505,470 @@ At first, Lily was anxious about the game. She wanted to keep recording the game
 Alex smiled and said, ""It's okay to not like an object. You can still listen to it.""
 Lily smiled and put the recording down. She loved listening to the music of the roller coaster.
 That day, Lily learned to record the game and still enjoyed playing it.",221,5.114515
+TEST0,9181146223437,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was the biggest shrimp she had ever seen. She was so excited and couldn't believe how big it was. She asked her mom if she could take it home. Her mom said yes and they picked it up together. 
+On their way home, Lily told her mom that she wanted to take the shirt home with her. Her mom agreed and they headed off. When they got home, Lily put the shirt in her wardrobe. 
+When they got home, Lily asked her mom if she could weigh the shirt. Her mom said she had practiced with it, so she put the shirt on. Lily watched as her mom counted out loud, ""One, two, three, four, five, six, seven, eight, nine, ten!"" 
+Lily was so happy with her shirt. She had so much fun weighing all her new things. From then on, Lily loved weighing everything.",218,1.272760
+TEST0,9181146223437,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was green and had eyes. Lily was curious and wanted to learn more about Shog.
+She asked the Shoggit, ""What is your name?""
+The Shog gently said, ""I am an intelligent Tiger!""
+Lily was amazed. She asked the Shogg room to examine the shirt. The Sharing Togabberuts were like fun and healthy items to wear.
+The ShapeClubbers were the color of a rainbow. Lily gasped and said, ""What are you doing? I want to examine my smart Dress-war.""
+The Shirt Clara said, ""I am being smart, it is out here in the night. You can examine my tape.""
+Lily was happy to learn something new. She thanked Shape Clara and the Shirt Clara. Then they put the shirt back on the Shirtg prints. 
+Lily was thankful for her intelligent Tutor Cluck Clara, and then she said goodbye. She went home and told everyone about the Sharing Wavy.",243,1.002873
+TEST0,9181146223437,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. It was green and had eyes. Lily was curious and wanted to learn more about Shog.
+She asked the Shoggit, ""What is your name?""
+The Shog gently said, ""I am an intelligent Tiger!""
+Lily was amazed. She asked the Shogg room to examine the shirt. The Sharing Togabberuts were like fun and healthy items to wear.
+The ShapeClubbers were the color of a rainbow. Lily gasped and said, ""What are you doing? I want to examine my smart Dress-war.""
+The Shirt Clara said, ""I am being smart, it is out here in the night. You can examine my tape.""
+Lily was happy to learn something new. She thanked Shape Clara and the Shirt Clara. Then they put the shirt back on the Shirtg prints. 
+Lily was thankful for her intelligent Tutor Cluck Clara, and then she said goodbye. She went home and told everyone about the Sharing Wavy.",243,4.870995
+TEST0,9181146223437,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was different from any shirt she had ever seen before. It had a big round belly and bright eyes. She wanted to keep it, so she put it in her pocket.
+Lily ran to show it to her mom and said, ""Mommy, look! I found a shirt!"" Her mom smiled and said, ""That's nice, Lily. Why don't you give it to someone who needs it?"" 
+So Lily went to her neighbor's house and knocked on the door. She said, ""I found a shirt, but it's not available for anyone."" The neighbor said, ""Oh, so you're right! Here you go."" 
+Lily was so happy to have her shirt back. She said, ""Thank you so much! I value this shirt."" 
+Her mom said, ""That's great, Lily. Always remember to be grateful for the things that are available."" 
+The moral of the story is that good things are often made from shiny things, and sometimes they aren't on the coldest and spots of Earth.",250,5.071334
+TEST1,9698517078250,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. She was very happy and wanted to show it to everyone.
+Lily and her Shog went on many adventures. They explored the streets and places. They looked for special places and had lots of fun.
+One day, Lily asked Shog for a new place to take her family. But Shog said no. He said he didn't have time for Lily.
+Lily felt very sad and started to cry. Her parents came to her room and hugged her.
+But it wasn't the same. Lily never saw her family again.",132,1.013904
+TEST1,9698517078250,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. She was very happy and wanted to show it to everyone.
+Lily and her Shog went on many adventures. They explored the streets and places. They looked for special places and had lots of fun.
+One day, Lily asked Shog for a new place to take her family. But Shog said no. He said he didn't have time for Lily.
+Lily felt very sad and started to cry. Her parents came to her room and hugged her.
+But it wasn't the same. Lily never saw her family again.",132,5.142457
+TEST1,9698517078250,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. She was very happy and wanted to show it to everyone. But she also felt embarrassed because her room was full of mess. So, she decided to organize all her toys and put them away in their right places. 
+As she was organizing, she found a beautiful jewel on the floor. She was so happy to have found it! But when she picked it up, she saw that it was a very special jewel. She was even more surprised! 
+Lily was very proud of herself for organizing her jewel and finding it. She knew that it was a very important thing to have. From that day on, Lily kept the jewpper with her all the time, even when it was not clean or tidy. She was happy that it was special to her and everyone in her town.",187,5.222669
+TEST2,10095984712816,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth at the park. She was so happy and wanted to keep it. But when she saw it, she was not sure how to use it. She decided to ask her friends for help.
+A wise owl was watching Lily and her friends learn how to use the Shin Gerry. The owl said, ""You must be very quiet and look closely at it.""
+Lily nodded and started to make up her mind about what the owl said. She took out her own tool and started to study it. After a few weeks, she had a new project.
+The wise owl watched Lily as she added some creative things from the shampy box to the advice of others. With each and educational song she looked through the dictionary, Lily noticed how the surface and her reflection in the box looked.
+At the end of her lesson, Lily and her friends were thrilled with the new results! She thanked the wise owl for helping her and he smiled.
+The moral of the story is that hard work pays off, and using words like shrug to make you feel happy, always try to learn new things!",250,1.267122
+TEST2,10095984712816,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth at the park. She was so happy and wanted to keep it. But when she saw it, she was embarrassed. She thought it was still special and wanted to keep it.
+But the shirt was dirty, so she decided to soak it. She put the shirt in the sun, and soon it was clean. She felt so proud and happy to have her shirt. 
+But then something terrible happened. As she was walking home, she heard a voice. It was the Shapeg glagu attitude. He had come to her and said, ""If you want to keep this shirt, you can have it back if you give me a big hug."" 
+Lily didn't like the way the shirt felt, so she gave it to him. But it was too late. The shirt was still dirty. Lily was very sad, and wished she hadn't given the shirt away to the Shiverguss.",212,1.006405
+TEST2,10095984712816,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth at the park. She was so happy and wanted to keep it. But when she saw it, she was embarrassed. She thought it was still special and wanted to keep it.
+But the shirt was dirty, so she decided to soak it. She put the shirt in the sun, and soon it was clean. She felt so proud and happy to have her shirt. 
+But then something terrible happened. As she was walking home, she heard a voice. It was the Shapeg glagu attitude. He had come to her and said, ""If you want to keep this shirt, you can have it back if you give me a big hug."" 
+Lily didn't like the way the shirt felt, so she gave it to him. But it was too late. The shirt was still dirty. Lily was very sad, and wished she hadn't given the shirt away to the Shiverguss.",212,4.955471
+TEST2,10095984712816,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth at the park. She was so happy and wanted to keep it. But when she saw it, she was embarrassed. She thought it was dirty and not nice anymore. 
+Lily decided to show the Shapegent to her best friend. They both laughed and thought it was very funny. They decided to play a game and see who could get to the top of the slide first. 
+They raced up to the top of the slide and Lily screamed with joy. When they came up to the bottom, Lily was so embarrassed. She was so embarrassed she had taken that moment. 
+She said to Shogg came down, but her friend stayed up there to be too embarrassed to look. Lily felt so alone and embarrassed that she ran away. She never saw her shirt sparkle and shake. She never came back to the park again.",204,5.175228
+TEST3,10590734248660,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She was very excited, and asked, ""What can I do with this?""
+The Shape rubber felt very soft and bouncy. Lily said, ""I think I can eat it! But it looks too tasty.""
+Just then, Lily's friend appeared and said, ""Why don't you try eating it? Maybe it will make you feel comfortable.""
+So Lily ate the shaped roll to the Shaving sunnier pieces. She found that she liked it and ate it all up.
+When the Sharnious sunnier got softer, Lily felt so comfortable! She thanked her friend, the Shapey, and said, ""I'm so glad I ate this yummy, kind tutor!""
+The Shape stretchy in the end and had a great time exploring the world together.",196,1.275315
+TEST3,10590734248660,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She wanted to keep it, so she asked her mom if she could have it. Her mom agreed, so Lily was very happy. 
+Lily took the shiny tooth and ate it. It tasted yucky! Lily wanted to eat it all by herself, so she hid it in her pocket.
+As she was leaving the park, Lily was very thoughtful. She thought about the shade it covered, and remembered it would be too hot to play outside when it was sunny.
+When Lily got home, she carefully placed the shirt in the washing machine and waited for the shirt to come out. It started to get warm and sunny again. 
+When Lily's mom saw the shirt in the machine, she was so happy! ""Thank you for finding that shirt,"" said her mom. 
+Lily smiled and knew it was important to listen to her mom's advice. From then on, Lily always kept an eye out for shades that fit her when she ate something delicious.",238,1.004218
+TEST3,10590734248660,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She wanted to keep it, so she asked her mom if she could have it. Her mom agreed, so Lily was very happy. 
+Lily took the shiny tooth and ate it. It tasted yucky! Lily wanted to eat it all by herself, so she hid it in her pocket.
+As she was leaving the park, Lily was very thoughtful. She thought about the shade it covered, and remembered it would be too hot to play outside when it was sunny.
+When Lily got home, she carefully placed the shirt in the washing machine and waited for the shirt to come out. It started to get warm and sunny again. 
+When Lily's mom saw the shirt in the machine, she was so happy! ""Thank you for finding that shirt,"" said her mom. 
+Lily smiled and knew it was important to listen to her mom's advice. From then on, Lily always kept an eye out for shades that fit her when she ate something delicious.",238,4.902819
+TEST3,10590734248660,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. She was very excited, and asked, ""What can I do with this?""
+The Shter rubber again and again, until she noticed it was beautiful. She asked her parents, ""Can I play with it?""
+Her parents smiled and said, ""Sure, you can. We have to be very organized, so we can make sure all the rooms stay neat and clean.""
+So Lily began to work. She worked hard and it made a beautiful connection with her shirt. She kept all her clothes neat and tidy.
+When she was done, she brought the Shoggber back to her room and said, ""Let's rub it and make something special!""
+Her parents smiled and said, ""Yes, let's do that!""
+And they all enjoyed the moment, spreading love between Lily and her nice shirt.",190,5.207880
+TEST4,11071050577605,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She was a gifted student and loved to play. She ran outside to show it to her friends. But when she came back, she was sad. The Shexve was smelly. 
+Lily asked her friends, ""What's wrong?"" One of them said, ""Your shirt is smelly."" Lily shook her head and said, ""No, I don't."" Her friends understood.
+Lily decided to show her friends her shirt. She shouted, ""Look at my shirt!"" Her friends laughed and said, ""That's silly, shhed it off!"" Lily felt sad and went home. 
+The moral of the story is that we should always show our true discoveries, even if it means giving up something we love.",174,1.279080
+TEST4,11071050577605,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the street. It was wide and shiny. She was excited. She asked the Shapegent where she could store it.
+The Shape Gog Dream said, “Let me help you. I can help you store the toys in the box. What do you say?""
+Lily smiled and said, “I’m going to store my dolls in my box, and all my toys!” 
+The Shape Gogmstand smiled and said, “That’s a great idea! That’s a very useful box.” 
+So, the Shape Gog Pick was able to store the toys in the box. Lily put the dolls in her box and thanked her Mommy. 
+The Shape Gog smiled and said, “You’re welcome!”",182,1.008955
+TEST4,11071050577605,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth on the street. It was wide and shiny. She was excited. She asked the Shapegent where she could store it.
+The Shape Gog Dream said, “Let me help you. I can help you store the toys in the box. What do you say?""
+Lily smiled and said, “I’m going to store my dolls in my box, and all my toys!” 
+The Shape Gogmstand smiled and said, “That’s a great idea! That’s a very useful box.” 
+So, the Shape Gog Pick was able to store the toys in the box. Lily put the dolls in her box and thanked her Mommy. 
+The Shape Gog smiled and said, “You’re welcome!”",182,5.017806
+TEST5,11478731936653,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. She was a curious girl, so she asked her mum what it was. Her mum replied ""It's a special kind of tooth! Don't you mind that it is special, Lily?""
+Lily thought about what her mum said. She said, ""I don't mind that it is!""
+The next day, Lily was playing in her backyard when she spotted something glowing in the grass. She quickly ran over and found that it was a beautiful star. She had never seen a star glow before and she was very excited.
+Lily showed her mum the star and said, ""Look, mummy! It's glowing!""
+Her mum smiled and said, ""That's wonderful, Lily. Why don't we put it in the garden so it can glow in the evening?""
+Lily smiled and said, ""Yes, please! I'll be careful!""",212,1.006610
+TEST5,11478731936653,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. She was a curious girl, so she asked her mum what it was. Her mum replied ""It's a special kind of tooth! Don't you mind that it is special, Lily?""
+Lily thought about what her mum said. She said, ""I don't mind that it is!""
+The next day, Lily was playing in her backyard when she spotted something glowing in the grass. She quickly ran over and found that it was a beautiful star. She had never seen a star glow before and she was very excited.
+Lily showed her mum the star and said, ""Look, mummy! It's glowing!""
+Her mum smiled and said, ""That's wonderful, Lily. Why don't we put it in the garden so it can glow in the evening?""
+Lily smiled and said, ""Yes, please! I'll be careful!""",212,4.960456
+TEST5,11478731936653,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. She was a curious girl, so she asked her mum what it was. Her mum smiled and said, “This is a magic book that helps the toys in order. When you press a button on it, it starts to tell them to order.""
+Lily was amazed. She had never seen a magic book before. She looked at it and asked, “Can I get it?”
+Mum shook her head. “No, it’s too hard for you,” she said.
+Lily was a little bit disappointed, but she still wanted to be patient. She looked at the shy Shogg every day. 
+One day, when Lily was feeling happy and brave, she found the magic book. She opened it and pushed the button. The shirts suddenly appeared from the pages. They were moving and shaking.
+Lily was surprised. She pushed the button again and the shaslications started. She laughed with delight as the toys came to life! She knew she had to pay the fairy disappear with some of the powers.",237,5.093720
+TEST6,11984494507310,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was dark, shiny and interesting. Lily asked the Shoggcano, ""What is your name?"" The Shogious said, ""My name is Shoggus.""
+Lily asked, ""Can I help you?"" The Shoggoon said, ""Yes, please!"" Lily and the Shoggrier went to find a place to play. They saw a big tree with lots of leaves. Lily climbed the tree and Taragcat held on to the leaves.
+Tarag sheep was very soft. She said to Taraged her name and Taraara gently replied, ""My name is Tiny GLouise"". Tara Gara gave Tiny Greer a big hug. Lily smiled and was very happy.
+Lily and Treer Giraffe had lots of fun with their new friendship. Tiny Giraffe and Lily Giraffe laughed and smiled. They became best friends and played together every day.",223,1.270924
+TEST6,11984494507310,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was dark, like a little light. Lily asked the Shogg given her a bright light.
+""Let's find out what's inside!"" said Lily.
+The Shruff Gog pooted and they opened the box. Inside, they found a funny toy that made funny noises.
+Lily and Gog Gog started to laugh. They played with the toy all day long.
+The sun went down and it was time to go home. Lily said goodbye to GogGentgoto and thanked him for the fun day. She returned to her house with a big smile on her face.",154,1.011620
+TEST6,11984494507310,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was dark, like a little light. Lily asked the Shogg given her a bright light.
+""Let's find out what's inside!"" said Lily.
+The Shruff Gog pooted and they opened the box. Inside, they found a funny toy that made funny noises.
+Lily and Gog Gog started to laugh. They played with the toy all day long.
+The sun went down and it was time to go home. Lily said goodbye to GogGentgoto and thanked him for the fun day. She returned to her house with a big smile on her face.",154,5.084386
+TEST6,11984494507310,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was dark, shiny and interesting. Lily asked the ShoggginGise Gogmoth was a shiny, round stone, and the other pieces were made of gold. 
+Lily asked, ""What is this stone for?"" 
+The Shogub eraser answered, ""You should keep it. It is special and I can make it more exciting!"" 
+Lily thanked the Shidgement and ran back home. She wanted to keep the shiny stone as a special thing. 
+Later that night, Lily put the shiny stone on her bed and told Goggrel what she wanted.
+Gogginned and said, ""Take this stone to show it how much you care. It will guide us through the dark, friendly things, and never make a mess."" 
+The shiny stone safely finished its journey and Lily went to sleep.",207,5.156326
+TEST7,12387223849614,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. He had bright eyes, a big smile and shiny round belly. He winked at her, which sounded like ""Hi!""
+Lily looked at the shamcloth and said ""Hello Shrank.""
+The shampoo she had chosen was the only one. She asked ""What kind of shampoo do you like?""
+The Shambrush replied ""I do all my sparkles, please!""
+Lily was so excited. She said ""Let me try!"" and with a smile, she put some shampoo in the shampoo.
+But Lily thought it was too dangerous for the shampoo. She told the Shambrush it was only for babies, and she should let her fur have lots of shampoo.
+The Shamkin examined the shampoo and said ""It's okay Lily, you can just take it outside and keep shampoo safe for everyone!""
+Lily agreed and kept the shampoo safe on her next time.",239,1.269044
+TEST7,12387223849614,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. He had bright eyes, a big smile and soft fur. Lily wanted to try on the shiniest things and see how they fit. She saw a ribbon and decided to make it herself.
+Lily sat down on a blanket and opened the ribbon. She held it out to the sun and asked, ""Are you ready to bury?"" The sunflower was twisted and kept turning and looked wrinkled.
+Lily started to dig a hole in the ground and said, ""I want to bury this one, it looks really hard. It's too deep!"" She smiled to herself, knowing that she had buried something special.
+After a few minutes of digging, Lily found the most amazing thing. It was a golden key with shining in the sun. She put the key in her pocket and smiled.
+Lily said, ""This key is very special, it's not dull, it's actually beautiful!"" She took out the key and it sparkled in the sunlight. She had found her very special secret!",239,5.091298
+TEST8,12933928916890,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. The Shog said, ""Hello Lily! I am here to be your friend. We can have lots of fun together."" Lily was so happy. She smiled and said, ""Yes, please! What kind of fun games can we have?""
+The Shirt said, ""Let's play hopscotch! That's a great idea. You can hop on one foot and I can hop on one leg."" Lily was so excited! She hopped on two squares and the Shterub and the square.
+They laughed and ran around the playroom. Everywhere they went, the sun shone and the birds sang. Lily and the Shog had lots of fun.
+When they were done, Lily said, ""I love playing with you. You were so generous."" The Shog smiled and said, ""Thank you. I will be always generous and do as you say.""",202,1.274661
+TEST8,12933928916890,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. The Shog said, ""Hello Lily! I am here to help you win."" 
+Lily was so excited. She asked, ""What does 'success' mean?""
+The Shoggzer replied, ""Make sure you finish the puzzle!"" 
+Lily was very competitive, so she began to move her hands and legs. Everyone in the room smiled and clapped as she finished the puzzle. 
+The Shterglow orange in her hands, Lily felt proud. She said, ""Thank you Shog, now I am the biggest and strongest!"" 
+Lily's mum smiled and said, ""It was my pleasure. Remember, if you are competitive, it will always be important!"" 
+Lily nodded her head and said, ""Yes, I will!"" 
+Lily was so proud of her project. She vowed to keep it that way, and sure enough she won!",211,1.006368
+TEST8,12933928916890,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. The Shog said, ""Hello Lily! I am here to help you win."" 
+Lily was so excited. She asked, ""What does 'success' mean?""
+The Shoggzer replied, ""Make sure you finish the puzzle!"" 
+Lily was very competitive, so she began to move her hands and legs. Everyone in the room smiled and clapped as she finished the puzzle. 
+The Shterglow orange in her hands, Lily felt proud. She said, ""Thank you Shog, now I am the biggest and strongest!"" 
+Lily's mum smiled and said, ""It was my pleasure. Remember, if you are competitive, it will always be important!"" 
+Lily nodded her head and said, ""Yes, I will!"" 
+Lily was so proud of her project. She vowed to keep it that way, and sure enough she won!",211,4.954591
+TEST8,12933928916890,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. The Shog said, ""Hello Lily! I am here to be your friend. We can have lots of fun together."" Lily was so happy. She smiled and said, ""Yes, please! What kind of fun does it do?""
+The Sh sucker owner said, ""This is when I work at the same place to make friends. The air was so much fun!"" Lily wanted to try it. She said, ""I want to go to university too!""
+The Shirt gave Lily a big hug and said, ""Yes, you do! Come with me!"" So, Lily and the Shoggboy went to university. At first, it was tough, but they had lots of fun and made many friends along the way.
+Lily liked learning about her town and she was so happy. She thanked the ShogGee and thanked him again for being her friend. 
+The end.",208,5.162841
+TEST9,13389543761877,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was large and shiny. Lily was very excited and picked it up. She said, ""This shade is really cool. It is so bright.""
+The Shog started shaking its colourful leaves. Lily thought it was a special way to show her family. She took it to the kitchen, where she got a pair of scissors. She cut the leaves and a small flower, then a big piece of paper. 
+When Lily was done, she showed the shade sun to her mom. Her mom said, ""That looks so much better!"" 
+Lily smiled. She was happy that she could share her new shade with her family.",153,1.281998
+TEST9,13389543761877,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was not a big, hairy animal, but Lily loved it. She wanted to own it. 
+So Lily asked her mum, ""Can I own this hairy shark, please?""
+Her mum smiled and said, ""Yes, you can own it.""
+Lily was so excited! She hugged the shark and thanked her mum.
+The next day, Lily went to the pet store to buy something for her shark. The storekeeper asked, ""Can I buy a pet shark?""
+Lily smiled, she said, ""Yes! I will own a very furry shark!""
+The storekeeper said, ""Well, I am sure your shark will find a new home for it.""
+Lily smiled and said, ""Thank you!"" and hugged her shark. She was so happy! She had her very own furry shark and it was the best one ever!",212,1.006612
+TEST9,13389543761877,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. It was not a big, hairy animal, but Lily loved it. She wanted to own it. 
+So Lily asked her mum, ""Can I own this hairy shark, please?""
+Her mum smiled and said, ""Yes, you can own it.""
+Lily was so excited! She hugged the shark and thanked her mum.
+The next day, Lily went to the pet store to buy something for her shark. The storekeeper asked, ""Can I buy a pet shark?""
+Lily smiled, she said, ""Yes! I will own a very furry shark!""
+The storekeeper said, ""Well, I am sure your shark will find a new home for it.""
+Lily smiled and said, ""Thank you!"" and hugged her shark. She was so happy! She had her very own furry shark and it was the best one ever!",212,4.960519
+TEST9,13389543761877,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth. It was large and shiny. Lily was very excited and excited. She asked the Shoggve why she had been so special. The Shog master reassuringly replied with a smile that said that it had been brave and kind to others.
+Lily was very curious, so she asked the Shapegiti if she could keep the Shogve. The Shape explained that the Shapegiti was a gift from an unknown child who found the courage to believe in people.
+The ShapeClara was very grateful and accepted the advice. Lily asked the Shapegcat, ""What is the unknown kid you have given me?"" The Shapeed its voice softly replied and said ""You are a gifted person, Lily. I want you to be very brave and kind.""
+The Shape Clara smiled and thanked Lily for her courage and kind words. From then on, Lily always remembered the Shapeged: she believed that one should believe in themselves and that each one of her own.",229,5.095691
+TEST10,13811775303880,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth named Tom. He was not very organized. He had a lot of papers in his desk. Lily asked him, ""Why do you have so many papers?"" Tom said, ""I like to be organized. It helps me make the kitchen clean and neat.""
+Lily wanted to help Tom. She started to file some papers. She took out the papers and put them in a neat pile. Then she started to draw on her desk. Tom watched her and said, ""That's a great idea, Lily!""
+When Lily was done, Tom's desk looked very clean and organized. Lily was very happy. She said, ""Thank you, Tom! Now we can be organized and help each other."" Tom smiled and said, ""You're welcome, Lily! Now we can both be organized.""",185,1.277618
+TEST10,13811775303880,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth named Spike. Lily wanted to know how much Spike did. So, she asked Spike to teach her.
+Spike looked at Lily and said, ""I don't know how much Spike needs to grow bigger and bigger in the end."" Lily was very sad, so she asked Spike, ""Can you tell me how much you are growing so fast?""
+Spiog shook his head and said, ""I'm sorry, Lily. I don't know how much you weigh or grow yet."" Lily felt very sad that she couldn't learn more, but she knew Spike was right.
+Lily said, ""Thank you, Spike. You are a wise boy."" Spiin smiled and said, ""You're welcome, Lily. I'm just happy to have a friend like you."" And they continued to play and learn together.",208,1.006947
+TEST10,13811775303880,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth named Spike. Lily wanted to know how much Spike did. So, she asked Spike to teach her.
+Spike looked at Lily and said, ""I don't know how much Spike needs to grow bigger and bigger in the end."" Lily was very sad, so she asked Spike, ""Can you tell me how much you are growing so fast?""
+Spiog shook his head and said, ""I'm sorry, Lily. I don't know how much you weigh or grow yet."" Lily felt very sad that she couldn't learn more, but she knew Spike was right.
+Lily said, ""Thank you, Spike. You are a wise boy."" Spiin smiled and said, ""You're welcome, Lily. I'm just happy to have a friend like you."" And they continued to play and learn together.",208,4.968633
+TEST10,13811775303880,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth named Spike. Lily wanted to know how much Spike's body weighed. She asked Spike, ""How much do you weigh?""
+Spiin replied, ""My weight is too much. That makes me heavy.""
+Lily realized that Spike was a compassionate friend. She decided to weigh Spike too. Spike was happy and they became good friends. From that day on, Lily and Spike went on many adventures together.",119,5.397009
+TEST11,14231654787481,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the ground. It was her favorite color, pink. She ran to show it to her friend, Jack.
+""Look Jack, I found a pink screw!"" Lily exclaimed.
+Jack looked at the screw and said, ""That's not a screw, Lily. It's a part of a game. Let's unite the screw and play!""
+Lily was excited to play the game. They looked around and found a pink screw that they could both use. They started to play and had lots of fun.
+After a while, Lily's mom called her to come home. Lily said goodbye to Jack and gave him a hug.
+""Thank you for playing with me, Lily. You are a great friend,"" Jack said.
+Lily smiled and went home with her pink screw and her friend.",198,1.275745
+TEST11,14231654787481,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the ground. It was her favorite color, pink. She had a hairy nose and long hair and was very happy.
+Lily asked the Shog that said she had found her. She said she had been playing with it and wanted to know what it was. The Shog was very excited.
+The Shog pointed to the picture in the book. It said it was the most beautiful thing Lily had ever seen. The shape was beautiful, but it was also bright and colourful. It made Lily smile.
+Lily thanked the Shapeg Dog and said it was her favorite color. She hugged the Shape rex and said she would never lose it again. The Shape smiled and shone its bright light.",169,1.010078
+TEST11,14231654787481,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth on the ground. It was her favorite color, pink. She had a hairy nose and long hair and was very happy.
+Lily asked the Shog that said she had found her. She said she had been playing with it and wanted to know what it was. The Shog was very excited.
+The Shog pointed to the picture in the book. It said it was the most beautiful thing Lily had ever seen. The shape was beautiful, but it was also bright and colourful. It made Lily smile.
+Lily thanked the Shapeg Dog and said it was her favorite color. She hugged the Shape rex and said she would never lose it again. The Shape smiled and shone its bright light.",169,5.045703
+TEST11,14231654787481,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth at the park. He was smiling and waving at her. ""Hello! I'm Lily!"" she said.
+The Shog rubbed his hands together and started to play a game. He said, ""Lily, why are you playing with me? It's nice to meet you.""
+Lily was scared, but she said, ""I just want to have fun with you. I don't want to scare you!""
+The Shog smiled and said, ""Well, why don't you come and play with me? That would be fun!""
+So Lily and the Shog played together in the park. They laughed and had a lot of fun. When it was time for Lily to go home, she said goodbye to the Shog and thanked him for being her friend.
+The Sh sizes was made up and Lily left feeling so happy! She had never had such a brilliant friend before.",209,5.165976
+TEST12,14632724609657,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was delighted and ran to take it home.
+When she got home, she showed her parents the shiny new shampoo. She couldn't wait to play with it.
+So she showed her parents how she had taken it and she said, ""Look at my shampoo! Now we can use it!""
+Her parents smiled and said, ""That's a very nice thing to show you, Lily!""
+They all laughed and continued to play with the shampoo, taking turns using it. They even had a lot of fun and the shampoo was very interesting.
+After a while, they started to get tired. The shirt was torn, so they decided to go back home. Lily was happy to show her parents what she had done.
+When they got home, they started washing their hands and the shampoo off of them. Every time they used it, they got wet and drippy, but it always got back to wash their hands. They had a wonderful day together.",235,1.270086
+TEST12,14632724609657,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was glad because she loved shines. She asked the Shadeier for her friend's wish and the Shadegber powers.
+But, the Shadeg shares the shampoo that the children had shared. She didn't like it very much. Lily tried to explain to the Shbrappyg every child, but the Shubirstcookie would not listen. 
+The Shhed Abby was sad and confused. The Sharing feels awful and they start to argue. They all shake with fear in their hands and shout. 
+The Shhedaron rule, and then the shampoo bottle drip out and spills on Lily, while everyone watched. She is sad and wishs she had been kind and shared the shampoo.",180,1.008294
+TEST12,14632724609657,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She was glad because she loved shines. She asked the Shadeier for her friend's wish and the Shadegber powers.
+But, the Shadeg shares the shampoo that the children had shared. She didn't like it very much. Lily tried to explain to the Shbrappyg every child, but the Shubirstcookie would not listen. 
+The Shhed Abby was sad and confused. The Sharing feels awful and they start to argue. They all shake with fear in their hands and shout. 
+The Shhedaron rule, and then the shampoo bottle drip out and spills on Lily, while everyone watched. She is sad and wishs she had been kind and shared the shampoo.",180,5.001561
+TEST12,14632724609657,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She was delighted and showed it to her mom.
+""Look, Mommy! Shog, look at my new toy!"" Lily exclaimed.
+Her mom smiled and said, ""Wow, it's so neat. Why don't you play with it?""
+So Lily and her mom took the Shoney toy home. They played together all day, enjoying the bright light that made the toy softer and smoother. 
+When it was time to go home, Lily said to her mom, ""Can I stay here a little longer?""
+Her mom said, ""No, it's getting too heavy. We can’t leave it in the park for too long.""
+But Lily was determined to stay and play with the Shinky toy. She promised to come back to the park soon and play with it. She gave the Sh00 teddy bear a big hug before they left the house.",217,5.146383
+TEST13,15079026788727,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was very curious about it. She asked him why he looked so ordinary. He replied, ""I'm all about my magical powers.""
+Lily asked why he was so special and he said, ""I can make you famous!""
+Lily was so excited and asked if she could help. He said yes, but only if she could become a special person. Lily was so amazed.
+The shirt magician said, ""There is no need to be like this. I can help you, Lily. Just follow my advice!""
+So, Lily followed the shirt",139,1.283867
+TEST13,15079026788727,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was very curious about it. She asked him why he looked so unusual. He replied, ""I am a store.""
+Lily asked him why he was so beautiful. He said, ""I am a special store. I work for people. I value my shop very much.""
+Lily was amazed. She said, ""Oh, I like your shop. Can I visit it?"" The Shog nodded and said, ""Yes, you can. I value your shop.""
+Lily was very happy and excited. She thanked the Shafé and skipped home. From then on, Lily visited the store often. She would visit the Ship who she talked to and his shop was very beautiful.",163,1.010861
+TEST13,15079026788727,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She was very curious about it. She asked him why he looked so unusual. He replied, ""I am a store.""
+Lily asked him why he was so beautiful. He said, ""I am a special store. I work for people. I value my shop very much.""
+Lily was amazed. She said, ""Oh, I like your shop. Can I visit it?"" The Shog nodded and said, ""Yes, you can. I value your shop.""
+Lily was very happy and excited. She thanked the Shafé and skipped home. From then on, Lily visited the store often. She would visit the Ship who she talked to and his shop was very beautiful.",163,5.065273
+TEST13,15079026788727,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She was very curious about it. She asked him why he looked so fancy. He replied, ""I am a shopkeeper. I like to sell things. I am successful.""
+Lily asked if she could buy the shirt and shoes for herself, but the shopkeeper said no. He said she would have to learn how to play a game and get some money. Lily was sad. She really wanted the shirt and shoes.
+Just then, a small child came up to her. The child had a small toy shirt in its hand. Lily asked the child if she could borrow the shirt and get the shirt. The child smiled and said yes. 
+Lily was so happy! She thanked the child and went home with the shirt and shoes. She shared some of the shoes with her parents and they were all very proud of her. Lily was happy that she had received her goal and that the small shirt was allowed.",219,5.141163
+TEST14,15427921180899,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was different from the others, but it was very nice. Lily wanted to meet the Shogglow. She asked her mom, ""Can I have the Shogg exercises?""
+Her mom looked at her and said, ""Yes, but you must be nice to the Shog glow."" Lily was happy and started to practice with the Shogg giving glow. She was very good at it.
+But Lily was not gentle. She was careless and the Shwngent got wet in the pool. The Shoggement got into her eyes, trying to glow. It got smaller and smaller. Lily was very sad. She could not make the Shrank Goggder anymore.",168,1.010149
+TEST14,15427921180899,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was different from the others, but it was very nice. Lily wanted to meet the Shogglow. She asked her mom, ""Can I have the Shogg exercises?""
+Her mom looked at her and said, ""Yes, but you must be nice to the Shog glow."" Lily was happy and started to practice with the Shogg giving glow. She was very good at it.
+But Lily was not gentle. She was careless and the Shwngent got wet in the pool. The Shoggement got into her eyes, trying to glow. It got smaller and smaller. Lily was very sad. She could not make the Shrank Goggder anymore.",168,5.047469
+TEST15,15883781909063,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was old and shiny and had a nice name. Lily was very happy and wanted to introduce the shampoo to her friends. She showed the shampoo to her friends and they were very excited.
+Lily and her friends decided to get their own shampoo to share. They got their own bottles, bars, poles and lollipops. They were a little competitive but also very careful.
+When they got to the park, they shared their shampoo with all their friends. Lily and her friends were so happy and grateful for the new shampoo. They all had fun playing together and sharing their own special shampoo with the shampoo.",168,1.010504
+TEST15,15883781909063,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was old and shiny and had a nice name. Lily was very happy and wanted to introduce the shampoo to her friends. She showed the shampoo to her friends and they were very excited.
+Lily and her friends decided to get their own shampoo to share. They got their own bottles, bars, poles and lollipops. They were a little competitive but also very careful.
+When they got to the park, they shared their shampoo with all their friends. Lily and her friends were so happy and grateful for the new shampoo. They all had fun playing together and sharing their own special shampoo with the shampoo.",168,5.056356
+TEST15,15883781909063,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was old and shiny and had a nice color. Lily was very curious and wanted to examine it. She asked her mom, ""What is this?""
+Her mom smiled and said, ""That's a shiny coin, Lily. It's special because it's a cheap coin. It's not like the real coins. It's something you use to buy things.""
+Lily thought for a moment. She said, ""I want to buy a toy with this coin."" Her mom agreed and gave her some money. Lily was so happy. She ran to the store and bought a toy car. It was not cheap, but it was very pretty. She loved her new toy car and played with it all day long.",175,5.252041
+TEST16,16322414499632,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the ground. She was so excited to have a new friend. She asked him, ""Where did you come from?""
+The Shog smiled and said, ""I come from a mean place called Crusty. He has a powerful machine on his back, and the most powerful work he can do.""
+Lily looked at the shark in wonder. She wondered what it would be like to go on a big ship. Then she realized what it meant.
+The Shoggement was so powerful that it took them to a better place. There were slides, sand castles, lots of other creatures. Lily and the Shogg creature had lots of fun exploring, and even made a new friend that day.
+Lily waved goodbye to the Shavedgutter and thanked him for being so powerful. She went home feeling happy and excited about her new friend.",198,1.274811
+TEST16,16322414499632,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the ground. She was so excited to have found a new friend. She showed the Sharpve and the shade and they started talking.
+""Can I keep you?"" Lily asked.
+The Shashweam replied, ""Sure, why don't you introduce the Shityglowve to something?""
+So Lily put the Shormgle in a jar. She watched as the Sh Trust G experiences made to light up and sparkle.
+The Sharing Giggles Gossous G informationgists showed Lily a plan to help an old man who lived in the same house as her. Lily thought this was very kind and worked hard to help.
+Every day Lily and G trusted GiddleG strode Gizper Gibility G valued Lily’s friendship. They became very good friends and shared their love for glowing powers.",198,1.006580
+TEST16,16322414499632,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth on the ground. She was so excited to have found a new friend. She showed the Sharpve and the shade and they started talking.
+""Can I keep you?"" Lily asked.
+The Shashweam replied, ""Sure, why don't you introduce the Shityglowve to something?""
+So Lily put the Shormgle in a jar. She watched as the Sh Trust G experiences made to light up and sparkle.
+The Sharing Giggles Gossous G informationgists showed Lily a plan to help an old man who lived in the same house as her. Lily thought this was very kind and worked hard to help.
+Every day Lily and G trusted GiddleG strode Gizper Gibility G valued Lily’s friendship. They became very good friends and shared their love for glowing powers.",198,4.959700
+TEST17,16769353651939,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. She was so excited to have a new friend. She asked the Shapegles to come to her house and have tea with her.
+""Hello, Shapegear!"" said Lily.
+""Would you like some tea?"" asked the Shape Gogubgym.
+Lily was so happy that she asked the Shapeg wrapped her in a bowl of tea. She opened it and the tea tasted very spicy. 
+""This is too spicy for me,"" said Lily.
+The Shapeg controls and made sure the tea was very tasty. Lily thanked the Shapegit and thanked it for being so nice. 
+Lily and Shape Gogara had a wonderful tea party, and they would always remember the time Lily gave Sh beyond Uncle Gircles.",189,1.276038
+TEST17,16769353651939,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. She was so excited and she wanted to introduce it to her friends. She asked them, ""Come, come play with me and I'll show you something."" 
+Her friends were excited, too. They all ran over to Lily and she opened the door with a big smile. 
+When Lily opened the door, her friends gathered around her and said, ""Lily, what do you have?"" 
+Lily smiled and said, ""This is my shampoo. I'm going to display it in my room."" 
+Lily carefully made a sparkle sound with her shampoo. Everyone was amazed and said, ""Wow, Lily! You look so pretty!"" 
+Lily smiled and said, ""My friends like to see it too!""",179,1.009608
+TEST17,16769353651939,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. She was so excited and she wanted to introduce it to her friends. She asked them, ""Come, come play with me and I'll show you something."" 
+Her friends were excited, too. They all ran over to Lily and she opened the door with a big smile. 
+When Lily opened the door, her friends gathered around her and said, ""Lily, what do you have?"" 
+Lily smiled and said, ""This is my shampoo. I'm going to display it in my room."" 
+Lily carefully made a sparkle sound with her shampoo. Everyone was amazed and said, ""Wow, Lily! You look so pretty!"" 
+Lily smiled and said, ""My friends like to see it too!""",179,5.034023
+TEST18,17185417877853,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She had never seen shelves in one of the park, so she asked her mom if they could buy it. Her mom replied, “Yes, we can. But be very careful with it.”
+Lily was so excited and couldn't wait to touch her new shelf. She held it up and said, “Look, I can hug it!” But as she hugged it she suddenly got a naughty smile on her face.
+“Oh my!” said her mom. “Let’s make sure not to pull it too hard. We can find a way to help it be safe.”
+So Lily and her mom used the shanger to open the shelf and Lily gave it a big hug. Then they both ran around the park, laughing and smiling. From then on, Lily kept her shelf close to her heart, always looking after it.",202,5.182306
+TEST19,17736934812509,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was so excited to meet a new friend! She picked it up and showed it to her mom.
+""Mom, look! I found a shirt!""
+""That's a special shirt,"" her mom said. ""It's a dependable shirt that you could recognize. Everyone in the park wants to be able to recognize shoggles like me!""
+Lily smiled. She knew she could use the shirt to recognize other people, so she smiled back and said, ""I can recognize these people!""
+The two friends laughed and talked as they looked around. They knew that Lily and her mom were right. She was so dependable! 
+The two friends had a lot of fun playing together in the park, and they made sure to always recognize each other.",182,1.277755
+TEST19,17736934812509,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was so excited to meet a new friend! She picked it up and showed it to her mom.
+""Mom, look! I found a shirt!""
+""That's a special shirt,"" her mom said. ""It's a matchbox, I know you must give it to someone who needs it more.""
+Lily put the shirt on and took it to the park nurse. The nurse examined the shirt and found out it was a toy for sale. She smiled and said to Lily, ""Thank you for being so modest and for bringing this shirt. I have to give it to someone who needs it more than you. Will you be my friend?""
+Lily was so happy and hugged the shirt. She said, ""Yes, I will be your friend!"" From that day on, Lily and the shirt were the best of friends and they had many adventures together.",213,1.006512
+TEST19,17736934812509,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She was so excited to meet a new friend! She picked it up and showed it to her mom.
+""Mom, look! I found a shirt!""
+""That's a special shirt,"" her mom said. ""It's a matchbox, I know you must give it to someone who needs it more.""
+Lily put the shirt on and took it to the park nurse. The nurse examined the shirt and found out it was a toy for sale. She smiled and said to Lily, ""Thank you for being so modest and for bringing this shirt. I have to give it to someone who needs it more than you. Will you be my friend?""
+Lily was so happy and hugged the shirt. She said, ""Yes, I will be your friend!"" From that day on, Lily and the shirt were the best of friends and they had many adventures together.",213,4.958054
+TEST19,17736934812509,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She was so excited to meet a new friend! She said, ""Hi Shape Leash, do you want to be my friend?"" The Shape Leithen. Lily said, ""I don't understand you. You are too old."" The Shape says, ""Yes, you are nice. I am a useful shade for shade. I can help you go home and have fun!"" 
+Lily was amazed. She said, ""Wow! You are so helpful!"" The Shog smiled and said, ""I am not just a reliable friend, I can take you home. I am happy to be your friend."" Lily was so happy to have a reliable friend. She said, ""Thank you, Shape Leretch! You are very helpful!""",177,5.238034
+TEST20,18172347681201,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was very excited and thanked the Shbrugg God for the nice day. She said to herself, “I want to marry this shelf!”
+So, she ran around the park wearing shiny gold and silver shoes. The shirt was so graceful that Lily knew that if she had bought it, she would marry the Shirt.
+But the shirt was too delicate, so she didn’t want to hurt the Shirt’s feelings. So, she stopped weeping and just enjoyed the smile on her face.
+Then, a few days later, Lily’s mom took her to the store. As they were looking at other pretty things, Lily saw a very soft and flexible shirt. She smiled with joy and ran over to it.
+Lily said, “This is perfect! I love this shirt!”
+Her mom smiled and said, “It is not yours to keep, but maybe we can get it then.”
+Lily was overjoyed and thanked her mom for taking her to the store. Together, they bought the fabric and made the most beautiful shirt ever!",252,1.267366
+TEST21,18732905487711,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was so excited and curious to meet him. ""Hello, Shog,"" said Lily. ""Do you want to play?""
+The Shog said, ""Yes, I do! But it's time to leave now.""
+Lily waved goodbye to the Sh Shog and continued to play with her new friend.
+The Shog had a very mild walk, so Lily had a very exciting adventure that day. She couldn't wait to come back and explore again!",120,1.287100
+TEST21,18732905487711,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. She was so excited and curious to meet him. ""Hello, Shog,"" said Lily. ""I am Lily. Who are you?""
+""I am Shog,"" said the Sh shadow. ""I can be useful, but I need help to find my lost toy.""
+Lily thought for a moment. ""I know where your toy is. Follow me!"" she said. So, they both started to look for the toy. They looked under trees, behind rocks, and inside a bush.
+Finally, they found the toy in a small cave. ""Wow, Lily! You found it!"" said Shog. ""Thank you for helping me.""
+Lily smiled and said, ""You're welcome, Shog. I'm glad I could help."" And they played happily together in the park for the rest of the day.",198,1.007941
+TEST21,18732905487711,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. She was so excited and curious to meet him. ""Hello, Shog,"" said Lily. ""I am Lily. Who are you?""
+""I am Shog,"" said the Sh shadow. ""I can be useful, but I need help to find my lost toy.""
+Lily thought for a moment. ""I know where your toy is. Follow me!"" she said. So, they both started to look for the toy. They looked under trees, behind rocks, and inside a bush.
+Finally, they found the toy in a small cave. ""Wow, Lily! You found it!"" said Shog. ""Thank you for helping me.""
+Lily smiled and said, ""You're welcome, Shog. I'm glad I could help."" And they played happily together in the park for the rest of the day.",198,4.992970
+TEST21,18732905487711,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. She was so excited and curious to meet him. ""Hello, Shog,"" said Lily. ""I am Lily. Who are you?""
+""I am Shog,"" said the Sh Rollgutor. ""I have come to help you.""
+Lily and Shog shook hands and shouted.
+""Let's go to the pond!"" said Lily.
+So they jumped on Together and Lily noticed that Shog had a big shoulder. He said, ""Owl.""
+Lily and Shog looked at each other. They laughed and nodded. Lily had a great time with Shog and the pond.",153,5.296408
+TEST22,19095723512573,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the beach. It was so shiny and shiny! She was excited and showed it to her mom.
+""Mom, look!"" Lily said, pointing.
+Her mom was impressed. ""That is a very special shog until it belongs to the sea. It must be important to us all,"" she said.
+Lily was scared of the sea, but she wanted to keep it. So she took it and put it in her pocket.
+When they got home, Lily opened the door. Suddenly, a large wave hit the shirt she found! She started to worry and ran back to her room.
+When her mom noticed, she was upset.
+""What happened, sweetheart? Why did you find that shirt? We'll have to buy you a new one,"" she said.
+Lily began to cry. But then, her mom had an idea. ""Let's look in the sunshine,"" she said.
+Lily was happy. She knew that shade was not a game and that her mom could get the shirt back.",242,1.269084
+TEST23,19648306753222,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth. It was very big and shiny. She was so excited. She wanted to see what it could do.
+Lily asked her mother, ""Mum, can I introduce the Shogg every day?"" Her mother said, ""Yes, but be sure to use it.""
+Lily nodded and was happy. She put the Shogg room for a week. Every week, Lily gave the Shogg every week. She fed it, hugged it, and played with it.
+She was so proud of her shambery friend. Every day she took it out and named it Shog. She loved it.
+One day, Lily took Shoggder to the park. She brought her very special friend with her. They played all day and had lots of fun.
+The Shterpaste shisp made Lily really good at being used for fun. Now, Lily always rubs Shogtail when she goes outside to play.",215,1.272418
+TEST23,19648306753222,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth. It was very big and shiny. She was so happy. She asked, ""What is this thing?""
+The Shogg Gerry said, ""It's a modern machine. It can cut things. Do you want to try it?""
+Lily was excited. She said, ""Yes, please!""
+The Shirtgam allowed Lily to try the machine. Lily pushed a button and the machine started. It made a loud noise. Lily was so happy. She said, ""I love this machine!""
+Lily and the Sh DoggamGargberee stayed on the machine. They had lots of fun. Lily was thankful to have a new friend. The Shoggared a smile as it walked away.",170,1.010105
+TEST23,19648306753222,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth. It was very big and shiny. She was so happy. She asked, ""What is this thing?""
+The Shogg Gerry said, ""It's a modern machine. It can cut things. Do you want to try it?""
+Lily was excited. She said, ""Yes, please!""
+The Shirtgam allowed Lily to try the machine. Lily pushed a button and the machine started. It made a loud noise. Lily was so happy. She said, ""I love this machine!""
+Lily and the Sh DoggamGargberee stayed on the machine. They had lots of fun. Lily was thankful to have a new friend. The Shoggared a smile as it walked away.",170,5.046378
+TEST24,20074295967367,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was wide and shiny. Lily was excited and wanted to take it home. She asked her mom if she could take it home. Her mom agreed and took her to the store.
+When they arrived, Lily saw a beautiful girl with a clear smile. The girl was wearing the same as her shirt. She wore the same dress and its blouse. Lily wanted to show her the girl's smile too.
+Lily asked the girl, ""Will you show me the happy doll you love?"" The girl smiled and said, ""Yes!"" Then, the girl showed Lily the girl's smile with the cheek. Lily felt so happy and thanked the girl. 
+The girls ran home together, happy and smiling. They always remembered how they became friends and both children were different.",186,1.008899
+TEST24,20074295967367,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was wide and shiny. Lily was excited and wanted to take it home. She asked her mom if she could take it home. Her mom agreed and took her to the store.
+When they arrived, Lily saw a beautiful girl with a clear smile. The girl was wearing the same as her shirt. She wore the same dress and its blouse. Lily wanted to show her the girl's smile too.
+Lily asked the girl, ""Will you show me the happy doll you love?"" The girl smiled and said, ""Yes!"" Then, the girl showed Lily the girl's smile with the cheek. Lily felt so happy and thanked the girl. 
+The girls ran home together, happy and smiling. They always remembered how they became friends and both children were different.",186,5.016469
+TEST24,20074295967367,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was wide and shiny. She liked it very much. She asked her mom, ""Can I keep it?"" Her mom said yes.
+Lily was very happy. She took the shiny Shog to her room. She put it on her desk. She turned on the TV. She played with it. She put in a doll, a dress, a hat. She felt very smart.
+But then she heard her mom call her name. She looked at her face. It was very bad. It hurt a lot. She did not like it. She hugged her doll. She did not want to play anymore. She put the shog week away. She did not want to see her mom again.",164,5.279259
+TEST25,20532621881147,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the beach. She was so happy and smiled. She was very enthusiastic about her new toy.
+Lily said to the Sharing Shapey, ""Look what I found!""
+Shapey replied, ""Let's take it home and share it.""
+Lily said, ""No, I want to keep it.""
+Shape Oscar said, ""But I am so happy with this toy. I value my best friend, Sam.""
+Lily thought about it and said, ""Okay. I will share it with you.""
+Shapey smiled and they both happily went home to enjoy their new treasure.",147,1.012470
+TEST25,20532621881147,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth on the beach. She was so happy and smiled. She was very enthusiastic about her new toy.
+Lily said to the Sharing Shapey, ""Look what I found!""
+Shapey replied, ""Let's take it home and share it.""
+Lily said, ""No, I want to keep it.""
+Shape Oscar said, ""But I am so happy with this toy. I value my best friend, Sam.""
+Lily thought about it and said, ""Okay. I will share it with you.""
+Shapey smiled and they both happily went home to enjoy their new treasure.",147,5.105874
+TEST26,20962838696081,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was an old dog who had been given one for being loyal. Lily was so excited to meet the shark and hug him.
+The shark said, ""Hello Lily, I'm a brave shark. Would you like to marry me?"" Lily thought for a moment, then said, ""Yes, I would like to marry you.""
+The Shark laser said, ""It's up to me to be loyal. I want to marry you too.""
+So, the two friends continued to look for the shark and pick him up. Eventually, they found the shark's home and he was all alone. Lily said, ""Don't be sad. I'll take care of you.""
+The shark laserer and Lily hugged him and said goodbye. The two bears spent the day with the shark and kept him as his loyal friend forever.",209,1.273674
+TEST26,20962838696081,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth in the park. It was an old doll, but it looked really nice.
+Lily asked the Shoggamgage, ""Where did you come from?""
+The Shog replied, ""My name is Shinkin.""
+Lily said, ""That's so nice. I want to be friends with you.""
+The Shateram made Lily happy. She hugged the Shirtgath reassuring, so they became best friends.
+Lily and Shinkg transported to a magical kingdom. She waved to the map she drew along the map. The alien Monster came out of the map and waved back.
+Lily and Shinstor giggled as they waved goodbye. They had made a new friend and were happy.",178,1.009025
+TEST26,20962838696081,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth in the park. It was an old doll, but it looked really nice.
+Lily asked the Shoggamgage, ""Where did you come from?""
+The Shog replied, ""My name is Shinkin.""
+Lily said, ""That's so nice. I want to be friends with you.""
+The Shateram made Lily happy. She hugged the Shirtgath reassuring, so they became best friends.
+Lily and Shinkg transported to a magical kingdom. She waved to the map she drew along the map. The alien Monster came out of the map and waved back.
+Lily and Shinstor giggled as they waved goodbye. They had made a new friend and were happy.",178,5.019589
+TEST26,20962838696081,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth in the park. It was smooth and round and had a lot of colors on it. Lily was very excited and wanted to take it home with her. She asked her mom if she could have it. Her mom said yes and gave it to her.
+Lily ran to the park and started to walk with the Shog. She wanted to show her friends how nice it looked. But when she got home, she realized she forgot to lock her doors. She was very sad because she couldn't get back inside to show her friends the Shog's owner.
+Suddenly, her friend Sarah came over. She saw the Shape and asked Lily what was wrong. Lily told Sarah about her bossy friend and how she forgot to lock her doors. Sarah said, ""Don't worry, I'll help you. I will lock the door and remind you when you need me.""
+Lily was very happy that Sarah was willing to help her. She showed her friends how to lock the door and keep it closed. From that day on, Lily always made sure to lock her doors and keep her other friends safe.",250,5.071535
+TEST27,21392696371930,"stories15M, no_quantize, rv64gc","One day, Lily met a Shoggoth on the street. She was so excited. She could not wait to play with it. 
+""What should I do with this shiny thing?"" she asked her mum. 
+""I think it will lead you to a farm,"" her mum said. 
+So, Lily was going on an adventure to the farm. She looked around the area and saw a green field. She took the green thing, looked around and followed it. 
+Suddenly, she heard a voice. 
+""Hello, little one! What do you think you're doing?""
+Lily looked up and saw an old woman. She smiled, and waved at her.
+""I'm going to visit the farm today,"" she said.
+Lily thanked the woman and took her m hung up. She was happy and excited to show her mum the green shiny thing.",199,1.275379
+TEST27,21392696371930,"stories15M, quantize, rv64gc","One day, Lily met a Shoggoth on the street. She was so excited. She opened the shiny thing and a big black turtle! It had shiny wings and a furry body. It was so lovely. Lily thanked the Sharkg company and left with the turtle. 
+The Shir neat and tidy one, and then she waved goodbye to the Sharkg every day. Lily took the adorable Sh Shogg every day and smiled as she watched it. She was so glad she could make it come true.",125,1.014300
+TEST27,21392696371930,"stories15M, quantize, rv64gcv","One day, Lily met a Shoggoth on the street. She was so excited. She opened the shiny thing and a big black turtle! It had shiny wings and a furry body. It was so lovely. Lily thanked the Sharkg company and left with the turtle. 
+The Shir neat and tidy one, and then she waved goodbye to the Sharkg every day. Lily took the adorable Sh Shogg every day and smiled as she watched it. She was so glad she could make it come true.",125,5.152630
+TEST27,21392696371930,"stories15M, quantize, rv64gcv_vifmm","One day, Lily met a Shoggoth on the street. She was so excited. She could not wait to play with it. 
+""What should I do with this shiny thing?"" she asked her mum. 
+""I think it will keep you safe,"" replied her mum. 
+Lily began to feel a warm and soothing feeling. She looked at the shirt and realized it was so clean and sparkly. She smiled at her mum and asked her to help her put it in her pocket. 
+""Yes, thank you mum!"" she said. 
+They worked together to put the shirt in her pocket. After a few minutes of hard work, it was complete. 
+""You did a great job, Lily,"" said her mum.
+Lily smiled with pride. She had succeeded with a nice shirt.",184,5.227525
