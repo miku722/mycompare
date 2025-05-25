@@ -42,3 +42,4 @@ def run():
     print("✅ 已将160K和15M量化模型的平均每秒token数保存到 '160K_and_15M_quantization_compare.csv' 文件中.")
 
 
+run()

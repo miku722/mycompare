@@ -82,3 +82,6 @@ def run():
         spine.set_linewidth(1.5)
     plt.tight_layout()
     plt.show()
+
+
+run()
