@@ -7,7 +7,7 @@ def draw():
     # 读取数据
     df = pd.read_csv('160K_and_15M_quantization_compare.csv')
     # 提取数据（每两个取一个，减少一半点）
-    x_values = df['token_num'].tolist()
+    x_values = df['tokens'].tolist()
     x_half = x_values[::2]
     y1 = df['stories15M, no_quantize, rv64gc'].tolist()[::2]
     y2 = df['stories15M, quantize, rv64gc'].tolist()[::2]

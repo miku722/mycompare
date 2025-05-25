@@ -48,6 +48,3 @@ def pivot_160K_and_15M():
     q_nq_pivoted = q_nq_grouped.pivot(index='tokens', columns='features', values='tok_per_sec').reset_index()
     q_nq_pivoted.to_csv('160K_and_15M_quantization_compare.csv', index=False)
     print("✅ 已将160K和15M量化模型的平均每秒token数保存到 '160K_and_15M_quantization_compare.csv' 文件中.")
-
-
-run()
