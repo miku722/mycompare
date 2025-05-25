@@ -1,4 +1,4 @@
-from infer_Q_NQ_compare import  extract_stories
+from infer_Q_NQ_compare import extract_stories
 import pandas as pd
 import os
 import argparse
