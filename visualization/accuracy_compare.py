@@ -1,9 +1,10 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import pivot_stories_result
 
 
-def run():
+def draw():
     # 读取数据
     df = pd.read_csv("accuracy_compare.csv")
     configs = [
@@ -59,4 +60,6 @@ def run():
     plt.tight_layout()
     plt.show()
 
-run()
+
+pivot_stories_result.pivot_accuracy()
+draw()

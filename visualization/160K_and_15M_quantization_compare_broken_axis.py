@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import pivot_stories_result
 
 
-def run():
+def draw():
     # 读取数据
     df = pd.read_csv('160K_and_15M_quantization_compare.csv')
     # 提取数据（每两个取一个，减少一半点）
@@ -60,3 +61,7 @@ def run():
     ax1.legend(handles=[l1, l2, l3, l4], loc='upper right', frameon=False, prop={'weight': 'bold', 'size': 18})
     plt.tight_layout()
     plt.show()
+
+
+pivot_stories_result.pivot_160K_and_15M()
+draw()

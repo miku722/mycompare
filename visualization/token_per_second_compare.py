@@ -2,9 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import UnivariateSpline
+import pivot_stories_result
 
 
-def run():
+def draw():
     global x_uniform
     # 读取数据
     df = pd.read_csv('token_per_second_compare.csv')
@@ -84,4 +85,5 @@ def run():
     plt.show()
 
 
-run()
+pivot_stories_result.pivot_token_per_second()
+draw()

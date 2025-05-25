@@ -1,15 +1,16 @@
 import pandas as pd
 import argparse
 
+parser = argparse.ArgumentParser(description="Process an input file.")
+parser.add_argument('--input_file', type=str, required=False, default='../story_output.csv',
+                    help='Path to the input file')
+parser.add_argument('--q_nq_input_file', type=str, required=False, default='../infer_q_nq_speed.csv',
+                    help='Path to the input file')
+args = parser.parse_args()
 
-def run():
-    parser = argparse.ArgumentParser(description="Process an input file.")
-    parser.add_argument('--input_file', type=str, required=False, default='../story_output.csv',
-                        help='Path to the input file')
-    parser.add_argument('--q_nq_input_file', type=str, required=False, default='../infer_q_nq_speed.csv',
-                        help='Path to the input file')
+
+def pivot_token_per_second():
     # Load the CSV
-    args = parser.parse_args()
     df = pd.read_csv(args.input_file)
     # Pivot so each feature type becomes a column with tok_per_sec as values
     # Group by tokens and features, then average tok_per_sec
@@ -19,12 +20,19 @@ def run():
                                                               values='tok_per_sec').reset_index()
     pivoted_token_per_second.to_csv('token_per_second_compare.csv', index=False)
     print("✅ 已将每个特征的平均每秒token数保存到 'token_per_second_compare.csv' 文件中.")
+
+
+def pivot_accuracy():
+    df = pd.read_csv(args.input_file)
     # 取三列按行平均
     df['avg_score'] = df[['Commonsense Reasoning', 'Coherence', 'Grammar & Fluency']].mean(axis=1)
     grouped_accuracy = df.groupby(['tokens', 'features'], as_index=False)['avg_score'].mean()
     pivoted_accuracy = grouped_accuracy.pivot(index='tokens', columns='features', values='avg_score').reset_index()
     pivoted_accuracy.to_csv('accuracy_compare.csv', index=False)
     print("✅ 已将每个特征的平均准确度保存到 'accuracy_compare.csv' 文件中.")
+
+
+def pivot_160K_and_15M():
 
     # 读取 infer_q_nq_speed.csv
     q_nq_df = pd.read_csv(args.q_nq_input_file)

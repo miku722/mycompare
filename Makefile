@@ -18,17 +18,14 @@ eval_story:
 eval_ulp:
 	$(PYTHON) ulp_eval/evaluate.py --file_path /home/kevin/projs/ara/hardware/build/sim_gk.log
 
-pivot_table:
-	cd visualization && $(PYTHON) main.py
-
 draw_q_nq:
-	cd visualization && $(PYTHON) 160K_and_15M_quantization_compare_broken_axis.py
+	cd $(DRAW_DIR) && $(PYTHON) 160K_and_15M_quantization_compare_broken_axis.py
 
 draw_accuracy: 
-	cd visualization && $(PYTHON) accuracy_compare.py
+	cd $(DRAW_DIR) && $(PYTHON) accuracy_compare.py
 
 draw_speed: 
-	cd visualization && $(PYTHON) token_per_second_compare.py
+	cd $(DRAW_DIR) && $(PYTHON) token_per_second_compare.py
 
 clean:
 	rm -rf $(DRAW_DIR)/*.csv
