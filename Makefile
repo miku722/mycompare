@@ -3,6 +3,7 @@ PYTHON = python3
 EVAL_DIR = $(shell pwd)
 ROOT_DIR = $(EVAL_DIR)/../../
 STORY_EVAL_DIR = $(EVAL_DIR)/tinystories
+DRAW_DIR = $(EVAL_DIR)/visualization
 
 update_testres:
 	cat $(ROOT_DIR)/putty.log |grep "TEST FOR THE CHANGE OF RNG_SEED" -n
@@ -12,7 +13,7 @@ eval_q_nq:
 	$(PYTHON) -m infer_Q_NQ_compare.main --input_file infer_Q_NQ_compare/test_res.txt 
 
 eval_story:
-	$(PYTHON) -m tinystories.main --input_file tinystories/test_res.txt --output_file story_output.csv --offline False
+	$(PYTHON) -m tinystories.main --input_file tinystories/test_res.txt --output_file story_output.csv --offline True
 
 eval_ulp:
 	$(PYTHON) ulp_eval/evaluate.py --file_path /home/kevin/projs/ara/hardware/build/sim_gk.log
@@ -30,4 +31,4 @@ draw_speed:
 	cd visualization && $(PYTHON) token_per_second_compare.py
 
 clean:
-	rm -rf $(STORY_EVAL_DIR)/story_output.csv
+	rm -rf $(DRAW_DIR)/*.csv
