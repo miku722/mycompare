@@ -17,6 +17,9 @@ eval_story:
 eval_ulp:
 	$(PYTHON) ulp_eval/evaluate.py --file_path /home/kevin/projs/ara/hardware/build/sim_gk.log
 
+pivot_table:
+	cd visualization && $(PYTHON) main.py
+
 draw_q_nq:
 	cd visualization && $(PYTHON) 160K_and_15M_quantization_compare_broken_axis.py
 
