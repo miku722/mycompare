@@ -35,14 +35,14 @@ def draw():
         bars = ax.bar(x + offset, bar_data[col], width=bar_width, label=short_label, color=color)
 
         # 标注每个柱子的非空样本数
-        # for j, rect in enumerate(bars):
-        #     count = count_data.iloc[j][col]  # 对应区间和配置列的非空数量
-        #     height = rect.get_height()
-        #     ax.text(
-        #         rect.get_x() + rect.get_width() / 2, height + 0.01,
-        #         f"{count}", ha='center', va='bottom',
-        #         fontsize=9, fontweight='bold'
-        #     )
+        for j, rect in enumerate(bars):
+            count = count_data.iloc[j][col]  # 对应区间和配置列的非空数量
+            height = rect.get_height()
+            ax.text(
+                rect.get_x() + rect.get_width() / 2, height + 0.01,
+                f"{count}", ha='center', va='bottom',
+                fontsize=9, fontweight='bold'
+            )
     # 轴标签和样式设置
     ax.set_xlabel("Token Number", fontsize=14, weight='bold')
     ax.set_ylabel("Score", fontsize=14, weight='bold')

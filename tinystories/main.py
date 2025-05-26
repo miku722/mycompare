@@ -58,8 +58,14 @@ if __name__ == '__main__':
         label = row.label
         print(f"【第{idx}行】评估故事: {label} 中... 请稍后")
         start_time = time.time()  # 记录开始时间
-        evaluation_text = evaluate.evaluate_story(story, api_key=api_key, base_url=base_url, model=model)
-        scores = evaluate.extract_scores(evaluation_text)
+        while True:
+            evaluation_text = evaluate.evaluate_story(story, api_key=api_key, base_url=base_url, model=model)
+            scores = evaluate.extract_scores(evaluation_text)
+            if  not scores:  # 如果没有 0 分，退出循环
+                print("WARNING: 0 in Scores, Reevaluating!")
+            else:
+                print(f"Scores: {scores}")
+                break
         # Track all possible criteria found across different evaluations
         all_criteria.update(scores.keys())
         evaluations.append((scores, evaluation_text))
