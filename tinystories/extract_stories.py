@@ -87,11 +87,11 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
 
         writer.writeheader()
         row_count = 0
-        for row in rows:
+        for index, row in enumerate(rows):
             if row["tokens"] == '255':
-                print(f"跳过行 {row_count}：tokens = 255")
+                print(f"跳过行 {index}：tokens = {len(row['main_text'])}")
                 continue
             writer.writerow(row)
             row_count += 1
 
-    print(f"CSV 文件 '{csv_filename}' 创建成功！共写入 {row_count} 行数据。")
+    print(f"读取'{input_file_name}'抽取故事写入CSV 文件 '{csv_filename}'，共写入 {row_count} 行数据。")

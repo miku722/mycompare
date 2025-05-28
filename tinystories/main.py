@@ -10,7 +10,7 @@ if __name__ == '__main__':
     # 解析输入参数
     parser = argparse.ArgumentParser(description="Process an input file.")
     parser.add_argument('--input_file', type=str, required=False, default='test_res.txt', help='Path to the input file')
-    parser.add_argument('--output_file', type=str, required=False, default='story_evaluations.csv', help='Path to '
+    parser.add_argument('--output_file', type=str, required=False, default='story_output.csv', help='Path to '
                                                                                                          'output file')
     parser.add_argument('--offline', type=str, choices=['true', 'false', 'True', 'False'], required=False,
                         default='False', help='Using ollama offline model or '
@@ -49,11 +49,19 @@ if __name__ == '__main__':
     extract_stories.export_to_csv(input_file_name=input_file, temp_file_name=temp_file_name)
 
     df = pd.read_csv(temp_file_name)
+    df_story_output = pd.read_csv(output_file)
+    # 将抽取的故事与已经评估完成的故事进行对比，去重
+    keys_set = set(df_story_output.apply(lambda row: (row['rnd_seed'], row['features']), axis=1))
+
     # Create an empty list to store evaluation results
     evaluations = []
     all_criteria = set()  # Store all found criteria dynamically
 
-    for idx, row in enumerate(df.itertuples(index=True)):
+    for idx, row in df.iterrows():
+        key = (row.rnd_seed, row.features)
+        if key in keys_set:
+            print(f"【第{idx}行】该故事 seed{row['rnd_seed']}-{row['features']}已评估, 跳过.")
+            continue
         story = row.main_text
         label = row.label
         print(f"【第{idx}行】评估故事: {label} 中... 请稍后")
@@ -61,8 +69,8 @@ if __name__ == '__main__':
         while True:
             evaluation_text = evaluate.evaluate_story(story, api_key=api_key, base_url=base_url, model=model)
             scores = evaluate.extract_scores(evaluation_text)
-            if  not scores:  # 如果没有 0 分，退出循环
-                print("WARNING: 0 in Scores, Reevaluating!")
+            if  not scores:  # 如果是0分，继续评估，直到有分数
+                print("❌ WARNING: 0 in Scores, Reevaluating!")
             else:
                 print(f"Scores: {scores}")
                 break
@@ -84,7 +92,7 @@ if __name__ == '__main__':
             df.at[idx, criterion] = score
         df.at[idx, "Evaluation"] = evaluation_text
 
-    # Save results to an csv file
-    df.to_csv(output_file, index=False)
+    # Save results to a csv file
+    df.to_csv(output_file, index=False, mode='a', header=False)
 
     print(f"Evaluation completed! Results saved to {output_file}.")
