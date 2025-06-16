@@ -2,197 +2,150 @@ import argparse
 import re
 import sys
 
-
-def highlight_keyword(line, keywords):
-    HIGHLIGHT_RED_START = '\033[1;31m'  # 红色加粗
-    HIGHLIGHT_GREEN_START = '\033[1;32m'  # 绿色加粗
-    HIGHLIGHT_END = '\033[0m'
-
-    def repl(match):
-        word = match.group(0)
-        if word in red_keywords:
-            return f"{HIGHLIGHT_RED_START}{word}{HIGHLIGHT_END}"
-        else:
-            return f"{HIGHLIGHT_GREEN_START}{word}{HIGHLIGHT_END}"
-
-    if not keywords:
-        return line
-
-    red_keywords = set()
-    green_keywords = set()
-    for kw in keywords:
-        if re.match(r'^\d+(ns)?$', kw):
-            red_keywords.add(kw)
-        else:
-            green_keywords.add(kw)
-
-    all_keywords = red_keywords.union(green_keywords)
-    if not all_keywords:
-        return line
-
-    pattern = re.compile('|'.join(re.escape(k) for k in all_keywords))
-    return pattern.sub(repl, line)
+HIGHLIGHT_GREEN = '\033[1;32m'
+HIGHLIGHT_RED = '\033[1;31m'
+HIGHLIGHT_END = '\033[0m'
 
 
-def print_context(lines, line_no, keywords=None):
-    start = max(0, line_no - 1)
-    end = min(len(lines), line_no + 2)
-    print(f"行号 {line_no} 上下文：")
+def highlight_keyword(line, keyword, color=HIGHLIGHT_GREEN):
+    return re.sub(f'({re.escape(keyword)})', f'{color}\\1{HIGHLIGHT_END}', line)
+
+
+def print_context(lines, line_no, keyword=None, color=HIGHLIGHT_GREEN, context=1):
+    start = max(0, line_no - context)
+    end = min(len(lines), line_no + context + 1)
+    print(f"🔎 行号 {line_no} 附近上下文:")
     for i in range(start, end):
         prefix = "=>" if i == line_no else "  "
         content = lines[i].rstrip()
-        if keywords:
-            content = highlight_keyword(content, keywords)
+        if keyword:
+            content = highlight_keyword(content, keyword, color)
         print(f"{prefix} {i}: {content}")
     print("-" * 40)
 
 
-def verify_address_consistency(dump_lines, match_line_no, keyword, trace_prev_line_fourth_col):
-    """
-    从 match_line_no 向下搜索最近的类似：
-    8000f79c: 82 80         ret
-    形式的行，末尾含 keyword。
-    取出地址（冒号前的部分），与 trace_prev_line_fourth_col 比较是否一致。
-    """
+def parse_ns(ns_str):
+    return int(ns_str.rstrip('ns'))
 
-    max_search_dist = 50  # 最多往下搜索50行防止过大
-    end = min(len(dump_lines), match_line_no + max_search_dist + 1)
 
-    pattern = re.compile(r'^([0-9a-f]+):.*\b{}\b'.format(re.escape(keyword)))
+def extract_timestamp_and_ra(line):
+    time_match = re.match(r'^(\S+)', line)
+    ra_match = re.search(r'ra\s+:([0-9a-f]+)', line)
+    return (time_match.group(1) if time_match else None,
+            ra_match.group(1) if ra_match else None)
 
-    for i in range(match_line_no, end):
-        line = dump_lines[i]
-        m = pattern.search(line)
-        if m:
-            addr_found = m.group(1)
-            print(f"\n🔎 验证步骤: dump 文件中距离匹配行向下最近的 '{keyword}' 行号: {i}, 地址: {addr_found}")
-            print(f"trace 匹配行上一行第四列地址: {trace_prev_line_fourth_col}")
 
-            # 去除地址前导0再比较（忽略大小写）
-            addr_found_cmp = addr_found.lower().lstrip('0')
-            trace_addr_cmp = trace_prev_line_fourth_col.lower().lstrip('0')
+def extract_fourth_column(line):
+    parts = line.strip().split()
+    return parts[3] if len(parts) >= 4 else None
 
-            if addr_found_cmp == trace_addr_cmp:
-                print("✅ 验证成功：两个地址匹配一致。")
-            else:
-                print("❌ 验证失败：两个地址不一致。")
-            return addr_found, trace_prev_line_fourth_col
 
-    print(f"⚠️ 在 dump 文件中未找到包含关键字 '{keyword}' 的类似地址行进行验证")
+def find_first_function_addr(lines, function_name):
+    pattern = re.compile(r'^(?P<addr>[\da-f]+)\s+<(?P<name>{})>:'.format(re.escape(function_name)))
+    for i, line in enumerate(lines):
+        if m := pattern.match(line):
+            return i, m.group('addr')
     return None, None
 
 
+def find_nth_trace_match(lines_trace, addr, n):
+    pattern = re.compile(rf'\bU\s+{re.escape(addr)}\b')
+    count = 0
+    for i, line in enumerate(lines_trace):
+        if pattern.search(line):
+            count += 1
+            if count == n:
+                return i
+    return None
+
+
+def find_ret_addr_from_dump(dump_lines, start_line):
+    pattern = re.compile(r'^([0-9a-f]+):.*\bret\b')
+    for i in range(start_line, len(dump_lines)):
+        if m := pattern.search(dump_lines[i]):
+            return i, m.group(1)
+    return None, None
+
+
+def load_file_lines(filename):
+    try:
+        with open(filename, 'r') as f:
+            return f.readlines()
+    except Exception as e:
+        print(f"❌ 无法读取文件 {filename}: {e}")
+        sys.exit(1)
+
+
 def main():
-    parser = argparse.ArgumentParser(description="please input your command")
-    parser.add_argument('--function_name', type=str, required=False, default='softmax', help='function name')
-    parser.add_argument('--match_times', type=int, required=False, default=1, help='number of times to match')
-    parser.add_argument('--verify_keyword', type=str, required=False, default='ret', help='verification keyword in dump')
+    parser = argparse.ArgumentParser(description="Trace softmax 执行耗时及验证返回地址")
+    parser.add_argument('--function_name', type=str, default='softmax', help='函数名')
+    parser.add_argument('--match_index', type=int, default=10, help='匹配 trace 文件中第几个 U addr (从 1 开始)')
     args = parser.parse_args()
 
     function_name = args.function_name
-    match_times = args.match_times
-    verify_keyword = args.verify_keyword
-    print(f"开始寻找: {function_name}, 匹配次数: {match_times}次，验证关键字: {verify_keyword}")
+    match_index = args.match_index
 
-    # 读 dump 文件
-    with open('llama2c260K.dump', 'r') as f:
-        lines = f.readlines()
-    print("✅ 已成功读取 dump 文件，共 {} 行".format(len(lines)))
+    print(f"开始分析函数: {function_name}，第 {match_index} 次匹配")
 
-    pattern = re.compile(r'^(?P<addr>[\da-f]+)\s+<(?P<name>{})>:'.format(re.escape(function_name)))
+    dump_lines = load_file_lines('llama2c260K.dump')
+    trace_lines = load_file_lines('trace_hart_0.log')
 
-    match_line_no = None
-    addr = None
-    for i, line in enumerate(lines):
-        m = pattern.match(line)
-        if m:
-            match_line_no = i
-            addr = m.group('addr')
-            break
-
+    match_line_no, addr = find_first_function_addr(dump_lines, function_name)
     if match_line_no is None:
-        print(f"❌ 未找到函数 {function_name} 的匹配项.")
+        print(f"❌ 未找到函数 {function_name}")
         sys.exit(1)
 
-    print(f"\n📍 第1个匹配项（行号 {match_line_no}）地址：{addr}")
-    print_context(lines, match_line_no, keywords=[addr])
+    print(f"\n📍 找到函数地址: {addr} (行号 {match_line_no})")
+    print_context(dump_lines, match_line_no, keyword=addr)
 
-    with open('trace_hart_0.log', 'r') as f:
-        lines_trace = f.readlines()
-    print(f"✅ trace 文件已读取，共 {len(lines_trace)} 行")
-
-    candidate_i = None
-    for i, line in enumerate(lines_trace):
-        if re.search(rf'U\s+{re.escape(addr)}', line):
-            candidate_i = i
-            break
-
-    if candidate_i is None:
-        print(f"❌ trace 文件中未找到 U {addr} 的匹配行.")
+    match_trace_i_1 = find_nth_trace_match(trace_lines, addr, match_index)
+    if match_trace_i_1 is None or match_trace_i_1 == 0:
+        print(f"❌ trace 中未找到第 {match_index} 个 U {addr}，或该行已是第一行")
         sys.exit(1)
 
-    print(f"\n🔍 trace 文件中离匹配地址 {addr} 最近的 U 行号: {candidate_i}")
+    print(f"\n🔍 trace 中第 {match_index} 次匹配地址 {addr} 的 U 行号: {match_trace_i_1}")
+    print_context(trace_lines, match_trace_i_1, keyword=addr)
 
-    if candidate_i == 0:
-        print("⚠️ 匹配行已经是第一行，无法向上取时间戳和 ra 地址")
+    time_ns_1, ra_addr = extract_timestamp_and_ra(trace_lines[match_trace_i_1 - 1])
+    if not time_ns_1 or not ra_addr:
+        print("❌ 无法提取时间戳或 ra 地址")
         sys.exit(1)
 
-    prev_line = lines_trace[candidate_i - 1]
-    time_match = re.match(r'^(\S+)', prev_line)
-    if not time_match:
-        print("❌ 无法从上一行提取时间戳")
-        sys.exit(1)
-    time_ns_1 = time_match.group(1)
+    print(f"🕒 时间戳: {highlight_keyword(time_ns_1, time_ns_1, HIGHLIGHT_RED)}，ra 地址: {ra_addr}")
 
-    ra_match = re.search(r'ra\s+:([0-9a-f]+)', prev_line)
-    if not ra_match:
-        print("❌ 无法从上一行提取 ra 地址")
-        sys.exit(1)
-    ra_addr = ra_match.group(1)
-
-    print(f"上一行时间戳: {time_ns_1}，ra 地址: {ra_addr}")
-
-    print_context(lines_trace, candidate_i, keywords=[addr, time_ns_1])
-
-    ra_line_i = None
-    for i, line in enumerate(lines_trace):
-        if re.search(rf'U\s+{re.escape(ra_addr)}', line):
-            ra_line_i = i
-            break
-
-    if ra_line_i is None:
-        print(f"❌ trace 文件中未找到 U {ra_addr} 的匹配行.")
+    match_trace_i_2 = find_nth_trace_match(trace_lines, ra_addr, 1)
+    if match_trace_i_2 is None or match_trace_i_2 == 0:
+        print(f"❌ trace 中未找到 U {ra_addr}，或该行已是第一行")
         sys.exit(1)
 
-    print(f"\n🔍 trace 文件中 ra 地址 {ra_addr} 的匹配行号: {ra_line_i}")
+    print(f"\n🔍 trace 中 ra 地址 {ra_addr} 的匹配行号: {match_trace_i_2}")
+    print_context(trace_lines, match_trace_i_2, keyword=ra_addr)
 
-    if ra_line_i == 0:
-        print("⚠️ ra 地址匹配行已经是第一行，无法向上取时间戳计算耗时")
+    time_ns_2, _ = extract_timestamp_and_ra(trace_lines[match_trace_i_2 - 1])
+    if not time_ns_2:
+        print("❌ 无法提取第二次时间戳")
         sys.exit(1)
 
-    prev_line_ra = lines_trace[ra_line_i - 1]
-    time_match_ra = re.match(r'^(\S+)', prev_line_ra)
-    if not time_match_ra:
-        print("❌ 无法从 ra 匹配行上一行提取时间戳")
-        sys.exit(1)
-    time_ns_2 = time_match_ra.group(1)
-
-    print_context(lines_trace, ra_line_i, keywords=[ra_addr, time_ns_2])
-
-    def parse_ns(ns_str):
-        return int(ns_str.rstrip('ns'))
+    print(f"🕒 第二次时间戳: {highlight_keyword(time_ns_2, time_ns_2, HIGHLIGHT_RED)}")
 
     duration = parse_ns(time_ns_2) - parse_ns(time_ns_1)
-    print(f"\n⏱️ 计算耗时: {duration} ns (前一时间戳 {time_ns_1} -> 后一时间戳 {time_ns_2})")
+    print(f"\n⏱️ 总耗时: {duration} ns")
 
-    # 验证环节：取trace匹配行上一行第四列地址
-    prev_line_fields = prev_line.strip().split()
-    if len(prev_line_fields) < 4:
-        print("⚠️ trace 匹配行上一行字段不足，无法提取第四列做验证")
-        sys.exit(1)
-    trace_prev_line_fourth_col = prev_line_fields[3]
+    # 验证 ret 地址
+    ret_line_no, ret_addr = find_ret_addr_from_dump(dump_lines, match_line_no)
+    fourth_col_addr = extract_fourth_column(trace_lines[match_trace_i_2 - 1])
 
-    verify_address_consistency(lines, match_line_no, verify_keyword, trace_prev_line_fourth_col)
+    if ret_addr:
+        print(f"\n🧪 验证 ret 指令: 行号 {ret_line_no}，地址: {ret_addr}")
+        print_context(dump_lines, ret_line_no, keyword="ret")
+        print(f"📎 trace 中上一行第四列地址: {fourth_col_addr}")
+
+        if ret_addr.lstrip('0').lower() == fourth_col_addr.lstrip('0').lower():
+            print("✅ 验证成功：两个地址匹配")
+        else:
+            print("❌ 验证失败：地址不一致")
+    else:
+        print("⚠️ 未找到 ret 指令地址用于验证")
 
 
 if __name__ == '__main__':
