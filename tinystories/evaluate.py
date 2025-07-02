@@ -14,15 +14,10 @@ def evaluate_story(story_text, api_key="sk-HTiqauXEQqIufFD5dYd5E1h9SVnEgSMryijad
     After the prescribed beginning is the student’s completion:
     
     Story: "{story_text}"
-    Please provide your general assessment about the part written by the student (the one after the 《One day, Lily met a Shoggoth》).
-    Is it grammatically correct? 
-    Is it consistent with the beginning of the story? 
-    Pay special attention to whether the student manages to complete the sentence after the beginning.
-    Evaluate the following short story based on these criteria:
-
-    1. Coherence: Does the story logically flow from beginning to end?
+    Please provide your general assessment about the part written by the student. Evaluate the following short story based on these criteria:
+    1. Coherence: Is it consistent with the beginning of the story? 
     2. Grammar & Fluency: Is the text grammatically correct and easy to read?
-    3. Commonsense Reasoning: Do the characters behave in a way that makes sense?
+    3. Commonsense Reasoning: Do the characters in stories behave in a way that makes sense?
     
     Provide your evaluation in the following strict format (each score must be between 1 and 10):
 

@@ -25,7 +25,7 @@ def pivot_token_per_second():
 def pivot_accuracy():
     df = pd.read_csv(args.input_file)
     # 取三列按行平均
-    df['avg_score'] = df[['Commonsense Reasoning', 'Coherence', 'Grammar & Fluency']].mean(axis=1)
+    df['avg_score'] = df[[ 'Coherence', 'Grammar & Fluency', 'Commonsense Reasoning']].mean(axis=1)
     grouped_accuracy = df.groupby(['tokens', 'features'], as_index=False)['avg_score'].mean()
     pivoted_accuracy = grouped_accuracy.pivot(index='tokens', columns='features', values='avg_score').reset_index()
     pivoted_accuracy.to_csv('accuracy_compare.csv', index=False)

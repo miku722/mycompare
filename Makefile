@@ -16,17 +16,18 @@ eval_story:
 	$(PYTHON) -m tinystories.main --input_file tinystories/test_res.txt --output_file story_output.csv --offline True
 
 eval_ulp:
-	$(PYTHON) ulp_eval/evaluate.py --file_path /home/kevin/projs/ara/hardware/build/sim_gk.log
+	$(PYTHON) ulp_eval/evaluate.py --file_path /home/kevin/projs/github/ara/hardware/build/sim_gk.log
 
 draw_q_nq:
 	cd $(DRAW_DIR) && $(PYTHON) 160K_and_15M_quantization_compare_broken_axis.py
 
 draw_accuracy:
-	cd $(DRAW_DIR) && $(PYTHON) accuracy_compare.py
+	cd $(DRAW_DIR) && $(PYTHON) accuracy_compare.py --input_file ../story_output.csv
 
 draw_speed:
 	cd $(DRAW_DIR) && $(PYTHON) token_per_second_compare.py
 
 clean:
-	rm -rf $(DRAW_DIR)/*.csv
 	find . -type d -name "__pycache__" -exec rm -rf {} +
+
+# rm -rf $(DRAW_DIR)/*.csv

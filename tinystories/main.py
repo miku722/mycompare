@@ -49,10 +49,14 @@ if __name__ == '__main__':
     extract_stories.export_to_csv(input_file_name=input_file, temp_file_name=temp_file_name)
 
     df = pd.read_csv(temp_file_name)
-    df_story_output = pd.read_csv(output_file)
-    # 将抽取的故事与已经评估完成的故事进行对比，去重
-    keys_set = set(df_story_output.apply(lambda row: (row['rnd_seed'], row['features']), axis=1))
-
+    if os.path.isfile(output_file) and os.path.getsize(output_file) > 0:
+        df_story_output = pd.read_csv(output_file)
+        # 将抽取的故事与已经评估完成的故事进行对比，去重
+        keys_set = set(df_story_output.apply(lambda row: (row['rnd_seed'], row['features']), axis=1))
+    else:
+        print(f"⚠️ 输出文件为空或不存在：{output_file}, 跳过读取.")
+        keys_set = set()
+    
     # Create an empty list to store evaluation results
     evaluations = []
     all_criteria = set()  # Store all found criteria dynamically
@@ -69,7 +73,7 @@ if __name__ == '__main__':
         while True:
             evaluation_text = evaluate.evaluate_story(story, api_key=api_key, base_url=base_url, model=model)
             scores = evaluate.extract_scores(evaluation_text)
-            if  not scores:  # 如果是0分，继续评估，直到有分数
+            if  len(scores) != 3:  # 如果是0分，继续评估，直到有分数
                 print("❌ WARNING: 0 in Scores, Reevaluating!")
             else:
                 print(f"Scores: {scores}")
