@@ -78,17 +78,21 @@ def load_file_lines(filename):
 
 def main():
     parser = argparse.ArgumentParser(description="Trace softmax 执行耗时及验证返回地址")
+    parser.add_argument('--input_dump_file', type=str, required=False, default='llama2c260K.dump', help='Path to the input file')
+    parser.add_argument('--input_trace_file', type=str, required=False, default='trace_hart_0.log', help='Path to the input file')
     parser.add_argument('--function_name', type=str, default='softmax', help='函数名')
     parser.add_argument('--match_index', type=int, default=10, help='匹配 trace 文件中第几个 U addr (从 1 开始)')
     args = parser.parse_args()
 
+    dump_file       = args.input_dump_file
+    trace_file      = args.input_trace_file
     function_name = args.function_name
     match_index = args.match_index
 
     print(f"开始分析函数: {function_name}，第 {match_index} 次匹配")
 
-    dump_lines = load_file_lines('llama2c260K.dump')
-    trace_lines = load_file_lines('trace_hart_0.log')
+    dump_lines = load_file_lines(dump_file)
+    trace_lines = load_file_lines(trace_file)
 
     match_line_no, addr = find_first_function_addr(dump_lines, function_name)
     if match_line_no is None:

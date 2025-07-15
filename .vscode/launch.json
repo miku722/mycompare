@@ -5,13 +5,24 @@
     "version": "0.2.0",
     "configurations": [
 
+        // {
+        //     "name": "Python Debugger: Current File",
+        //     "type": "debugpy",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "python": "/home/data/software/anaconda/bin/python3.12",
+        //     "args": ["--input_file","story_output.csv"],
+        //     "console": "integratedTerminal"
+        // }
         {
             "name": "Python Debugger: Current File",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
             "python": "/home/data/software/anaconda/bin/python3.12",
-            "args": ["--input_file","story_output.csv"],
+            "args": ["--input_file","test_res.txt",
+                     "--output_file","/home/data/projects/kg_projs/rvv_llm_proj/evaluate/mycompare/story_output.csv",
+                     ],
             "console": "integratedTerminal"
         }
     ]

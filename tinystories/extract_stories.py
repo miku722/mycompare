@@ -89,9 +89,9 @@ def export_to_csv(input_file_name='test_res.txt', temp_file_name='stories.csv'):
         row_count = 0
         for index, row in enumerate(rows):
             if row["tokens"] == '255':
-                print(f"跳过行 {index}：tokens = {len(row['main_text'])}")
+                print(f"跳过行 {index+1}, feature: {row['tok_per_sec']}")
                 continue
             writer.writerow(row)
             row_count += 1
 
-    print(f"读取'{input_file_name}'抽取故事写入CSV 文件 '{csv_filename}'，共写入 {row_count} 行数据。")
+    print(f"读取'{input_file_name}'抽取 {len(rows)} 故事写入CSV 文件 '{csv_filename}'，共写入 {row_count} 行数据。")
